@@ -1,0 +1,3000 @@
+[{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a417"
+  },
+  "author_id": "232",
+  "genre_id": "2",
+  "title": "The Haunted Manor",
+  "ISBN": "409512680-9",
+  "release_date": "2017-04-04 18:59:33",
+  "description": "Explore the chilling tale of a haunted house that holds dark secrets and eerie mysteries waiting to be unraveled.",
+  "book_image": "/images/genres/Horror/001.jpeg"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a418"
+  },
+  "author_id": "276",
+  "genre_id": "2",
+  "title": "Whispering Shadows",
+  "ISBN": "705851852-1",
+  "release_date": "2004-06-11 03:11:42",
+  "description": "Dare to step into the haunted house where every creaking floorboard and flickering light foretell the presence of something sinister.",
+  "book_image": "/images/genres/Horror/002.jpeg"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a419"
+  },
+  "author_id": "13",
+  "genre_id": "2",
+  "title": "Tales of Terror",
+  "ISBN": "628122738-7",
+  "release_date": "2016-10-07 17:08:21",
+  "description": "Delve into the world of general horror",
+  "book_image": "where spine-chilling stories lurk around every corner"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a41a"
+  },
+  "author_id": "96",
+  "genre_id": "2",
+  "title": "Nightmares Unleashed",
+  "ISBN": "621475954-2",
+  "release_date": "2015-11-13 04:22:59",
+  "description": "Get ready to confront your deepest fears as you dive into the realm of general horror",
+  "book_image": "where the unimaginable becomes a haunting reality."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a41b"
+  },
+  "author_id": "233",
+  "genre_id": "2",
+  "title": "The Sinister Abode",
+  "ISBN": "666015556-2",
+  "release_date": "2008-02-23 15:17:19",
+  "description": "Embark on a journey through the unsettling and macabre",
+  "book_image": "as you explore the haunted house that redefines the essence of fear."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a41c"
+  },
+  "author_id": "293",
+  "genre_id": "2",
+  "title": "Shadows of the Unknown",
+  "ISBN": "074706341-9",
+  "release_date": "2018-06-05 20:36:01",
+  "description": "Prepare yourself for a riveting encounter with the unknown",
+  "book_image": "where each tale of general horror leaves an indelible mark on your soul."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a41d"
+  },
+  "author_id": "260",
+  "genre_id": "2",
+  "title": "Echoes of Fear",
+  "ISBN": "625061693-4",
+  "release_date": "2006-06-06 04:32:09",
+  "description": "Lose yourself in the chilling echoes of terror that reverberate through every page of this collection of general horror stories.",
+  "book_image": "/images/genres/Horror/007.jpeg"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a41e"
+  },
+  "author_id": "224",
+  "genre_id": "2",
+  "title": "The Haunting Chronicles",
+  "ISBN": "025244149-4",
+  "release_date": "2005-10-04 19:11:13",
+  "description": "Experience the terror that unfolds in the haunted house",
+  "book_image": "a place where restless spirits and malevolent entities hold sway over the living."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a41f"
+  },
+  "author_id": "300",
+  "genre_id": "2",
+  "title": "Beyond the Veil of Horror",
+  "ISBN": "405381353-0",
+  "release_date": "2017-05-20 20:21:50",
+  "description": "Venture into the unknown as you face the horror lurking behind the veil",
+  "book_image": "where the line between reality and nightmare blurs."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a420"
+  },
+  "author_id": "99",
+  "genre_id": "2",
+  "title": "Enigmatic Night Terrors",
+  "ISBN": "868463587-6",
+  "release_date": "2001-06-02 16:47:35",
+  "description": "Plunge into the depths of darkness with these spine-tingling tales of general horror",
+  "book_image": "where every chapter uncovers a new realm of fear."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a421"
+  },
+  "author_id": "257",
+  "genre_id": "2",
+  "title": "Chilling Nightmares",
+  "ISBN": "282330857-1",
+  "release_date": "2020-12-01 21:04:42",
+  "description": "Immerse yourself in the world of general horror",
+  "book_image": "where each tale unleashes a new wave of terror and sends shivers down your spine."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a422"
+  },
+  "author_id": "262",
+  "genre_id": "2",
+  "title": "Haunting Shadows",
+  "ISBN": "497223053-3",
+  "release_date": "2015-06-03 21:30:26",
+  "description": "Venture into the unknown realms of horror as you uncover the darkest secrets in this chilling collection of general horror stories.",
+  "book_image": "/images/genres/Horror/012.jpeg"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a423"
+  },
+  "author_id": "119",
+  "genre_id": "2",
+  "title": "Dreadful Whispers",
+  "ISBN": "780144113-3",
+  "release_date": "2011-08-06 09:50:43",
+  "description": "Prepare to be haunted by the dreadful whispers that echo through each page of this gripping anthology of general horror.",
+  "book_image": "/images/genres/Horror/013.jpeg"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a424"
+  },
+  "author_id": "123",
+  "genre_id": "2",
+  "title": "Eerie Nightfall",
+  "ISBN": "469614892-0",
+  "release_date": "2019-05-03 04:35:55",
+  "description": "In the realm of darkness",
+  "book_image": "where nightmares come alive"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a425"
+  },
+  "author_id": "38",
+  "genre_id": "2",
+  "title": "Sinister Apparitions",
+  "ISBN": "834519408-7",
+  "release_date": "2008-07-04 09:24:39",
+  "description": "Unravel the mysteries of the afterlife as you encounter sinister apparitions in the midst of chilling general horror stories.",
+  "book_image": "/images/genres/Horror/015.jpeg"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a426"
+  },
+  "author_id": "188",
+  "genre_id": "2",
+  "title": "Enigmatic Nightmares",
+  "ISBN": "858981264-2",
+  "release_date": "2008-01-17 01:39:18",
+  "description": "Delve into the enigmatic realm of horror",
+  "book_image": "where nightmares are brought to life with a haunting twist in these general horror tales."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a427"
+  },
+  "author_id": "50",
+  "genre_id": "2",
+  "title": "Phantom Fears",
+  "ISBN": "137650191-0",
+  "release_date": "2019-12-28 21:20:15",
+  "description": "Brace yourself for the relentless onslaught of phantom fears that lurk in every corner of this spine-chilling compilation of general horror.",
+  "book_image": "/images/genres/Horror/017.jpeg"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a428"
+  },
+  "author_id": "21",
+  "genre_id": "2",
+  "title": "Haunting Enigmas",
+  "ISBN": "375052018-6",
+  "release_date": "2008-11-26 20:45:25",
+  "description": "Immerse yourself in the haunting enigmas that unravel as you journey through this captivating collection of general horror stories.",
+  "book_image": "/images/genres/Horror/018.jpeg"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a429"
+  },
+  "author_id": "67",
+  "genre_id": "2",
+  "title": "Ephemeral Nightmares",
+  "ISBN": "165174832-2",
+  "release_date": "2002-04-21 08:27:28",
+  "description": "Brace yourself for the ephemeral nightmares that linger long after you turn the pages of these gripping general horror tales.",
+  "book_image": "/images/genres/Horror/019.jpeg"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a42a"
+  },
+  "author_id": "117",
+  "genre_id": "2",
+  "title": "Veiled Horrors",
+  "ISBN": "545463440-9",
+  "release_date": "2017-11-22 07:53:08",
+  "description": "Unveil the horrors concealed in the shadows with this spellbinding collection of general horror stories that will keep you up at night.",
+  "book_image": "/images/genres/Horror/020.jpeg"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a42b"
+  },
+  "author_id": "62",
+  "genre_id": "2",
+  "title": "Sinister Whispers",
+  "ISBN": "428774142-0",
+  "release_date": "2006-05-24 11:51:36",
+  "description": "Listen closely to the sinister whispers that echo in the dark corners of your mind while you journey through these captivating general horror tales.",
+  "book_image": "/images/genres/Horror/021.jpeg"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a42c"
+  },
+  "author_id": "279",
+  "genre_id": "2",
+  "title": "Cryptic Apparitions",
+  "ISBN": "139017507-3",
+  "release_date": "2018-10-10 09:57:05",
+  "description": "Step into the realm of cryptic apparitions as you traverse through this eerie collection of general horror stories that will haunt your dreams.",
+  "book_image": "/images/genres/Horror/022.jpeg"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a42d"
+  },
+  "author_id": "315",
+  "genre_id": "2",
+  "title": "Ghostly Encounters",
+  "ISBN": "117424229-9",
+  "release_date": "2013-03-22 12:53:42",
+  "description": "Embark on a spectral journey with this compilation of ghostly encounters that will send shivers down your spine.",
+  "book_image": "/images/genres/Horror/023.jpeg"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a42e"
+  },
+  "author_id": "40",
+  "genre_id": "2",
+  "title": "Dread-filled Nightscapes",
+  "ISBN": "020675286-5",
+  "release_date": "2007-01-27 13:39:52",
+  "description": "Step into the dread-filled nightscapes of this chilling collection",
+  "book_image": "where darkness reigns and horror awaits at every turn."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a42f"
+  },
+  "author_id": "218",
+  "genre_id": "2",
+  "title": "The Haunted Vault",
+  "ISBN": "262345374-8",
+  "release_date": "2021-09-21 06:04:26",
+  "description": "Unlock the secrets of the haunted vault",
+  "book_image": "where terror lurks in every corner and fear becomes an inescapable companion."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a430"
+  },
+  "author_id": "225",
+  "genre_id": "2",
+  "title": "The Howling Curse",
+  "ISBN": "269395582-3",
+  "release_date": "2014-05-17 00:06:03",
+  "description": "A small town is terrorized by a series of gruesome murders",
+  "book_image": "and the residents suspect the presence of a werewolf."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a431"
+  },
+  "author_id": "311",
+  "genre_id": "2",
+  "title": "Venomous Whispers",
+  "ISBN": "255850004-X",
+  "release_date": "2014-09-30 17:24:59",
+  "description": "A deadly snake with supernatural powers starts possessing unsuspecting victims",
+  "book_image": "leading to a spine-chilling investigation."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a432"
+  },
+  "author_id": "54",
+  "genre_id": "2",
+  "title": "The Haunting Rite",
+  "ISBN": "820158816-9",
+  "release_date": "2016-10-06 03:20:22",
+  "description": "A determined priest faces his deepest fears and battles an ancient evil during an intense exorcism in a haunted mansion.",
+  "book_image": "/images/genres/Horror/028.jpeg"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a433"
+  },
+  "author_id": "245",
+  "genre_id": "2",
+  "title": "Bloodlust: Chronicles of the Damned",
+  "ISBN": "765858885-7",
+  "release_date": "2018-11-03 22:58:09",
+  "description": "In the shadowy world of vampires",
+  "book_image": "a forbidden love story unfolds"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a434"
+  },
+  "author_id": "36",
+  "genre_id": "2",
+  "title": "Alien Encounters",
+  "ISBN": "694786001-6",
+  "release_date": "2002-02-04 12:34:50",
+  "description": "An extraterrestrial presence infiltrates Earth",
+  "book_image": "and a team of scientists races against time to prevent a global catastrophe."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a435"
+  },
+  "author_id": "163",
+  "genre_id": "2",
+  "title": "Moonlit Transformation",
+  "ISBN": "790506984-2",
+  "release_date": "2012-01-25 21:16:49",
+  "description": "A thrilling tale of lycanthropy",
+  "book_image": "where a young man discovers his true identity as a werewolf and must learn to control his instincts."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a436"
+  },
+  "author_id": "160",
+  "genre_id": "2",
+  "title": "The Terror Within",
+  "ISBN": "209589264-X",
+  "release_date": "2006-11-03 01:18:15",
+  "description": "A remote village is plagued by a malevolent cult",
+  "book_image": "performing dark rituals that threaten to unleash unspeakable horrors."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a437"
+  },
+  "author_id": "178",
+  "genre_id": "2",
+  "title": "The Serpent`s Curse",
+  "ISBN": "986498260-5",
+  "release_date": "2002-06-10 12:15:11",
+  "description": "A cursed snake amulet brings doom to anyone who possesses it",
+  "book_image": "and a brave adventurer seeks to break the deadly curse."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a438"
+  },
+  "author_id": "277",
+  "genre_id": "2",
+  "title": "Invasion from the Stars",
+  "ISBN": "260604404-5",
+  "release_date": "2014-05-29 13:59:08",
+  "description": "An alien species invades Earth with a sinister agenda",
+  "book_image": "and humanity must unite to fight for its survival."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a439"
+  },
+  "author_id": "97",
+  "genre_id": "2",
+  "title": "The Cosmic Menace",
+  "ISBN": "327379782-7",
+  "release_date": "2005-07-27 16:45:46",
+  "description": "A gripping story of alien abduction and government cover-ups that will leave readers questioning the existence of extraterrestrial life.",
+  "book_image": "/images/genres/Horror/035.jpeg"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a43a"
+  },
+  "author_id": "284",
+  "genre_id": "2",
+  "title": "The Enigma from Beyond",
+  "ISBN": "547362663-7",
+  "release_date": "2012-07-15 11:30:43",
+  "description": "An enigmatic alien artifact is discovered",
+  "book_image": "holding secrets that could either revolutionize humanity or bring about its downfall."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a43b"
+  },
+  "author_id": "281",
+  "genre_id": "2",
+  "title": "The Harvesters",
+  "ISBN": "272079648-4",
+  "release_date": "2017-12-09 21:57:23",
+  "description": "A small town is plagued by a relentless alien race that harvests human souls",
+  "book_image": "and a group of unlikely heroes must stand against them."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a43c"
+  },
+  "author_id": "250",
+  "genre_id": "2",
+  "title": "Fangs of the Night",
+  "ISBN": "261930943-3",
+  "release_date": "2007-05-12 04:16:13",
+  "description": "A dark and atmospheric tale of vampire clans vying for power and the mortal who gets caught in the crossfire.",
+  "book_image": "/images/genres/Horror/038.jpeg"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a43d"
+  },
+  "author_id": "174",
+  "genre_id": "2",
+  "title": "Sins of the Cult",
+  "ISBN": "753350416-X",
+  "release_date": "2000-01-24 12:15:38",
+  "description": "A rookie detective investigates a string of gruesome murders that lead to a secretive and malevolent cult operating in the city.",
+  "book_image": "/images/genres/Horror/039.jpeg"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a43e"
+  },
+  "author_id": "141",
+  "genre_id": "2",
+  "title": "The Legend of Sasquatch",
+  "ISBN": "273406085-X",
+  "release_date": "2021-06-19 10:38:01",
+  "description": "A thrilling account of encounters with the elusive Bigfoot",
+  "book_image": "delving into the mystery surrounding the creature."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a43f"
+  },
+  "author_id": "60",
+  "genre_id": "2",
+  "title": "The Serpent",
+  "ISBN": "426248314-2",
+  "release_date": "2006-07-16 12:29:06",
+  "description": "An ancient curse awakens a deadly snake",
+  "book_image": "wreaking havoc in a remote village and terrorizing its inhabitants."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a440"
+  },
+  "author_id": "38",
+  "genre_id": "2",
+  "title": "Monstrous Obsession",
+  "ISBN": "278964069-6",
+  "release_date": "2015-10-19 19:41:42",
+  "description": "A malevolent monster haunts the dreams of a young girl",
+  "book_image": "and she must confront her deepest fears to save her soul."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a441"
+  },
+  "author_id": "238",
+  "genre_id": "2",
+  "title": "The Possession Rite",
+  "ISBN": "011647410-6",
+  "release_date": "2006-09-10 02:39:53",
+  "description": "A seasoned exorcist battles a powerful demon that possesses an innocent soul",
+  "book_image": "testing the boundaries of faith and courage."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a442"
+  },
+  "author_id": "45",
+  "genre_id": "2",
+  "title": "Nightmare Chronicles",
+  "ISBN": "160620986-8",
+  "release_date": "2005-04-19 00:18:10",
+  "description": "A collection of spine-chilling tales that explore the darkest corners of the human mind",
+  "book_image": "invoking fear in every turn of the page."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a443"
+  },
+  "author_id": "199",
+  "genre_id": "2",
+  "title": "Invasion from the Abyss",
+  "ISBN": "891922877-9",
+  "release_date": "2005-04-20 13:48:16",
+  "description": "Alien beings descend upon Earth with sinister intentions",
+  "book_image": "and humanity`s survival hangs in the balance."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a444"
+  },
+  "author_id": "211",
+  "genre_id": "2",
+  "title": "Whispers in the Woods",
+  "ISBN": "635212587-5",
+  "release_date": "2011-10-19 00:06:16",
+  "description": "A remote forest is haunted by a pack of relentless werewolves",
+  "book_image": "and a group of terrified campers must fight for their lives."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a445"
+  },
+  "author_id": "146",
+  "genre_id": "2",
+  "title": "Moonlit Awakening",
+  "ISBN": "774230157-1",
+  "release_date": "2007-10-04 13:07:32",
+  "description": "A young woman undergoes a harrowing transformation into a werewolf and struggles to come to terms with her new identity.",
+  "book_image": "/images/genres/Horror/047.jpeg"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a446"
+  },
+  "author_id": "203",
+  "genre_id": "2",
+  "title": "The Lycanthrope Legacy",
+  "ISBN": "774355637-9",
+  "release_date": "2006-01-23 00:46:44",
+  "description": "A cursed family grapples with their werewolf heritage",
+  "book_image": "and a vengeful enemy seeks to wipe them out once and for all."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a447"
+  },
+  "author_id": "243",
+  "genre_id": "2",
+  "title": "Blood Moon Rising",
+  "ISBN": "663270998-2",
+  "release_date": "2013-01-12 04:49:39",
+  "description": "A small town is plagued by a series of gruesome werewolf attacks",
+  "book_image": "and a determined investigator uncovers a shocking secret."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a448"
+  },
+  "author_id": "82",
+  "genre_id": "2",
+  "title": "The Midnight Pack",
+  "ISBN": "731058605-0",
+  "release_date": "2019-07-12 13:08:17",
+  "description": "A pack of werewolves",
+  "book_image": "divided by loyalty and power struggles"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a449"
+  },
+  "author_id": "32",
+  "genre_id": "2",
+  "title": "Tales of the Full Moon",
+  "ISBN": "586404757-0",
+  "release_date": "2004-06-12 17:13:49",
+  "description": "A collection of chilling stories about werewolves and their ancient connection to the cycle of the full moon.",
+  "book_image": "/images/genres/Horror/051.jpeg"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a44a"
+  },
+  "author_id": "113",
+  "genre_id": "2",
+  "title": "Curse of the Alpha",
+  "ISBN": "411394121-1",
+  "release_date": "2015-05-18 04:21:00",
+  "description": "A young man becomes the unwilling alpha of a werewolf pack and faces the perils of leadership amidst internal strife.",
+  "book_image": "/images/genres/Horror/052.jpeg"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a44b"
+  },
+  "author_id": "99",
+  "genre_id": "2",
+  "title": "The Vampire Chronicles",
+  "ISBN": "046729849-1",
+  "release_date": "2015-07-21 03:34:14",
+  "description": "An immortal vampire reflects on centuries of existence",
+  "book_image": "delving into the complexities of eternal life and the thirst for blood."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a44c"
+  },
+  "author_id": "149",
+  "genre_id": "2",
+  "title": "Eternal Embrace",
+  "ISBN": "800541188-X",
+  "release_date": "2010-02-24 20:24:17",
+  "description": "A forbidden love blossoms between a mortal and a vampire",
+  "book_image": "setting them on a perilous journey against societal norms and ancient foes."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a44d"
+  },
+  "author_id": "84",
+  "genre_id": "2",
+  "title": "Veil of Darkness",
+  "ISBN": "089911126-2",
+  "release_date": "2021-04-15 20:56:22",
+  "description": "A secretive coven of vampires lurks in the shadows",
+  "book_image": "preying on the unsuspecting"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a44e"
+  },
+  "author_id": "64",
+  "genre_id": "2",
+  "title": "Shadows in the Dark",
+  "ISBN": "423217897-X",
+  "release_date": "2019-05-22 19:52:31",
+  "description": "A spine-chilling collection of tales that delve into the darkest corners of the human psyche",
+  "book_image": "leaving readers haunted by their own fears."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a44f"
+  },
+  "author_id": "33",
+  "genre_id": "2",
+  "title": "Eerie Encounters",
+  "ISBN": "609418795-4",
+  "release_date": "2015-04-12 06:55:05",
+  "description": "Unearthly beings and malevolent spirits haunt the pages of this anthology",
+  "book_image": "bringing nightmares to life."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a450"
+  },
+  "author_id": "256",
+  "genre_id": "2",
+  "title": "The Haunting",
+  "ISBN": "675737565-6",
+  "release_date": "2021-05-16 05:59:25",
+  "description": "An ancient curse binds a cursed mansion",
+  "book_image": "and a group of unwitting individuals must confront their deepest fears to survive the night."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a451"
+  },
+  "author_id": "177",
+  "genre_id": "2",
+  "title": "Whispers in the Attic",
+  "ISBN": "234350058-4",
+  "release_date": "2007-09-17 11:28:32",
+  "description": "An unsettling presence resides within an old Victorian house",
+  "book_image": "and a family finds themselves trapped in a nightmarish battle for their souls."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a452"
+  },
+  "author_id": "183",
+  "genre_id": "2",
+  "title": "The Cursed Manor",
+  "ISBN": "134338922-4",
+  "release_date": "2005-10-28 15:54:20",
+  "description": "A group of strangers spends the night in a cursed mansion",
+  "book_image": "but as the clock strikes midnight"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a453"
+  },
+  "author_id": "22",
+  "genre_id": "2",
+  "title": "The Haunted Hollow",
+  "ISBN": "822564410-7",
+  "release_date": "2015-07-30 14:11:38",
+  "description": "A secluded village hides a dark secret",
+  "book_image": "and an unsuspecting traveler stumbles upon a horrifying truth that will change their life forever."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a454"
+  },
+  "author_id": "179",
+  "genre_id": "2",
+  "title": "The Terror Within",
+  "ISBN": "622023442-1",
+  "release_date": "2006-11-25 11:13:38",
+  "description": "A malevolent entity possesses a young girl",
+  "book_image": "and a team of paranormal investigators must battle the forces of evil to save her soul."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a455"
+  },
+  "author_id": "46",
+  "genre_id": "2",
+  "title": "Nightmare Visions",
+  "ISBN": "269697172-2",
+  "release_date": "2007-09-22 08:43:43",
+  "description": "A series of chilling nightmares plague a town",
+  "book_image": "blurring the lines between reality and the supernatural."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a456"
+  },
+  "author_id": "311",
+  "genre_id": "2",
+  "title": "The Haunting of Hollow Hill",
+  "ISBN": "484955657-4",
+  "release_date": "2002-07-05 07:23:40",
+  "description": "A haunted hill becomes the setting for a terrifying journey into the unknown",
+  "book_image": "as a group of friends unravels the mystery of its tragic past."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a457"
+  },
+  "author_id": "283",
+  "genre_id": "2",
+  "title": "Chills in the Night",
+  "ISBN": "486103117-6",
+  "release_date": "2017-05-25 03:52:44",
+  "description": "A chilling atmosphere permeates this anthology of horror",
+  "book_image": "where each story takes readers on a nightmarish ride through the unknown."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a458"
+  },
+  "author_id": "228",
+  "genre_id": "2",
+  "title": "Phantoms of the Past",
+  "ISBN": "555661342-7",
+  "release_date": "2022-05-09 19:17:15",
+  "description": "The ghosts of a tragic event return to haunt the living",
+  "book_image": "leaving behind a trail of terror and unanswered questions."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a459"
+  },
+  "author_id": "300",
+  "genre_id": "2",
+  "title": "The Ghostly Presence",
+  "ISBN": "570748443-4",
+  "release_date": "2011-05-08 21:01:19",
+  "description": "A ghostly figure haunts a decrepit mansion",
+  "book_image": "and a determined investigator seeks to uncover the truth behind the spectral apparition."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a45a"
+  },
+  "author_id": "291",
+  "genre_id": "2",
+  "title": "Spectral Whispers",
+  "ISBN": "234579660-X",
+  "release_date": "2001-06-19 02:34:11",
+  "description": "An ancient curse awakens restless spirits",
+  "book_image": "leading to a bone-chilling investigation into the history of a cursed town."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a45b"
+  },
+  "author_id": "50",
+  "genre_id": "2",
+  "title": "The Paranormal Files",
+  "ISBN": "892085995-7",
+  "release_date": "2002-12-11 00:02:54",
+  "description": "A team of paranormal investigators explores haunted locations",
+  "book_image": "uncovering the truth behind the unexplained phenomena that lurk in the shadows."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a45c"
+  },
+  "author_id": "313",
+  "genre_id": "2",
+  "title": "Ethereal Enigmas",
+  "ISBN": "994436203-4",
+  "release_date": "2005-09-15 19:14:23",
+  "description": "A series of perplexing paranormal occurrences challenge the perceptions of reality and test the boundaries of the human mind.",
+  "book_image": "/images/genres/Horror/070.jpeg"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a45d"
+  },
+  "author_id": "228",
+  "genre_id": "2",
+  "title": "Mafia1s Curse",
+  "ISBN": "555661342-7",
+  "release_date": "2022-05-09 19:17:15",
+  "description": "A powerful mafia family finds themselves entangled in a dark curse that brings death and destruction. As the bodies pile up",
+  "book_image": "they must confront their sinister past and fight for their survival."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a45e"
+  },
+  "author_id": "300",
+  "genre_id": "2",
+  "title": "Mafia Vendetta",
+  "ISBN": "570748443-4",
+  "release_date": "2011-05-08 21:01:19",
+  "description": "In the ruthless world of organized crime",
+  "book_image": "betrayal leads to a bloody vendetta. The mafia clans wage war against each other"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a45f"
+  },
+  "author_id": "291",
+  "genre_id": "2",
+  "title": "Murder in the Haunted Mansion",
+  "ISBN": "234579660-X",
+  "release_date": "2001-06-19 02:34:11",
+  "description": "A chilling murder takes place in a haunted mansion",
+  "book_image": "where the line between the living and the dead blurs. As a detective investigates"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a460"
+  },
+  "author_id": "50",
+  "genre_id": "2",
+  "title": "Murder on the Silent Night",
+  "ISBN": "892085995-7",
+  "release_date": "2002-12-11 00:02:54",
+  "description": "On a silent night",
+  "book_image": "a series of mysterious murders shatter the tranquility of a small town. As fear spreads"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a461"
+  },
+  "author_id": "313",
+  "genre_id": "2",
+  "title": "General Horror: Nightmares Unleashed",
+  "ISBN": "994436203-4",
+  "release_date": "2005-09-15 19:14:23",
+  "description": "An anthology of terror that explores the deepest fears of humanity. From malevolent spirits to ancient curses",
+  "book_image": "these spine-chilling tales will haunt your dreams."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a462"
+  },
+  "author_id": "65",
+  "genre_id": "2",
+  "title": "Apocalypse Rising",
+  "ISBN": "138749709-X",
+  "release_date": "2003-05-22 00:22:06",
+  "description": "As the world plunges into chaos",
+  "book_image": "an apocalyptic event threatens to wipe out humanity. A group of survivors must navigate through the ruins of civilization and face the horrors that lurk in the dark."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a463"
+  },
+  "author_id": "152",
+  "genre_id": "2",
+  "title": "Nuclear Fallout: Desolation",
+  "ISBN": "110986579-1",
+  "release_date": "2017-01-08 14:51:20",
+  "description": "After a devastating nuclear disaster",
+  "book_image": "a wasteland of horrors emerges. Amidst the radioactive ruins"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a464"
+  },
+  "author_id": "175",
+  "genre_id": "2",
+  "title": "Nuclear Winter: Frozen Fear",
+  "ISBN": "003085031-2",
+  "release_date": "2016-01-12 09:26:14",
+  "description": "In the aftermath of a nuclear winter",
+  "book_image": "a group of people takes refuge in an underground bunker. As tensions rise and resources run low"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a465"
+  },
+  "author_id": "109",
+  "genre_id": "2",
+  "title": "Apocalypse Chronicles",
+  "ISBN": "519013982-4",
+  "release_date": "2005-03-23 19:11:38",
+  "description": "In a world ravaged by cataclysmic events",
+  "book_image": "the remaining survivors document their harrowing experiences. These firsthand accounts reveal the struggle for survival in a harsh and unforgiving new reality."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a466"
+  },
+  "author_id": "139",
+  "genre_id": "2",
+  "title": "Nuclear Fallout: Beyond Redemption",
+  "ISBN": "012320085-7",
+  "release_date": "2016-11-05 17:48:10",
+  "description": "In a world poisoned by nuclear radiation",
+  "book_image": "hope is scarce"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a467"
+  },
+  "author_id": "300",
+  "genre_id": "2",
+  "title": "Zombie Chronicles",
+  "ISBN": "361056336-2",
+  "release_date": "2001-09-20 18:10:40",
+  "description": "A collection of survivor accounts recounting the relentless onslaught of the undead. From desperate escapes to desperate last stands",
+  "book_image": "these stories provide a glimpse into a world overrun by the walking dead."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a468"
+  },
+  "author_id": "86",
+  "genre_id": "2",
+  "title": "General Horror: The Haunting Shadows",
+  "ISBN": "686164917-1",
+  "release_date": "2000-10-02 11:51:46",
+  "description": "An ancient evil awakens",
+  "book_image": "enveloping a sleepy town in darkness. As fear grips the hearts of the residents"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a469"
+  },
+  "author_id": "115",
+  "genre_id": "2",
+  "title": "General Horror: Echoes of Fear",
+  "ISBN": "112923639-0",
+  "release_date": "2003-09-26 14:49:05",
+  "description": "In the quiet town of Ravenbrook",
+  "book_image": "unsettling echoes of a long-forgotten tragedy resurface. As the past returns to haunt the present"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a46a"
+  },
+  "author_id": "29",
+  "genre_id": "2",
+  "title": "Zombie Apocalypse: City of the Damned",
+  "ISBN": "224447822-X",
+  "release_date": "2012-01-24 16:18:54",
+  "description": "In a world ravaged by a deadly virus",
+  "book_image": "a group of survivors seeks refuge in a decaying city. As they battle the hordes of undead"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a46b"
+  },
+  "author_id": "42",
+  "genre_id": "2",
+  "title": "General Horror: Night Terrors",
+  "ISBN": "365078769-5",
+  "release_date": "2001-11-16 10:10:30",
+  "description": "As night falls",
+  "book_image": "terror grips the town. Unexplained phenomena and sinister events haunt the residents"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a46c"
+  },
+  "author_id": "241",
+  "genre_id": "2",
+  "title": "Cult of the Blood Moon",
+  "ISBN": "989504296-5",
+  "release_date": "2002-08-11 08:19:22",
+  "description": "A secretive cult worships an ancient deity with a thirst for human sacrifices. When a young woman becomes entangled in their dark rituals",
+  "book_image": "she must find a way to escape their malevolent grasp."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a46d"
+  },
+  "author_id": "235",
+  "genre_id": "2",
+  "title": "Zombie Outbreak: The Undead Rising",
+  "ISBN": "214580217-7",
+  "release_date": "2001-02-11 04:30:33",
+  "description": "A deadly virus spreads like wildfire",
+  "book_image": "turning the living into flesh-eating zombies. A group of survivors must fight against the odds to stay alive and find a safe haven in a world plagued by the undead."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a46e"
+  },
+  "author_id": "14",
+  "genre_id": "2",
+  "title": "Chamber of Nightmares",
+  "ISBN": "569171768-5",
+  "release_date": "2022-07-08 16:06:42",
+  "description": "In the heart of darkness",
+  "book_image": "a supernatural force terrorizes a secluded town. As the malevolent entity feeds on fear"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a46f"
+  },
+  "author_id": "174",
+  "genre_id": "2",
+  "title": "Zombie Apocalypse: Forsaken City",
+  "ISBN": "728924423-0",
+  "release_date": "2014-07-31 23:59:16",
+  "description": "A once-thriving city now lies in ruins",
+  "book_image": "overrun by the relentless undead. Amidst the chaos"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a470"
+  },
+  "author_id": "29",
+  "genre_id": "2",
+  "title": "General Horror: Echoes from the Abyss",
+  "ISBN": "731120644-8",
+  "release_date": "2002-02-23 22:25:52",
+  "description": "A collection of spine-chilling stories that explore the darkest depths of human imagination. From ghostly apparitions to unspeakable horrors",
+  "book_image": "these tales will send shivers down your spine."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a471"
+  },
+  "author_id": "116",
+  "genre_id": "2",
+  "title": "Paranormal Hauntings: Spirits Among Us",
+  "ISBN": "978765781-4",
+  "release_date": "2018-05-05 10:18:54",
+  "description": "Unearthly spirits haunt the living",
+  "book_image": "seeking redemption or revenge. From haunted houses to possessed objects"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a472"
+  },
+  "author_id": "77",
+  "genre_id": "2",
+  "title": "Alien Encounter: The Otherworldly Visitors",
+  "ISBN": "717414141-2",
+  "release_date": "2011-04-03 13:05:15",
+  "description": "Strange lights fill the sky as extraterrestrial beings make their presence known. A group of scientists and adventurers must uncover the truth behind the alien visitors before it`s too late.",
+  "book_image": "/images/genres/Horror/092.jpeg"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a473"
+  },
+  "author_id": "102",
+  "genre_id": "2",
+  "title": "Alien Invasion: The Final Stand",
+  "ISBN": "532858107-5",
+  "release_date": "2008-12-06 17:56:18",
+  "description": "As an alien armada descends upon Earth",
+  "book_image": "humanity`s last hope lies in a small band of resistance fighters. They must rally the scattered remnants of mankind for a final battle to determine the fate of the world."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a474"
+  },
+  "author_id": "309",
+  "genre_id": "2",
+  "title": "Cult of the Forbidden Tome",
+  "ISBN": "906748666-3",
+  "release_date": "2001-02-03 22:08:16",
+  "description": "A long-buried cult resurfaces",
+  "book_image": "seeking an ancient forbidden tome that holds unimaginable power. As they unleash dark forces"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a475"
+  },
+  "author_id": "291",
+  "genre_id": "2",
+  "title": "General Horror: Shadows in the Night",
+  "ISBN": "921680105-0",
+  "release_date": "2001-06-03 04:32:43",
+  "description": "A collection of terrifying tales that lurk in the darkest corners of the human psyche. From malevolent specters to blood-curdling monsters",
+  "book_image": "these stories will haunt your dreams."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a476"
+  },
+  "author_id": "165",
+  "genre_id": "2",
+  "title": "Alien Abduction: The Enigmatic Abductors",
+  "ISBN": "080711216-X",
+  "release_date": "2020-09-05 18:08:40",
+  "description": "When strange lights fill the sky",
+  "book_image": "unsuspecting individuals are taken by enigmatic beings. A group of investigators delves into the world of alien abductions"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a477"
+  },
+  "author_id": "77",
+  "genre_id": "2",
+  "title": "General Horror: Tales of the Macabre",
+  "ISBN": "969642447-7",
+  "release_date": "2015-04-07 11:11:27",
+  "description": "An eerie compilation of horror stories that delve into the deepest fears of humanity. From vengeful spirits to cursed objects",
+  "book_image": "these chilling tales will haunt your dreams."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a478"
+  },
+  "author_id": "216",
+  "genre_id": "2",
+  "title": "General Horror: The Haunting Hour",
+  "ISBN": "144412710-1",
+  "release_date": "2020-03-21 02:59:50",
+  "description": "As the clock strikes midnight",
+  "book_image": "the veil between worlds thins"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a479"
+  },
+  "author_id": "263",
+  "genre_id": "2",
+  "title": "Zombie Outbreak: Dawn of the Dead",
+  "ISBN": "159096636-8",
+  "release_date": "2015-05-14 19:55:14",
+  "description": "In the wake of a mysterious outbreak",
+  "book_image": "the dead rise from their graves"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a47a"
+  },
+  "author_id": "15",
+  "genre_id": "2",
+  "title": "Zombie Chronicles: From the Ashes",
+  "ISBN": "013535383-1",
+  "release_date": "2009-06-13 21:57:25",
+  "description": "An anthology of harrowing accounts from the early days of the zombie apocalypse. These survivor stories reveal the courage and resilience of humanity amidst the relentless onslaught of the undead.",
+  "book_image": "/images/genres/Horror/100.jpeg"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a47b"
+  },
+  "author_id": "274",
+  "genre_id": "2",
+  "title": "Whispers in the Shadows",
+  "ISBN": "789031072-2",
+  "release_date": "2019-07-15 03:19:11",
+  "description": "In the depths of the night",
+  "book_image": "eerie whispers echo through an isolated town. As darkness descends"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a47c"
+  },
+  "author_id": "174",
+  "genre_id": "2",
+  "title": "The Haunting Melody",
+  "ISBN": "341316372-8",
+  "release_date": "2020-06-23 07:34:33",
+  "description": "A mysterious melody haunts the halls of an abandoned mansion. As an unsuspecting group of explorers ventures inside",
+  "book_image": "they soon realize that the music is just the beginning of the horrors that await them."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a47d"
+  },
+  "author_id": "204",
+  "genre_id": "2",
+  "title": "The Midnight Carnival",
+  "ISBN": "926809157-7",
+  "release_date": "2021-05-08 00:57:08",
+  "description": "A traveling carnival arrives in town",
+  "book_image": "bringing with it a sense of wonder and dread. As the clock strikes midnight"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a47e"
+  },
+  "author_id": "170",
+  "genre_id": "2",
+  "title": "The Forbidden Book of Spells",
+  "ISBN": "961540751-8",
+  "release_date": "2021-01-08 15:13:32",
+  "description": "A dusty old book filled with dark and forbidden spells falls into the hands of an unsuspecting teenager. As they delve into the world of the occult",
+  "book_image": "they unleash forces beyond their control"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a47f"
+  },
+  "author_id": "251",
+  "genre_id": "2",
+  "title": "Serpent`s Curse",
+  "ISBN": "757610539-9",
+  "release_date": "2011-12-31 13:55:19",
+  "description": "An ancient curse befalls a remote village",
+  "book_image": "turning its inhabitants into serpentine creatures. A brave group of individuals must unravel the mystery behind the curse and confront the malevolent serpent deity."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a480"
+  },
+  "author_id": "138",
+  "genre_id": "2",
+  "title": "Arachnophobia",
+  "ISBN": "188190828-3",
+  "release_date": "2004-05-11 08:07:48",
+  "description": "A town is besieged by an army of giant spiders",
+  "book_image": "creatures that evoke terror in the hearts of all who encounter them. As the eight-legged menace spreads"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a481"
+  },
+  "author_id": "248",
+  "genre_id": "2",
+  "title": "Spider`s Web of Nightmares",
+  "ISBN": "099416621-4",
+  "release_date": "2008-10-11 02:45:52",
+  "description": "In a remote cabin in the woods",
+  "book_image": "a group of friends unknowingly disturb an ancient spider`s web. As the arachnid menace seeks vengeance"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a482"
+  },
+  "author_id": "142",
+  "genre_id": "2",
+  "title": "The Eight-Legged Terror",
+  "ISBN": "507800514-5",
+  "release_date": "2008-10-15 17:22:01",
+  "description": "A research expedition to a remote jungle uncovers a species of deadly spiders with a taste for human flesh. Stranded and surrounded",
+  "book_image": "the researchers must devise a way to escape the horrifying creatures."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a483"
+  },
+  "author_id": "317",
+  "genre_id": "2",
+  "title": "Camping Nightmare",
+  "ISBN": "625695538-2",
+  "release_date": "2007-08-20 01:41:01",
+  "description": "A group of friends heads into the wilderness for a weekend camping trip. As night falls",
+  "book_image": "they discover that they are not alone in the woods"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a484"
+  },
+  "author_id": "199",
+  "genre_id": "2",
+  "title": "The Haunting at Camp Whispering Pines",
+  "ISBN": "649268032-4",
+  "release_date": "2016-08-28 08:47:07",
+  "description": "At a long-abandoned summer camp",
+  "book_image": "the spirits of the past return to seek vengeance on those who wronged them. As a group of unsuspecting campers arrives"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a485"
+  },
+  "author_id": "137",
+  "genre_id": "2",
+  "title": "The Shadows That Linger",
+  "ISBN": "872250587-3",
+  "release_date": "2004-11-06 17:01:28",
+  "description": "In a small town with a dark secret",
+  "book_image": "eerie shadows lurk around every corner. As an investigator delves into the town`s history"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a486"
+  },
+  "author_id": "123",
+  "genre_id": "2",
+  "title": "Campfire Ghost Stories",
+  "ISBN": "774563029-0",
+  "release_date": "2022-08-04 09:21:00",
+  "description": "As the embers of the campfire flicker",
+  "book_image": "a group of friends share chilling ghost stories. Little do they know that the tales they tell have a way of coming to life"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a487"
+  },
+  "author_id": "268",
+  "genre_id": "2",
+  "title": "The Unseen Presence",
+  "ISBN": "663924499-3",
+  "release_date": "2022-01-11 09:28:31",
+  "description": "In an old mansion with a tragic past",
+  "book_image": "a family moves in"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a488"
+  },
+  "author_id": "279",
+  "genre_id": "2",
+  "title": "The Ghosts of Ravenswood Manor",
+  "ISBN": "289383923-1",
+  "release_date": "2015-02-25 11:58:10",
+  "description": "An ancient curse binds the spirits of Ravenswood Manor to its haunted halls. When a skeptical journalist investigates the stories",
+  "book_image": "they find themselves entangled in a web of supernatural phenomena that defy explanation."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a489"
+  },
+  "author_id": "28",
+  "genre_id": "2",
+  "title": "Spectral Visions",
+  "ISBN": "032854182-6",
+  "release_date": "2011-09-29 12:51:07",
+  "description": "A collection of ghostly tales that span across time and space. From vengeful spirits to tragic phantoms",
+  "book_image": "these stories will send shivers down your spine and leave you questioning the boundary between life and death."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a48a"
+  },
+  "author_id": "315",
+  "genre_id": "2",
+  "title": "Whispers from Beyond",
+  "ISBN": "203606490-6",
+  "release_date": "2006-03-22 23:41:22",
+  "description": "In an old haunted mansion",
+  "book_image": "the whispers of restless spirits echo through the halls. As the night deepens"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a48b"
+  },
+  "author_id": "17",
+  "genre_id": "2",
+  "title": "The Spectral Apparition",
+  "ISBN": "414538621-3",
+  "release_date": "2017-03-03 22:48:48",
+  "description": "A ghostly figure appears in the darkness",
+  "book_image": "haunting the lives of those who encounter it. As fear and uncertainty spread"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a48c"
+  },
+  "author_id": "39",
+  "genre_id": "2",
+  "title": "Echoes of the Departed",
+  "ISBN": "937317316-2",
+  "release_date": "2001-06-16 07:53:12",
+  "description": "In a small town",
+  "book_image": "the echoes of past tragedies resonate"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a48d"
+  },
+  "author_id": "240",
+  "genre_id": "2",
+  "title": "The Haunted Lighthouse",
+  "ISBN": "709101518-5",
+  "release_date": "2004-11-26 04:06:43",
+  "description": "Perched on a desolate cliff",
+  "book_image": "an abandoned lighthouse holds dark secrets within its walls. A group of adventurers ventures inside"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a48e"
+  },
+  "author_id": "10",
+  "genre_id": "2",
+  "title": "Nightmares Unleashed",
+  "ISBN": "841315970-9",
+  "release_date": "2010-05-11 02:50:41",
+  "description": "In a world plagued by a malevolent force",
+  "book_image": "people`s worst nightmares come to life. Amidst the chaos"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a48f"
+  },
+  "author_id": "93",
+  "genre_id": "2",
+  "title": "The Cursed Painting",
+  "ISBN": "175880660-5",
+  "release_date": "2010-11-16 15:35:35",
+  "description": "A mysterious painting possesses an otherworldly allure",
+  "book_image": "but those who gaze upon it are cursed to suffer unspeakable nightmares. As the cursed artwork finds its way into different hands"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a490"
+  },
+  "author_id": "176",
+  "genre_id": "2",
+  "title": "The Beast in the Woods",
+  "ISBN": "588730690-4",
+  "release_date": "2002-01-19 22:15:39",
+  "description": "Deep in the dark woods",
+  "book_image": "an ancient monster awakens from its slumber. As it wreaks havoc on the unsuspecting village"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a491"
+  },
+  "author_id": "130",
+  "genre_id": "2",
+  "title": "Beneath the Surface",
+  "ISBN": "625712733-5",
+  "release_date": "2013-11-03 23:28:19",
+  "description": "In the depths of the ocean",
+  "book_image": "an ancient and malevolent monster lurks. As a team of marine researchers ventures into the abyss"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a492"
+  },
+  "author_id": "24",
+  "genre_id": "2",
+  "title": "The Shark`s Revenge",
+  "ISBN": "584116859-2",
+  "release_date": "2016-01-29 10:38:05",
+  "description": "A group of people stranded on a remote island must confront not only the treacherous waters infested with bloodthirsty sharks but also the darker secrets hidden among themselves. In a battle for survival",
+  "book_image": "alliances are tested"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a493"
+  },
+  "author_id": "318",
+  "genre_id": "2",
+  "title": "The Jaws of Terror",
+  "ISBN": "092938778-3",
+  "release_date": "2005-03-09 15:55:18",
+  "description": "In a sleepy coastal town",
+  "book_image": "a series of brutal shark attacks shatters the peace. As fear grips the community"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a494"
+  },
+  "author_id": "191",
+  "genre_id": "3",
+  "title": "The Wonders of Science",
+  "ISBN": "499122072-6",
+  "release_date": "2004-07-29 04:45:20",
+  "description": "Embark on a journey through the fascinating world of science and explore the marvels of the universe. From the tiniest particles to the vast galaxies",
+  "book_image": "this book delves into the mysteries and discoveries that shape our understanding of the cosmos."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a495"
+  },
+  "author_id": "214",
+  "genre_id": "3",
+  "title": "Unraveling the Code of Life",
+  "ISBN": "634426161-7",
+  "release_date": "2000-07-27 05:40:35",
+  "description": "Delve into the intricate world of biology and genetics as we decode the blueprint of life. This book explores the wonders of DNA and the complex web of life",
+  "book_image": "shedding light on the incredible diversity and interconnectedness of living organisms."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a496"
+  },
+  "author_id": "217",
+  "genre_id": "3",
+  "title": "Cosmic Mysteries",
+  "ISBN": "277477348-2",
+  "release_date": "2012-11-20 21:53:22",
+  "description": "Unlock the secrets of the universe with this exploration of the cosmos. From black holes to distant galaxies",
+  "book_image": "this book delves into the enigmas of space and time"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a497"
+  },
+  "author_id": "248",
+  "genre_id": "3",
+  "title": "The Elements Unleashed",
+  "ISBN": "514561784-4",
+  "release_date": "2021-04-09 18:43:07",
+  "description": "Journey into the realm of chemistry and witness the fascinating world of elements and compounds. This book presents the building blocks of matter and their role in shaping the world around us",
+  "book_image": "from the explosive to the life-sustaining."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a498"
+  },
+  "author_id": "253",
+  "genre_id": "3",
+  "title": "The Biology of Everything",
+  "ISBN": "484281370-9",
+  "release_date": "2013-06-02 21:10:02",
+  "description": "Embark on an expedition into the wonders of biology",
+  "book_image": "exploring the intricacies of life on Earth. From the microscopic to the mighty"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a499"
+  },
+  "author_id": "271",
+  "genre_id": "3",
+  "title": "The Universe and Beyond",
+  "ISBN": "675507457-8",
+  "release_date": "2011-04-12 07:53:12",
+  "description": "Venture into the realm of astrological wonders and journey through the cosmos. From planets to stars",
+  "book_image": "nebulae to galaxies"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a49a"
+  },
+  "author_id": "209",
+  "genre_id": "3",
+  "title": "Discovering Chemical Reactions",
+  "ISBN": "968628192-4",
+  "release_date": "2009-10-29 23:25:45",
+  "description": "Uncover the magic of chemical reactions and their impact on our daily lives. This book demystifies the world of chemistry and provides insights into the transformative processes that drive our world.",
+  "book_image": "/images/genres/ScienceAndNature/007.jpeg"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a49b"
+  },
+  "author_id": "16",
+  "genre_id": "3",
+  "title": "The Physics of Everything",
+  "ISBN": "381587672-9",
+  "release_date": "2009-08-03 00:05:43",
+  "description": "From the subatomic to the cosmic",
+  "book_image": "this book explores the fundamental principles of physics and their role in shaping the universe. Join us on an exciting journey through the laws of nature that govern our existence."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a49c"
+  },
+  "author_id": "194",
+  "genre_id": "3",
+  "title": "The Wilderness Chronicles",
+  "ISBN": "770059005-2",
+  "release_date": "2016-08-28 16:25:08",
+  "description": "Embark on an immersive journey into the heart of nature. From lush rainforests to rugged mountains",
+  "book_image": "this book celebrates the beauty and biodiversity of Earth and the urgent need to protect our planet for future generations."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a49d"
+  },
+  "author_id": "310",
+  "genre_id": "3",
+  "title": "The Great Naturalists",
+  "ISBN": "885917662-X",
+  "release_date": "2019-05-24 04:47:36",
+  "description": "Step into the footsteps of pioneering naturalists who shaped our understanding of the natural world. This book pays homage to the visionaries who dedicated their lives to exploring and documenting the wonders of nature.",
+  "book_image": "/images/genres/ScienceAndNature/010.jpeg"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a49e"
+  },
+  "author_id": "266",
+  "genre_id": "3",
+  "title": "The Living Earth",
+  "ISBN": "252134815-5",
+  "release_date": "2013-09-07 16:53:02",
+  "description": "Discover the web of life that sustains our planet. From ecosystems to biodiversity",
+  "book_image": "this book takes you on a profound journey into the interconnectedness of all living beings and the delicate balance that maintains life on Earth."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a49f"
+  },
+  "author_id": "53",
+  "genre_id": "3",
+  "title": "Astrological Wonders",
+  "ISBN": "801211747-9",
+  "release_date": "2017-04-08 03:41:43",
+  "description": "Explore the rich tapestry of astrological phenomena and their significance in human history and culture. This book provides insights into the mystical and astronomical aspects of astrology",
+  "book_image": "from ancient traditions to modern interpretations."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4a0"
+  },
+  "author_id": "18",
+  "genre_id": "3",
+  "title": "The Fascinating World of Science",
+  "ISBN": "783072050-9",
+  "release_date": "2010-02-23 17:24:46",
+  "description": "Embark on an exhilarating journey through the diverse realms of science. From physics to biology",
+  "book_image": "chemistry to astronomy"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4a1"
+  },
+  "author_id": "125",
+  "genre_id": "3",
+  "title": "Nature`s Hidden Gems",
+  "ISBN": "781295999-6",
+  "release_date": "2015-11-19 23:21:37",
+  "description": "Dive into the hidden corners of the natural world and uncover its most extraordinary treasures. This book showcases the beauty and marvels of nature",
+  "book_image": "from the microscopic to the grand"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4a2"
+  },
+  "author_id": "122",
+  "genre_id": "3",
+  "title": "The Ecosystem Explorers",
+  "ISBN": "418242718-1",
+  "release_date": "2020-08-18 22:00:33",
+  "description": "Join a team of intrepid explorers as they journey through various ecosystems",
+  "book_image": "uncovering the delicate balance and interdependence of life forms. This book highlights the importance of conservation and our role in preserving the planet."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4a3"
+  },
+  "author_id": "158",
+  "genre_id": "3",
+  "title": "Biology: A Journey Within",
+  "ISBN": "462806723-6",
+  "release_date": "2019-05-16 18:54:52",
+  "description": "Embark on a fascinating journey into the world of biology and witness the marvels of life. From the microscopic world of cells to the complexity of ecosystems",
+  "book_image": "this book reveals the wonders and intricacies of living organisms."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4a4"
+  },
+  "author_id": "235",
+  "genre_id": "3",
+  "title": "Stargazing Adventures",
+  "ISBN": "239880018-0",
+  "release_date": "2007-02-16 09:49:49",
+  "description": "Embark on a celestial adventure and explore the wonders of the night sky. This book offers a comprehensive guide to stargazing",
+  "book_image": "from constellations to planets"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4a5"
+  },
+  "author_id": "207",
+  "genre_id": "3",
+  "title": "The Science of Our Planet",
+  "ISBN": "280719651-9",
+  "release_date": "2018-09-15 03:52:11",
+  "description": "Understand the intricate processes that have shaped our planet over billions of years. This book delves into the geological and environmental forces that have shaped Earth and influenced the evolution of life.",
+  "book_image": "/images/genres/ScienceAndNature/018.jpeg"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4a6"
+  },
+  "author_id": "18",
+  "genre_id": "3",
+  "title": "Exploring the Frontiers of Science",
+  "ISBN": "010853701-3",
+  "release_date": "2021-09-05 11:01:49",
+  "description": "Venture into uncharted territories of scientific exploration and innovation. From cutting-edge research to futuristic technologies",
+  "book_image": "this book celebrates the pursuit of knowledge and the potential it holds for humanity."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4a7"
+  },
+  "author_id": "13",
+  "genre_id": "3",
+  "title": "The Astrological Universe",
+  "ISBN": "452461797-3",
+  "release_date": "2022-05-05 06:00:15",
+  "description": "Unlock the secrets of the cosmos through the lens of astrology. This book explores the age-old connection between celestial bodies and human destiny",
+  "book_image": "offering insights into the ancient art of astrology and its enduring significance."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4a8"
+  },
+  "author_id": "160",
+  "genre_id": "3",
+  "title": "Amazing Animal Kingdom",
+  "ISBN": "499342695-X",
+  "release_date": "2011-08-23 05:17:52",
+  "description": "Embark on an exciting journey through the diverse and extraordinary world of animals. From the savannas of Africa to the rainforests of South America",
+  "book_image": "this book celebrates the incredible diversity and fascinating behaviors of creatures big and small."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4a9"
+  },
+  "author_id": "124",
+  "genre_id": "3",
+  "title": "Untamed Wilderness",
+  "ISBN": "891270420-6",
+  "release_date": "2013-09-21 19:13:09",
+  "description": "Explore the untamed and wild landscapes that exist far from civilization. This book takes you on a captivating adventure through the world`s most remote and pristine habitats",
+  "book_image": "offering a glimpse into the lives of elusive and rare species."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4aa"
+  },
+  "author_id": "303",
+  "genre_id": "3",
+  "title": "Magnificent Mammals",
+  "ISBN": "717144794-4",
+  "release_date": "2003-07-25 17:28:50",
+  "description": "Discover the captivating world of mammals",
+  "book_image": "from the mighty elephants to the agile cheetahs. This book showcases the incredible diversity of mammals and their vital role in maintaining the delicate balance of ecosystems."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4ab"
+  },
+  "author_id": "178",
+  "genre_id": "3",
+  "title": "Birds of Wonder",
+  "ISBN": "918283292-7",
+  "release_date": "2004-01-21 08:23:29",
+  "description": "Take flight with the fascinating world of birds and witness their astounding colors and behaviors. From the elusive birds of paradise to the powerful raptors",
+  "book_image": "this book celebrates the beauty and wonder of avian life."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4ac"
+  },
+  "author_id": "191",
+  "genre_id": "3",
+  "title": "Curious Creatures",
+  "ISBN": "646683711-4",
+  "release_date": "2018-08-05 05:32:07",
+  "description": "Delve into the lives of curious and lesser-known creatures that inhabit our planet. This book introduces you to the weird and wonderful inhabitants of land",
+  "book_image": "sea"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4ad"
+  },
+  "author_id": "236",
+  "genre_id": "3",
+  "title": "Marine Marvels",
+  "ISBN": "095522759-3",
+  "release_date": "2020-03-11 00:36:18",
+  "description": "Dive into the enchanting realm of sea life and explore the mysteries of the ocean. From colorful coral reefs to the mysterious deep sea",
+  "book_image": "this book unveils the wonders of marine life and the need to protect our fragile aquatic ecosystems."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4ae"
+  },
+  "author_id": "76",
+  "genre_id": "3",
+  "title": "Wildlife Wonders",
+  "ISBN": "471418090-8",
+  "release_date": "2012-11-11 22:33:44",
+  "description": "Embark on a wildlife safari and encounter the breathtaking beauty and diversity of life in the natural world. This book captures the essence of wildlife",
+  "book_image": "from the big cats of Africa to the graceful penguins of Antarctica."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4af"
+  },
+  "author_id": "122",
+  "genre_id": "3",
+  "title": "Ocean Odyssey",
+  "ISBN": "671995507-1",
+  "release_date": "2000-02-08 23:10:58",
+  "description": "Embark on an oceanic adventure and explore the vast and mysterious realm of the sea. This book dives deep into the blue",
+  "book_image": "revealing the wonders of marine biodiversity and the critical role oceans play in sustaining life on Earth."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4b0"
+  },
+  "author_id": "273",
+  "genre_id": "3",
+  "title": "The Science of Animal Behavior",
+  "ISBN": "545713473-3",
+  "release_date": "2015-12-13 18:33:00",
+  "description": "Uncover the secrets of animal behavior and the fascinating insights it provides into the animal kingdom. This book unravels the complexities of animal communication",
+  "book_image": "social structures"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4b1"
+  },
+  "author_id": "168",
+  "genre_id": "3",
+  "title": "Endangered Ecosystems",
+  "ISBN": "570321757-1",
+  "release_date": "2021-08-18 19:45:33",
+  "description": "Discover the delicate and threatened ecosystems that are at the heart of biodiversity. This book sheds light on the critical importance of preserving these unique habitats and the many species that call them home.",
+  "book_image": "/images/genres/ScienceAndNature/030.jpeg"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4b2"
+  },
+  "author_id": "303",
+  "genre_id": "3",
+  "title": "The Wonders of Scientific Inquiry",
+  "ISBN": "144440656-6",
+  "release_date": "2006-11-04 06:21:13",
+  "description": "Celebrate the spirit of scientific inquiry and its profound impact on human understanding. This book explores the history of scientific discoveries",
+  "book_image": "the methods of investigation"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4b3"
+  },
+  "author_id": "303",
+  "genre_id": "3",
+  "title": "Exploring the Secrets of Life",
+  "ISBN": "635031559-6",
+  "release_date": "2002-07-27 07:10:30",
+  "description": "Journey into the world of biology and uncover the wonders of life. From the complexity of DNA to the intricacies of evolution",
+  "book_image": "this book unravels the mysteries that underlie the diversity and unity of all living organisms."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4b4"
+  },
+  "author_id": "100",
+  "genre_id": "3",
+  "title": "The Elegant Universe",
+  "ISBN": "737105878-X",
+  "release_date": "2004-06-21 12:15:03",
+  "description": "Explore the fascinating world of physics and delve into the mysteries of the cosmos. This book takes you on a journey through the grandeur of the universe and the fundamental forces that govern its existence.",
+  "book_image": "/images/genres/ScienceAndNature/033.jpeg"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4b5"
+  },
+  "author_id": "147",
+  "genre_id": "3",
+  "title": "Biology Unleashed",
+  "ISBN": "268193424-9",
+  "release_date": "2020-06-15 21:42:55",
+  "description": "Unleash the power of biology and its applications in our everyday lives. This book showcases the practical side of biology",
+  "book_image": "from medical breakthroughs to biotechnological innovations"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4b6"
+  },
+  "author_id": "103",
+  "genre_id": "3",
+  "title": "The Quantum Frontier",
+  "ISBN": "970654510-7",
+  "release_date": "2002-01-01 15:24:16",
+  "description": "Embark on a mind-bending journey into the realm of quantum physics. This book explores the strange and counterintuitive world of subatomic particles",
+  "book_image": "challenging our understanding of reality and the nature of the universe."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4b7"
+  },
+  "author_id": "56",
+  "genre_id": "3",
+  "title": "The Genetics Revolution",
+  "ISBN": "264594535-X",
+  "release_date": "2003-09-11 00:33:49",
+  "description": "Witness the revolutionary discoveries in the field of genetics and their profound impact on medicine and society. This book showcases the groundbreaking research in genomics and the ethical implications of genetic engineering.",
+  "book_image": "/images/genres/ScienceAndNature/036.jpeg"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4b8"
+  },
+  "author_id": "76",
+  "genre_id": "3",
+  "title": "Earth`s Natural Laboratory",
+  "ISBN": "713589267-4",
+  "release_date": "2002-09-19 04:54:52",
+  "description": "Explore Earth`s diverse ecosystems and witness the intricate interactions between living organisms and their environment. This book serves as a natural laboratory",
+  "book_image": "revealing the complexities of Earth`s ecological systems."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4b9"
+  },
+  "author_id": "128",
+  "genre_id": "3",
+  "title": "Biodiversity in Peril",
+  "ISBN": "423254660-X",
+  "release_date": "2007-06-17 15:39:31",
+  "description": "Raise awareness about the critical issue of biodiversity loss and its far-reaching consequences. This book highlights the urgent need for conservation efforts and the preservation of Earth`s rich biological heritage.",
+  "book_image": "/images/genres/ScienceAndNature/038.jpeg"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4ba"
+  },
+  "author_id": "89",
+  "genre_id": "3",
+  "title": "The Nature`s Symphony",
+  "ISBN": "364406302-8",
+  "release_date": "2006-02-28 19:25:20",
+  "description": "Experience the symphony of nature and its harmonious interplay of species and ecosystems. This book celebrates the intricate web of life and the delicate balance that sustains the planet`s biodiversity.",
+  "book_image": "/images/genres/ScienceAndNature/039.jpeg"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4bb"
+  },
+  "author_id": "168",
+  "genre_id": "3",
+  "title": "The Quantum Enigma",
+  "ISBN": "950889279-X",
+  "release_date": "2022-12-09 08:37:27",
+  "description": "Explore the mind-bending realm of quantum physics and its enigmatic mysteries. This book delves into the fascinating world of particles and waves",
+  "book_image": "challenging our understanding of reality and the fundamental laws of the universe."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4bc"
+  },
+  "author_id": "30",
+  "genre_id": "3",
+  "title": "The Wonders of Scientific Discovery",
+  "ISBN": "321158252-5",
+  "release_date": "2004-06-11 14:36:06",
+  "description": "Embark on a journey through the history of scientific discovery and its transformative impact on human knowledge. From the groundbreaking works of Galileo to the modern-day scientific breakthroughs",
+  "book_image": "this book celebrates the ingenuity of human curiosity."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4bd"
+  },
+  "author_id": "292",
+  "genre_id": "3",
+  "title": "The Elements Revealed",
+  "ISBN": "212274774-9",
+  "release_date": "2019-03-19 23:40:13",
+  "description": "Unravel the secrets of the chemical elements and their role in shaping the world around us. This book explores the periodic table and the fascinating properties of different elements",
+  "book_image": "from the reactive metals to the inert gases."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4be"
+  },
+  "author_id": "121",
+  "genre_id": "3",
+  "title": "The Magic of Chemistry",
+  "ISBN": "738853656-6",
+  "release_date": "2021-04-13 09:00:08",
+  "description": "Discover the magic and wonders of chemistry in our daily lives. This book explains the chemical reactions that occur in the kitchen",
+  "book_image": "in the environment"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4bf"
+  },
+  "author_id": "292",
+  "genre_id": "3",
+  "title": "The Chemistry of Everyday Things",
+  "ISBN": "023749598-8",
+  "release_date": "2001-10-10 07:53:42",
+  "description": "Uncover the chemistry behind everyday objects and substances we encounter. This book reveals the molecular structures and chemical processes that underpin the products we use and the materials that shape our world.",
+  "book_image": "/images/genres/ScienceAndNature/044.jpeg"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4c0"
+  },
+  "author_id": "293",
+  "genre_id": "3",
+  "title": "The Secrets of Astrology",
+  "ISBN": "556313169-6",
+  "release_date": "2010-09-23 14:01:59",
+  "description": "Explore the ancient practice of astrology and its enduring influence on human culture. This book delves into the zodiac signs",
+  "book_image": "celestial events"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4c1"
+  },
+  "author_id": "165",
+  "genre_id": "3",
+  "title": "The Botanical Odyssey",
+  "ISBN": "462624612-5",
+  "release_date": "2012-05-03 14:40:29",
+  "description": "Embark on a botanical odyssey and uncover the wonders of the plant kingdom. This book celebrates the diversity of plants",
+  "book_image": "from the ancient ferns to the majestic trees"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4c2"
+  },
+  "author_id": "297",
+  "genre_id": "3",
+  "title": "The World of Flora",
+  "ISBN": "513680958-2",
+  "release_date": "2015-08-05 00:12:03",
+  "description": "Dive into the captivating world of flora and their extraordinary adaptations. This book explores the intricate ecosystems of rainforests",
+  "book_image": "deserts"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4c3"
+  },
+  "author_id": "242",
+  "genre_id": "3",
+  "title": "Gardener`s Handbook",
+  "ISBN": "591781407-4",
+  "release_date": "2017-05-31 00:20:20",
+  "description": "A comprehensive guide for gardeners of all levels. This book offers practical tips on cultivating a variety of plants",
+  "book_image": "designing beautiful landscapes"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4c4"
+  },
+  "author_id": "96",
+  "genre_id": "3",
+  "title": "The Green Thumb",
+  "ISBN": "791214618-0",
+  "release_date": "2008-05-23 12:04:10",
+  "description": "Unlock the secrets of successful gardening and develop your green thumb. This book covers everything from plant selection and propagation to pest control and harvesting",
+  "book_image": "empowering you to grow flourishing gardens."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4c5"
+  },
+  "author_id": "158",
+  "genre_id": "3",
+  "title": "The Wonderful World of Flora",
+  "ISBN": "967660104-7",
+  "release_date": "2013-10-31 15:20:57",
+  "description": "Celebrate the wonders of flora and their vital role in the ecosystem. This book showcases the rich diversity of plant life",
+  "book_image": "from the tiny mosses to the towering sequoias"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4c6"
+  },
+  "author_id": "86",
+  "genre_id": "3",
+  "title": "The Secret Life of Plants",
+  "ISBN": "678560825-2",
+  "release_date": "2011-05-17 14:48:06",
+  "description": "Unveil the hidden world of plants and their remarkable behaviors. This book explores plant communication",
+  "book_image": "symbiotic relationships"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4c7"
+  },
+  "author_id": "55",
+  "genre_id": "3",
+  "title": "The Zodiac Mysteries",
+  "ISBN": "108197857-0",
+  "release_date": "2006-03-06 17:32:17",
+  "description": "Embark on a journey through the mysteries of the zodiac signs and their astrological significance. This book offers insights into personality traits",
+  "book_image": "compatibility"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4c8"
+  },
+  "author_id": "265",
+  "genre_id": "3",
+  "title": "Astrology for Beginners",
+  "ISBN": "093201492-5",
+  "release_date": "2021-11-23 22:30:27",
+  "description": "A beginner`s guide to astrology",
+  "book_image": "perfect for those curious about the stars. This book provides a basic understanding of astrological symbols"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4c9"
+  },
+  "author_id": "216",
+  "genre_id": "3",
+  "title": "The Enchanted Forest",
+  "ISBN": "833435893-8",
+  "release_date": "2010-11-27 11:58:06",
+  "description": "Enter the enchanting realm of forests and their mysterious allure. This book explores the diverse ecosystems of forests",
+  "book_image": "their ecological importance"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4ca"
+  },
+  "author_id": "301",
+  "genre_id": "3",
+  "title": "The Secrets of Wildlife",
+  "ISBN": "647974753-4",
+  "release_date": "2009-03-04 01:23:41",
+  "description": "Discover the secrets of wildlife and their incredible adaptations for survival. This book offers fascinating insights into animal behavior",
+  "book_image": "migration patterns"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4cb"
+  },
+  "author_id": "54",
+  "genre_id": "3",
+  "title": "The Animal Kingdom",
+  "ISBN": "615707307-1",
+  "release_date": "2017-11-27 13:04:36",
+  "description": "Embark on a comprehensive journey through the animal kingdom",
+  "book_image": "from the microscopic organisms to the magnificent mammals. This book celebrates the diversity of life on Earth and the fascinating creatures that inhabit it."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4cc"
+  },
+  "author_id": "46",
+  "genre_id": "3",
+  "title": "Wildlife Wonders",
+  "ISBN": "555543618-1",
+  "release_date": "2013-03-04 18:35:05",
+  "description": "Experience the wonders of wildlife through stunning photography and captivating stories. This book showcases the breathtaking beauty and natural behaviors of animals in their natural habitats.",
+  "book_image": "/images/genres/ScienceAndNature/057.jpeg"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4cd"
+  },
+  "author_id": "274",
+  "genre_id": "3",
+  "title": "The Natural World",
+  "ISBN": "810603301-5",
+  "release_date": "2009-12-31 17:16:02",
+  "description": "Explore the marvels of the natural world",
+  "book_image": "from the vast oceans to the highest mountains. This book captures the essence of Earth`s diverse landscapes and the magnificent creatures that call it home."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4ce"
+  },
+  "author_id": "248",
+  "genre_id": "3",
+  "title": "The Secrets of Astronomy",
+  "ISBN": "155282194-3",
+  "release_date": "2018-05-14 05:57:16",
+  "description": "Delve into the secrets of astronomy and the celestial wonders of the cosmos. This book explores the galaxies",
+  "book_image": "stars"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4cf"
+  },
+  "author_id": "248",
+  "genre_id": "3",
+  "title": "Astronomy Revealed",
+  "ISBN": "767635676-8",
+  "release_date": "2015-11-10 22:59:57",
+  "description": "Reveal the mysteries of astronomy and its role in understanding the universe. This book examines the history of astronomy",
+  "book_image": "from the ancient stargazers to the modern-day astronomers"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4d0"
+  },
+  "author_id": "310",
+  "genre_id": "3",
+  "title": "Tigers Unveiled",
+  "ISBN": "856442836-9",
+  "release_date": "2014-04-11 21:24:53",
+  "description": "Discover the untamed world of tigers and their mysterious ways. This book delves into the lives of these magnificent big cats",
+  "book_image": "their habitats"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4d1"
+  },
+  "author_id": "40",
+  "genre_id": "3",
+  "title": "The World of Bears",
+  "ISBN": "812206372-1",
+  "release_date": "2002-08-26 23:02:00",
+  "description": "Embark on a journey into the diverse world of bears",
+  "book_image": "from the polar ice caps to the dense rainforests. This book celebrates the strength"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4d2"
+  },
+  "author_id": "209",
+  "genre_id": "3",
+  "title": "Amazing Animals",
+  "ISBN": "390201980-8",
+  "release_date": "2006-10-24 16:08:08",
+  "description": "Explore the incredible world of animals and their unique adaptations. This book showcases the diversity of species",
+  "book_image": "from the smallest insects to the largest mammals"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4d3"
+  },
+  "author_id": "279",
+  "genre_id": "3",
+  "title": "The Quantum Universe",
+  "ISBN": "322065665-X",
+  "release_date": "2005-12-15 04:52:40",
+  "description": "Delve into the mind-bending world of quantum physics and the fundamental building blocks of the universe. This book explores the strange phenomena of quantum mechanics and their implications for our understanding of reality.",
+  "book_image": "/images/genres/ScienceAndNature/064.jpeg"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4d4"
+  },
+  "author_id": "297",
+  "genre_id": "3",
+  "title": "The Cosmos Unveiled",
+  "ISBN": "845060799-X",
+  "release_date": "2021-11-26 17:16:22",
+  "description": "Embark on an extraordinary journey through the cosmos and the wonders of space. This book explores celestial bodies",
+  "book_image": "galaxies"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4d5"
+  },
+  "author_id": "85",
+  "genre_id": "3",
+  "title": "The Particle Odyssey",
+  "ISBN": "079810949-1",
+  "release_date": "2022-10-06 02:44:50",
+  "description": "Unravel the secrets of the subatomic world and the fundamental particles that make up everything in existence. This book takes you on a fascinating journey through particle physics and the remarkable discoveries made in this cutting-edge field.",
+  "book_image": "/images/genres/ScienceAndNature/066.jpeg"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4d6"
+  },
+  "author_id": "57",
+  "genre_id": "3",
+  "title": "The Chemistry of Creation",
+  "ISBN": "052830846-7",
+  "release_date": "2000-06-13 19:29:52",
+  "description": "Discover the chemistry behind the origin of life and the building blocks of the universe. This book explores the chemical reactions that led to the formation of planets",
+  "book_image": "stars"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4d7"
+  },
+  "author_id": "53",
+  "genre_id": "3",
+  "title": "The DNA Revolution",
+  "ISBN": "174818809-7",
+  "release_date": "2019-09-29 00:52:06",
+  "description": "Unleash the secrets of DNA and its role in shaping life on Earth. This book delves into the groundbreaking discoveries of genetics and their impact on fields such as medicine",
+  "book_image": "agriculture"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4d8"
+  },
+  "author_id": "96",
+  "genre_id": "3",
+  "title": "The Fascinating World of Fungi",
+  "ISBN": "821463742-2",
+  "release_date": "2002-05-01 07:57:37",
+  "description": "Enter the hidden kingdom of fungi and their vital role in ecosystems. This book explores the diverse forms of fungi",
+  "book_image": "their symbiotic relationships"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4d9"
+  },
+  "author_id": "63",
+  "genre_id": "3",
+  "title": "The Botanist`s Guide to Nature",
+  "ISBN": "180011949-6",
+  "release_date": "2015-01-17 15:13:49",
+  "description": "A comprehensive guide for botanists and nature enthusiasts. This book offers insights into plant identification",
+  "book_image": "ecological interactions"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4da"
+  },
+  "author_id": "236",
+  "genre_id": "3",
+  "title": "Wonders of Wildlife Photography",
+  "ISBN": "932180940-6",
+  "release_date": "2017-07-28 00:46:47",
+  "description": "Celebrate the art of wildlife photography and the captivating moments captured in the animal kingdom. This book showcases stunning images of animals in their natural habitats",
+  "book_image": "conveying the beauty and vulnerability of wildlife."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4db"
+  },
+  "author_id": "20",
+  "genre_id": "3",
+  "title": "Nature`s Symphony",
+  "ISBN": "544542528-2",
+  "release_date": "2019-04-28 10:17:14",
+  "description": "Listen to the harmonious symphony of nature and its myriad of sounds. This book explores the acoustic landscape of forests",
+  "book_image": "oceans"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4dc"
+  },
+  "author_id": "275",
+  "genre_id": "3",
+  "title": "The Diversity of Birds",
+  "ISBN": "415920827-4",
+  "release_date": "2016-02-07 17:31:08",
+  "description": "Discover the incredible diversity of bird species and their adaptations for survival. This book showcases the beauty of birds and their unique behaviors in various habitats across the globe.",
+  "book_image": "/images/genres/ScienceAndNature/073.jpeg"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4dd"
+  },
+  "author_id": "145",
+  "genre_id": "3",
+  "title": "The Insect World Explored",
+  "ISBN": "557274969-9",
+  "release_date": "2001-08-29 00:56:59",
+  "description": "Embark on an entomological adventure into the world of insects. This book highlights the vital roles insects play in ecosystems",
+  "book_image": "their fascinating behaviors"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4de"
+  },
+  "author_id": "181",
+  "genre_id": "3",
+  "title": "The Incredible World Below",
+  "ISBN": "915879830-7",
+  "release_date": "2012-01-29 19:41:18",
+  "description": "Descend into the mesmerizing world below the Earth`s surface. This book explores the hidden realms of caves",
+  "book_image": "underground rivers"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4df"
+  },
+  "author_id": "54",
+  "genre_id": "3",
+  "title": "Marine Marvels",
+  "ISBN": "626456165-7",
+  "release_date": "2019-10-16 12:27:33",
+  "description": "Dive into the wonders of marine life and the vastness of the oceans. This book showcases the breathtaking diversity of marine species",
+  "book_image": "coral reefs"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4e0"
+  },
+  "author_id": "222",
+  "genre_id": "3",
+  "title": "Nature`s Masterpiece",
+  "ISBN": "098120827-4",
+  "release_date": "2022-06-19 17:23:38",
+  "description": "Witness the grandeur of nature`s masterpieces",
+  "book_image": "from majestic waterfalls to towering mountains. This book captures the beauty and magnificence of Earth`s landscapes and the geological processes that shaped them."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4e1"
+  },
+  "author_id": "9",
+  "genre_id": "3",
+  "title": "Life on Earth",
+  "ISBN": "963573433-6",
+  "release_date": "2018-02-28 16:47:25",
+  "description": "A comprehensive exploration of life on Earth",
+  "book_image": "from the origins of life to the intricate web of biodiversity. This book celebrates the interconnectedness of all living beings and the delicate balance that sustains life."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4e2"
+  },
+  "author_id": "259",
+  "genre_id": "3",
+  "title": "The Science of Weather",
+  "ISBN": "363821524-5",
+  "release_date": "2002-02-01 02:01:16",
+  "description": "Unravel the mysteries of weather patterns",
+  "book_image": "atmospheric phenomena"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4e3"
+  },
+  "author_id": "206",
+  "genre_id": "3",
+  "title": "The Ever-Expanding Universe",
+  "ISBN": "811505557-3",
+  "release_date": "2020-12-28 22:59:22",
+  "description": "Embark on a cosmic journey through the wonders of our expanding universe. This book explores the fascinating discoveries in astrophysics and the mind-boggling size and age of the cosmos.",
+  "book_image": "/images/genres/ScienceAndNature/080.jpeg"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4e4"
+  },
+  "author_id": "37",
+  "genre_id": "3",
+  "title": "The Mysteries of Quantum Mechanics",
+  "ISBN": "011605212-0",
+  "release_date": "2021-01-20 21:15:43",
+  "description": "Delve into the enigmatic world of quantum mechanics and the perplexing behavior of particles. This book unravels the peculiarities of quantum physics and the fundamental questions it raises about the nature of reality.",
+  "book_image": "/images/genres/ScienceAndNature/081.jpeg"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4e5"
+  },
+  "author_id": "151",
+  "genre_id": "3",
+  "title": "The Science of Life",
+  "ISBN": "876382305-5",
+  "release_date": "2011-03-02 12:08:46",
+  "description": "Explore the wonders of life sciences and the intricate web of living organisms. This book examines the diversity of life on Earth",
+  "book_image": "the mechanisms of evolution"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4e6"
+  },
+  "author_id": "127",
+  "genre_id": "3",
+  "title": "The Secrets of DNA",
+  "ISBN": "332372190-X",
+  "release_date": "2014-07-21 13:52:46",
+  "description": "Unlock the secrets of DNA and its role as the blueprint of life. This book delves into genetics",
+  "book_image": "heredity"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4e7"
+  },
+  "author_id": "127",
+  "genre_id": "3",
+  "title": "Genetic Engineering and Beyond",
+  "ISBN": "914582696-X",
+  "release_date": "2010-05-07 21:09:05",
+  "description": "Explore the fascinating world of genetic engineering and the revolutionary applications in biotechnology and medicine. This book examines the promises and ethical considerations surrounding genetic manipulation.",
+  "book_image": "/images/genres/ScienceAndNature/084.jpeg"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4e8"
+  },
+  "author_id": "142",
+  "genre_id": "3",
+  "title": "The Language of Flowers",
+  "ISBN": "062046633-2",
+  "release_date": "2004-05-19 03:53:04",
+  "description": "Discover the hidden meanings and symbolism behind the world of flowers. This book explores the cultural significance of flowers throughout history and their roles in art",
+  "book_image": "literature"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4e9"
+  },
+  "author_id": "183",
+  "genre_id": "3",
+  "title": "The Marvels of Physics",
+  "ISBN": "917651243-6",
+  "release_date": "2015-04-26 19:57:14",
+  "description": "Embark on an exhilarating journey through the laws of physics and the forces that govern the universe. This book showcases the elegance of physics in explaining the natural phenomena around us.",
+  "book_image": "/images/genres/ScienceAndNature/086.jpeg"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4ea"
+  },
+  "author_id": "126",
+  "genre_id": "3",
+  "title": "The Elements Unveiled",
+  "ISBN": "603567687-1",
+  "release_date": "2020-08-31 04:18:59",
+  "description": "Explore the fascinating world of elements and their crucial role in the composition of matter. This book dives into the periodic table",
+  "book_image": "the properties of elements"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4eb"
+  },
+  "author_id": "131",
+  "genre_id": "3",
+  "title": "Chemical Reactions Explored",
+  "ISBN": "478497641-8",
+  "release_date": "2016-05-26 13:01:35",
+  "description": "Unravel the intricate dance of atoms and molecules in chemical reactions. This book examines the fundamental principles of chemistry and the transformations of matter in different environments.",
+  "book_image": "/images/genres/ScienceAndNature/088.jpeg"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4ec"
+  },
+  "author_id": "128",
+  "genre_id": "3",
+  "title": "The Periodic Table of Elements",
+  "ISBN": "785172139-3",
+  "release_date": "2017-02-15 05:09:42",
+  "description": "An illuminating guide to the periodic table and its impact on modern science. This book presents the history of the periodic table and the contributions of its elements to human knowledge and technology.",
+  "book_image": "/images/genres/ScienceAndNature/089.jpeg"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4ed"
+  },
+  "author_id": "32",
+  "genre_id": "3",
+  "title": "Astrology: Unveiling the Stars",
+  "ISBN": "514509195-8",
+  "release_date": "2013-06-10 10:47:36",
+  "description": "Examine the ancient art of astrology and its influence on human beliefs and behaviors. This book explores the zodiac signs",
+  "book_image": "planetary influences"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4ee"
+  },
+  "author_id": "308",
+  "genre_id": "3",
+  "title": "Astrology and Destiny",
+  "ISBN": "876376766-X",
+  "release_date": "2003-11-16 06:28:20",
+  "description": "A thought-provoking study of astrology`s impact on culture",
+  "book_image": "religion"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4ef"
+  },
+  "author_id": "231",
+  "genre_id": "3",
+  "title": "Astrology and the Modern Mind",
+  "ISBN": "442682581-4",
+  "release_date": "2015-10-07 14:51:18",
+  "description": "An exploration of astrology`s resurgence in modern times and its intersection with psychology and self-awareness. This book delves into the psychological significance of astrological readings.",
+  "book_image": "/images/genres/ScienceAndNature/092.jpeg"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4f0"
+  },
+  "author_id": "226",
+  "genre_id": "3",
+  "title": "Astrology for Beginners",
+  "ISBN": "726342432-0",
+  "release_date": "2021-06-29 13:01:38",
+  "description": "A beginner-friendly guide to understanding astrology and its various elements. This book provides an overview of astrology`s history",
+  "book_image": "symbols"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4f1"
+  },
+  "author_id": "223",
+  "genre_id": "3",
+  "title": "Astrological Birthstones",
+  "ISBN": "324971892-0",
+  "release_date": "2017-05-25 07:39:21",
+  "description": "Discover the magical world of astrological birthstones and their alleged connections to zodiac signs. This book explores the lore",
+  "book_image": "history"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4f2"
+  },
+  "author_id": "177",
+  "genre_id": "3",
+  "title": "The Language of the Stars",
+  "ISBN": "405148676-1",
+  "release_date": "2006-09-04 18:53:59",
+  "description": "An in-depth exploration of the constellations and their significance in different cultures. This book unravels the myths",
+  "book_image": "stories"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4f3"
+  },
+  "author_id": "160",
+  "genre_id": "3",
+  "title": "The Wonders of the Microcosmos",
+  "ISBN": "239548954-9",
+  "release_date": "2002-09-27 20:25:48",
+  "description": "Journey into the microscopic realm and witness the astonishing world of microorganisms. This book delves into microbiology and the crucial roles microorganisms play in the ecosystem and human health.",
+  "book_image": "/images/genres/ScienceAndNature/096.jpeg"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4f4"
+  },
+  "author_id": "29",
+  "genre_id": "3",
+  "title": "The Universe Within",
+  "ISBN": "853918330-7",
+  "release_date": "2006-11-18 14:39:34",
+  "description": "An exploration of the human body as a microcosm reflecting the macrocosm of the universe. This book delves into the connections between the cosmos and human anatomy",
+  "book_image": "offering a fresh perspective on our place in the cosmos."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4f5"
+  },
+  "author_id": "213",
+  "genre_id": "3",
+  "title": "Exploring the Human Brain",
+  "ISBN": "916476239-4",
+  "release_date": "2006-01-24 09:56:48",
+  "description": "Uncover the mysteries of the human brain and its intricate workings. This book investigates neuroscience",
+  "book_image": "brain function"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4f6"
+  },
+  "author_id": "278",
+  "genre_id": "3",
+  "title": "The Wonder of Wildlife",
+  "ISBN": "526671239-2",
+  "release_date": "2013-10-22 04:18:24",
+  "description": "A captivating journey through the world of wildlife and their extraordinary adaptations. This book showcases the diversity of animal life",
+  "book_image": "their behaviors"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4f7"
+  },
+  "author_id": "154",
+  "genre_id": "3",
+  "title": "Encounters with Wildlife",
+  "ISBN": "367761789-8",
+  "release_date": "2003-10-25 10:44:12",
+  "description": "Embark on thrilling encounters with various wildlife species from around the world. This book presents captivating stories of animal behavior",
+  "book_image": "their habitats"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4f8"
+  },
+  "author_id": "273",
+  "genre_id": "3",
+  "title": "Jungle Explorations",
+  "ISBN": "716176889-6",
+  "release_date": "2002-01-04 18:05:27",
+  "description": "Embark on an adventurous journey through the dense jungles of different continents. This book uncovers the mysteries of tropical rainforests",
+  "book_image": "their rich biodiversity"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4f9"
+  },
+  "author_id": "17",
+  "genre_id": "3",
+  "title": "Big Cats of the World",
+  "ISBN": "190149152-8",
+  "release_date": "2003-01-12 00:42:01",
+  "description": "Discover the majesty of big cats",
+  "book_image": "from the powerful lions of Africa to the elusive snow leopards of the Himalayas. This book offers insights into the behavior"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4fa"
+  },
+  "author_id": "267",
+  "genre_id": "3",
+  "title": "The Elephant Kingdom",
+  "ISBN": "259088204-1",
+  "release_date": "2001-05-27 02:42:35",
+  "description": "Enter the captivating world of elephants",
+  "book_image": "the gentle giants of the savannah. This book explores the intricate social structures"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4fb"
+  },
+  "author_id": "312",
+  "genre_id": "3",
+  "title": "Amazing Animal Adaptations",
+  "ISBN": "116800253-2",
+  "release_date": "2005-03-25 18:37:14",
+  "description": "Explore the incredible adaptations that enable animals to thrive in diverse environments. This book showcases the extraordinary features and survival strategies of various species across the animal kingdom.",
+  "book_image": "/images/genres/ScienceAndNature/104.jpeg"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4fc"
+  },
+  "author_id": "107",
+  "genre_id": "3",
+  "title": "The World of Bears",
+  "ISBN": "928215823-3",
+  "release_date": "2005-07-23 13:36:22",
+  "description": "An in-depth look into the fascinating lives of bears",
+  "book_image": "from the polar bears of the Arctic to the grizzlies of North America. This book sheds light on the ecological role of bears and the challenges they face in a changing world."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4fd"
+  },
+  "author_id": "151",
+  "genre_id": "3",
+  "title": "A Journey into Nature",
+  "ISBN": "836078807-3",
+  "release_date": "2014-12-06 16:37:33",
+  "description": "Embark on a sensory journey into the heart of nature",
+  "book_image": "from lush forests to tranquil lakes. This book celebrates the beauty of the natural world and encourages a deeper appreciation for our environment."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4fe"
+  },
+  "author_id": "201",
+  "genre_id": "3",
+  "title": "The Enchanting World of Plants",
+  "ISBN": "283700151-1",
+  "release_date": "2013-11-01 00:30:52",
+  "description": "Discover the wonders of plants and their crucial role in sustaining life on Earth. This book explores plant diversity",
+  "book_image": "photosynthesis"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a4ff"
+  },
+  "author_id": "121",
+  "genre_id": "3",
+  "title": "A Floral Symphony",
+  "ISBN": "479267102-7",
+  "release_date": "2019-03-17 00:25:31",
+  "description": "Immerse yourself in the symphony of colors and scents of the floral world. This book delves into the art of flower arrangement",
+  "book_image": "the language of flowers"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a500"
+  },
+  "author_id": "93",
+  "genre_id": "3",
+  "title": "The Secret Lives of Flowers",
+  "ISBN": "711975885-3",
+  "release_date": "2015-11-01 11:46:58",
+  "description": "Unlock the secrets of flowers and their fascinating reproductive strategies. This book explores the botany of flowers",
+  "book_image": "pollination"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a501"
+  },
+  "author_id": "145",
+  "genre_id": "3",
+  "title": "The Lion: King of the Savanna",
+  "ISBN": "241210042-X",
+  "release_date": "2007-04-13 06:32:22",
+  "description": "Learn about the charismatic and powerful lion",
+  "book_image": "the iconic symbol of the African savanna. This book examines the social dynamics of lion prides"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a502"
+  },
+  "author_id": "234",
+  "genre_id": "3",
+  "title": "Amazing Animal Camouflage",
+  "ISBN": "557731486-0",
+  "release_date": "2009-11-29 02:43:02",
+  "description": "Marvel at the incredible art of camouflage exhibited by animals across the globe. This book showcases how different species use camouflage to blend seamlessly into their surroundings.",
+  "book_image": "/images/genres/ScienceAndNature/111.jpeg"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a503"
+  },
+  "author_id": "93",
+  "genre_id": "3",
+  "title": "The Language of the Forest",
+  "ISBN": "271632910-9",
+  "release_date": "2021-04-15 20:29:18",
+  "description": "Explore the intricate language and interconnectedness of forest ecosystems. This book highlights the relationships between trees",
+  "book_image": "plants"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a504"
+  },
+  "author_id": "96",
+  "genre_id": "3",
+  "title": "Nature`s Masterpiece: The Coral Reef",
+  "ISBN": "027491881-1",
+  "release_date": "2016-03-06 06:06:10",
+  "description": "Dive into the mesmerizing world of coral reefs and their exceptional biodiversity. This book explores the delicate balance of reef ecosystems and the threats posed by climate change and human activities.",
+  "book_image": "/images/genres/ScienceAndNature/113.jpeg"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a505"
+  },
+  "author_id": "37",
+  "genre_id": "3",
+  "title": "Bears: Giants of the Wilderness",
+  "ISBN": "772332131-7",
+  "release_date": "2021-01-08 19:06:05",
+  "description": "An intimate portrait of the fascinating world of bears and their role in various ecosystems. This book covers the different bear species",
+  "book_image": "their habitats"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a506"
+  },
+  "author_id": "189",
+  "genre_id": "3",
+  "title": "The Elephant`s Tale",
+  "ISBN": "536348748-9",
+  "release_date": "2017-12-26 19:06:04",
+  "description": "A heartwarming tale of elephants and the emotional bonds within their herds. This book delves into the intelligence",
+  "book_image": "empathy"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a507"
+  },
+  "author_id": "266",
+  "genre_id": "3",
+  "title": "The Dance of Flowers",
+  "ISBN": "139531644-9",
+  "release_date": "2017-06-21 14:04:31",
+  "description": "Embark on a sensory journey through the world of flowers and their significance in art",
+  "book_image": "culture"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a508"
+  },
+  "author_id": "275",
+  "genre_id": "3",
+  "title": "The Science of Flowers",
+  "ISBN": "006721550-5",
+  "release_date": "2011-03-21 03:05:18",
+  "description": "Explore the science behind flowers",
+  "book_image": "from botany and genetics to the ecological roles of flowers in plant reproduction and pollination. This book bridges the gap between art and science in the realm of botany."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a509"
+  },
+  "author_id": "13",
+  "genre_id": "3",
+  "title": "The Secret Garden",
+  "ISBN": "926985796-4",
+  "release_date": "2000-05-08 23:48:56",
+  "description": "Step into the enchanting world of secret gardens",
+  "book_image": "hidden oases of beauty and tranquility. This book uncovers the history"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a50a"
+  },
+  "author_id": "144",
+  "genre_id": "3",
+  "title": "The Blooming Universe",
+  "ISBN": "746222970-6",
+  "release_date": "2014-08-09 11:02:32",
+  "description": "A poetic exploration of the cosmic connection between flowers and the universe. This book draws parallels between the patterns and forms of flowers and the celestial wonders of the cosmos.",
+  "book_image": "/images/genres/ScienceAndNature/119.jpeg"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a50b"
+  },
+  "author_id": "238",
+  "genre_id": "3",
+  "title": "The Language of Flowers",
+  "ISBN": "238446710-7",
+  "release_date": "2020-03-29 09:52:03",
+  "description": "Unlock the hidden messages conveyed through the Victorian language of flowers. This book decodes the symbolism and meanings associated with different flowers and their arrangement in bouquets.",
+  "book_image": "/images/genres/ScienceAndNature/120.jpeg"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a50c"
+  },
+  "author_id": "28",
+  "genre_id": "3",
+  "title": "The Art of Botanical Illustration",
+  "ISBN": "962357446-0",
+  "release_date": "2009-02-16 21:39:20",
+  "description": "Discover the exquisite art of botanical illustration and the historical significance of plant drawings in scientific exploration. This book showcases the skill and creativity of botanical artists throughout history.",
+  "book_image": "/images/genres/ScienceAndNature/121.jpeg"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a50d"
+  },
+  "author_id": "235",
+  "genre_id": "3",
+  "title": "The Wonders of Plant Chemistry",
+  "ISBN": "893464417-6",
+  "release_date": "2012-12-28 21:42:57",
+  "description": "Dive into the fascinating world of plant chemistry and the vast array of chemical compounds produced by plants. This book explores the medicinal",
+  "book_image": "culinary"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a50e"
+  },
+  "author_id": "4",
+  "genre_id": "3",
+  "title": "Floral Fragrances",
+  "ISBN": "001731129-2",
+  "release_date": "2013-10-08 01:39:25",
+  "description": "Embark on a scented journey through the world of floral fragrances and perfumes. This book delves into the art of perfumery and the history of using flowers as sources of aromatic essences.",
+  "book_image": "/images/genres/ScienceAndNature/123.jpeg"
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a50f"
+  },
+  "author_id": "142",
+  "genre_id": "3",
+  "title": "The Botany of Flowers",
+  "ISBN": "692335106-5",
+  "release_date": "2001-01-23 06:04:40",
+  "description": "Explore the botanical aspects of flowers",
+  "book_image": "from their reproductive structures to the classification of different flower families. This book offers insights into the evolutionary history and diversity of flowering plants."
+},
+{
+  "_id": {
+    "$oid": "64d145ccb91f461f4a15a510"
+  },
+  "author_id": "249",
+  "genre_id": "3",
+  "title": "Flowers and Their Medicinal Uses",
+  "ISBN": "275085988-3",
+  "release_date": "2005-09-27 20:41:08",
+  "description": "Discover the medicinal properties of various flowers and how they have been used in traditional and modern medicine. This book explores the healing potential of floral remedies.",
+  "book_image": "/images/genres/ScienceAndNature/125.jpeg"
+}]
