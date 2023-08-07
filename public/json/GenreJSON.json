@@ -1,0 +1,72 @@
+[{
+  "_id": {
+    "$oid": "64d144fcb91f461f4a15a40c"
+  },
+  "genre_id": "1",
+  "genre_name": "Fantasy",
+  "genre_description": "Step into a world of magic and mythical creatures",
+  "genre_image": "where epic quests and heroic adventures await. Immerse yourself in richly imagined realms filled with wondrous beings and enchanted landscapes."
+},
+{
+  "_id": {
+    "$oid": "64d144fcb91f461f4a15a40d"
+  },
+  "genre_id": "2",
+  "genre_name": "Horror",
+  "genre_description": "Embrace the spine-chilling darkness of horror",
+  "genre_image": "where fear lurks in the shadows and malevolent entities prowl. From haunted houses to supernatural terrors"
+},
+{
+  "_id": {
+    "$oid": "64d144fcb91f461f4a15a40e"
+  },
+  "genre_id": "3",
+  "genre_name": "Nature and Science",
+  "genre_description": "Explore the wonders of the natural world and the mysteries of science. Delve into the intricacies of life",
+  "genre_image": "the universe"
+},
+{
+  "_id": {
+    "$oid": "64d144fcb91f461f4a15a40f"
+  },
+  "genre_id": "4",
+  "genre_name": "Health and Wellness",
+  "genre_description": "Discover a path to well-being and a healthier lifestyle. From physical fitness to mental wellness",
+  "genre_image": "embark on a journey of self-improvement and holistic balance."
+},
+{
+  "_id": {
+    "$oid": "64d144fcb91f461f4a15a410"
+  },
+  "genre_id": "5",
+  "genre_name": "Romance",
+  "genre_description": "Indulge in the sweet and passionate tales of love and romance. Experience heartwarming connections",
+  "genre_image": "dramatic emotions"
+},
+{
+  "_id": {
+    "$oid": "64d144fcb91f461f4a15a411"
+  },
+  "genre_id": "6",
+  "genre_name": "Science Fiction",
+  "genre_description": "Venture into the realms of the future and beyond",
+  "genre_image": "where technology and imagination merge. Explore futuristic worlds"
+},
+{
+  "_id": {
+    "$oid": "64d144fcb91f461f4a15a412"
+  },
+  "genre_id": "7",
+  "genre_name": "True Crime",
+  "genre_description": "Delve into the dark and gripping world of true crime. Uncover the chilling details of real-life mysteries",
+  "genre_image": "investigations"
+},
+{
+  "_id": {
+    "$oid": "64d144fcb91f461f4a15a413"
+  },
+  "genre_id": "8",
+  "genre_name": "Philosophy",
+  "genre_description": "Engage in profound questions and intellectual exploration. Delight in the pursuit of knowledge",
+  "genre_image": "wisdom"
+}]
