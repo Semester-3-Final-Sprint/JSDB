@@ -1,0 +1,1127 @@
+﻿[
+    {
+        "author_id": "152",
+        "genre_id": "5",
+        "title": "A Love Beyond",
+        "ISBN": "796554449-0",
+        "release_date": "2022-06-09",
+        "description": "A heartwarming story of love that knows no bounds.",
+        "book_image": "/images/genres/Romance/001.jpeg"
+    },
+    {
+        "author_id": "167",
+        "genre_id": "5",
+        "title": "Whispers of the Heart",
+        "ISBN": "793437011-3",
+        "release_date": "2005-08-01",
+        "description": "In a world of secrets, their love was the loudest.",
+        "book_image": "/images/genres/Romance/002.jpeg"
+    },
+    {
+        "author_id": "265",
+        "genre_id": "5",
+        "title": "The Enchanted Embrace",
+        "ISBN": "189668595-1",
+        "release_date": "2022-06-14",
+        "description": "An enchanting love story that will sweep you off your feet.",
+        "book_image": "/images/genres/Romance/003.jpeg"
+    },
+    {
+        "author_id": "69",
+        "genre_id": "5",
+        "title": "Forever Yours",
+        "ISBN": "208828794-9",
+        "release_date": "2000-11-21",
+        "description": "Two hearts, one destiny - a love that transcends time.",
+        "book_image": "/images/genres/Romance/004.jpeg"
+    },
+    {
+        "author_id": "98",
+        "genre_id": "5",
+        "title": "Loves Tender Touch",
+        "ISBN": "404969998-2",
+        "release_date": "2008-11-02",
+        "description": "Their touch set their souls on fire.",
+        "book_image": "/images/genres/Romance/005.jpeg"
+    },
+    {
+        "author_id": "26",
+        "genre_id": "5",
+        "title": "A Daring Desire",
+        "ISBN": "545174868-3",
+        "release_date": "2017-05-18",
+        "description": "A daring love that defies all odds.",
+        "book_image": "/images/genres/Romance/006.jpeg"
+    },
+    {
+        "author_id": "195",
+        "genre_id": "5",
+        "title": "Loves Symphony",
+        "ISBN": "019768307-X",
+        "release_date": "2012-08-11",
+        "description": "Their love was a beautiful symphony of emotions.",
+        "book_image": "/images/genres/Romance/007.jpeg"
+    },
+    {
+        "author_id": "245",
+        "genre_id": "5",
+        "title": "Hearts Intertwined",
+        "ISBN": "478904299-5",
+        "release_date": "2016-06-04",
+        "description": "Their hearts were destined to be intertwined.",
+        "book_image": "/images/genres/Romance/008.jpeg"
+    },
+    {
+        "author_id": "234",
+        "genre_id": "5",
+        "title": "Unbreakable Bonds",
+        "ISBN": "875857093-4",
+        "release_date": "2015-08-28",
+        "description": "Their love created unbreakable bonds.",
+        "book_image": "/images/genres/Romance/009.jpeg"
+    },
+    {
+        "author_id": "130",
+        "genre_id": "5",
+        "title": "Loves Surrender",
+        "ISBN": "540082394-7",
+        "release_date": "2007-11-08",
+        "description": "They surrendered to the power of love.",
+        "book_image": "/images/genres/Romance/010.jpeg"
+    },
+    {
+        "author_id": "277",
+        "genre_id": "5",
+        "title": "Loves Awakening",
+        "ISBN": "310829105-X",
+        "release_date": "2001-05-27",
+        "description": "Their love awakened their true selves.",
+        "book_image": "/images/genres/Romance/011.jpeg"
+    },
+    {
+        "author_id": "266",
+        "genre_id": "5",
+        "title": "Beneath the Moonlight",
+        "ISBN": "016467895-6",
+        "release_date": "2022-04-26",
+        "description": "Their love blossomed beneath the moonlight.",
+        "book_image": "/images/genres/Romance/012.jpeg"
+    },
+    {
+        "author_id": "277",
+        "genre_id": "5",
+        "title": "Loves Redemption",
+        "ISBN": "516253797-7",
+        "release_date": "2001-03-04",
+        "description": "Love redeemed their wounded hearts.",
+        "book_image": "/images/genres/Romance/013.jpeg"
+    },
+    {
+        "author_id": "107",
+        "genre_id": "5",
+        "title": "Eternal Love",
+        "ISBN": "192500405-8",
+        "release_date": "2005-07-27",
+        "description": "Their love was eternal, beyond time and space.",
+        "book_image": "/images/genres/Romance/014.jpeg"
+    },
+    {
+        "author_id": "248",
+        "genre_id": "5",
+        "title": "Hearts on Fire",
+        "ISBN": "777485503-3",
+        "release_date": "2010-12-19",
+        "description": "Their hearts burned with an unquenchable fire of love.",
+        "book_image": "/images/genres/Romance/015.jpeg"
+    },
+    {
+        "author_id": "240",
+        "genre_id": "5",
+        "title": "Loves Embrace",
+        "ISBN": "662045457-7",
+        "release_date": "2016-09-03",
+        "description": "In each others arms, they found loves embrace.",
+        "book_image": "/images/genres/Romance/016.jpeg"
+    },
+    {
+        "author_id": "274",
+        "genre_id": "5",
+        "title": "The Promise of Love",
+        "ISBN": "829624052-1",
+        "release_date": "2012-02-26",
+        "description": "A promise of love that lasted a lifetime.",
+        "book_image": "/images/genres/Romance/017.jpeg"
+    },
+    {
+        "author_id": "92",
+        "genre_id": "5",
+        "title": "Loves Whisper",
+        "ISBN": "589163129-6",
+        "release_date": "2013-10-14",
+        "description": "In a whisper, their love spoke volumes.",
+        "book_image": "/images/genres/Romance/018.jpeg"
+    },
+    {
+        "author_id": "7",
+        "genre_id": "5",
+        "title": "A Love to Remember",
+        "ISBN": "024537218-2",
+        "release_date": "2004-01-23",
+        "description": "A love so unforgettable, it remained in their hearts forever.",
+        "book_image": "/images/genres/Romance/019.jpeg"
+    },
+    {
+        "author_id": "69",
+        "genre_id": "5",
+        "title": "Loves Magic Spell",
+        "ISBN": "962572942-5",
+        "release_date": "2000-09-12",
+        "description": "Their love was a magical spell that bound them together.",
+        "book_image": "/images/genres/Romance/020.jpeg"
+    },
+    {
+        "author_id": "169",
+        "genre_id": "5",
+        "title": "Captivated Hearts",
+        "ISBN": "091796180-1",
+        "release_date": "2014-02-08",
+        "description": "In each others presence, their hearts were captivated.",
+        "book_image": "/images/genres/Romance/021.jpeg"
+    },
+    {
+        "author_id": "6",
+        "genre_id": "5",
+        "title": "In Loves Embrace",
+        "ISBN": "387700937-1",
+        "release_date": "2004-08-30",
+        "description": "They found solace and love in each others embrace.",
+        "book_image": "/images/genres/Romance/022.jpeg"
+    },
+    {
+        "author_id": "232",
+        "genre_id": "5",
+        "title": "The Language of Love",
+        "ISBN": "500802906-2",
+        "release_date": "2021-03-16",
+        "description": "In love, words were never needed.",
+        "book_image": "/images/genres/Romance/023.jpeg"
+    },
+    {
+        "author_id": "67",
+        "genre_id": "5",
+        "title": "Loves Shining Star",
+        "ISBN": "734574686-5",
+        "release_date": "2003-11-17",
+        "description": "Their love was a shining star in the darkness.",
+        "book_image": "/images/genres/Romance/024.jpeg"
+    },
+    {
+        "author_id": "58",
+        "genre_id": "5",
+        "title": "Hearts Entwined",
+        "ISBN": "135154470-4",
+        "release_date": "2015-12-23",
+        "description": "Their hearts were forever entwined in love.",
+        "book_image": "/images/genres/Romance/025.jpeg"
+    },
+    {
+        "author_id": "189",
+        "genre_id": "5",
+        "title": "Love Beyond Boundaries",
+        "ISBN": "084178739-1",
+        "release_date": "2019-09-07",
+        "description": "Their love knew no boundaries or limits.",
+        "book_image": "/images/genres/Romance/026.jpeg"
+    },
+    {
+        "author_id": "40",
+        "genre_id": "5",
+        "title": "Whispers of Desire",
+        "ISBN": "609813295-2",
+        "release_date": "2017-10-03",
+        "description": "Their desires spoke softly, but their love roared.",
+        "book_image": "/images/genres/Romance/027.jpeg"
+    },
+    {
+        "author_id": "46",
+        "genre_id": "5",
+        "title": "The Love Chronicles",
+        "ISBN": "619148930-8",
+        "release_date": "2014-01-04",
+        "description": "In the chronicles of love, their story was the most beautiful.",
+        "book_image": "/images/genres/Romance/028.jpeg"
+    },
+    {
+        "author_id": "41",
+        "genre_id": "5",
+        "title": "Loves Fragile Heart",
+        "ISBN": "567156046-0",
+        "release_date": "2019-04-18",
+        "description": "Their hearts were fragile, but their love was strong.",
+        "book_image": "/images/genres/Romance/029.jpeg"
+    },
+    {
+        "author_id": "85",
+        "genre_id": "5",
+        "title": "Bound by Love",
+        "ISBN": "413715074-2",
+        "release_date": "2015-05-12",
+        "description": "Bound by love, they were unbreakable.",
+        "book_image": "/images/genres/Romance/030.jpeg"
+    },
+    {
+        "author_id": "37",
+        "genre_id": "5",
+        "title": "The Language of Desire",
+        "ISBN": "796343936-1",
+        "release_date": "2003-09-09",
+        "description": "In the language of desire, they found each other.",
+        "book_image": "/images/genres/Romance/031.jpeg"
+    },
+    {
+        "author_id": "315",
+        "genre_id": "5",
+        "title": "Forever and Always",
+        "ISBN": "641529651-3",
+        "release_date": "2013-12-29",
+        "description": "Their love would last forever and always.",
+        "book_image": "/images/genres/Romance/032.jpeg"
+    },
+    {
+        "author_id": "106",
+        "genre_id": "5",
+        "title": "Loves Melody",
+        "ISBN": "674540094-1",
+        "release_date": "2012-11-15",
+        "description": "Their love played the sweetest melody in their hearts.",
+        "book_image": "/images/genres/Romance/033.jpeg"
+    },
+    {
+        "author_id": "20",
+        "genre_id": "5",
+        "title": "Hearts of Gold",
+        "ISBN": "622620574-4",
+        "release_date": "2018-08-06",
+        "description": "Their hearts were as precious as gold.",
+        "book_image": "/images/genres/Romance/034.jpeg"
+    },
+    {
+        "author_id": "183",
+        "genre_id": "5",
+        "title": "The Magic of Love",
+        "ISBN": "609052598-0",
+        "release_date": "2009-04-25",
+        "description": "The magic of love transformed their lives.",
+        "book_image": "/images/genres/Romance/035.jpeg"
+    },
+    {
+        "author_id": "293",
+        "genre_id": "5",
+        "title": "Loves Serenade",
+        "ISBN": "511754990-0",
+        "release_date": "2004-02-19",
+        "description": "Their love was a serenade that touched the soul.",
+        "book_image": "/images/genres/Romance/036.jpeg"
+    },
+    {
+        "author_id": "7",
+        "genre_id": "5",
+        "title": "Loves Sweet Embrace",
+        "ISBN": "276879225-4",
+        "release_date": "2004-06-27",
+        "description": "In loves sweet embrace, they found solace.",
+        "book_image": "/images/genres/Romance/037.jpeg"
+    },
+    {
+        "author_id": "201",
+        "genre_id": "5",
+        "title": "Loves Whirlwind",
+        "ISBN": "554999523-5",
+        "release_date": "2018-02-21",
+        "description": "Their love was a whirlwind that swept them off their feet.",
+        "book_image": "/images/genres/Romance/038.jpeg"
+    },
+    {
+        "author_id": "149",
+        "genre_id": "5",
+        "title": "Loves Eternal Flame",
+        "ISBN": "986319768-6",
+        "release_date": "2017-06-08",
+        "description": "Their love burned as an eternal flame.",
+        "book_image": "/images/genres/Romance/039.jpeg"
+    },
+    {
+        "author_id": "35",
+        "genre_id": "5",
+        "title": "Entangled Hearts",
+        "ISBN": "696434211-0",
+        "release_date": "2012-10-29",
+        "description": "Their hearts were entangled in a web of love.",
+        "book_image": "/images/genres/Romance/040.jpeg"
+    },
+    {
+        "author_id": "78",
+        "genre_id": "5",
+        "title": "Loves Secret Garden",
+        "ISBN": "226770793-4",
+        "release_date": "2019-06-02",
+        "description": "Their love bloomed in a secret garden.",
+        "book_image": "/images/genres/Romance/041.jpeg"
+    },
+    {
+        "author_id": "254",
+        "genre_id": "5",
+        "title": "Heartstrings",
+        "ISBN": "169318706-4",
+        "release_date": "2009-03-10",
+        "description": "Their love pulled at the heartstrings of the soul.",
+        "book_image": "/images/genres/Romance/042.jpeg"
+    },
+    {
+        "author_id": "59",
+        "genre_id": "5",
+        "title": "Loves Enchantment",
+        "ISBN": "987612181-8",
+        "release_date": "2013-04-16",
+        "description": "Their love was a powerful enchantment that bound them together.",
+        "book_image": "/images/genres/Romance/043.jpeg"
+    },
+    {
+        "author_id": "265",
+        "genre_id": "5",
+        "title": "The Language of Passion",
+        "ISBN": "016215940-2",
+        "release_date": "2021-09-03",
+        "description": "In the language of passion, their hearts conversed.",
+        "book_image": "/images/genres/Romance/044.jpeg"
+    },
+    {
+        "author_id": "119",
+        "genre_id": "5",
+        "title": "Loves Silent Song",
+        "ISBN": "426341528-2",
+        "release_date": "2010-06-17",
+        "description": "Their love spoke volumes without making a sound.",
+        "book_image": "/images/genres/Romance/045.jpeg"
+    },
+    {
+        "author_id": "293",
+        "genre_id": "5",
+        "title": "Loves Awakening",
+        "ISBN": "300547680-1",
+        "release_date": "2004-07-02",
+        "description": "Their love awakened their souls to life.",
+        "book_image": "/images/genres/Romance/046.jpeg"
+    },
+    {
+        "author_id": "75",
+        "genre_id": "5",
+        "title": "Loves Journey",
+        "ISBN": "801107246-5",
+        "release_date": "2011-08-25",
+        "description": "Their love was a beautiful journey that never ended.",
+        "book_image": "/images/genres/Romance/047.jpeg"
+    },
+    {
+        "author_id": "286",
+        "genre_id": "5",
+        "title": "Loves Silent Whisper",
+        "ISBN": "600846822-6",
+        "release_date": "2018-05-19",
+        "description": "In the silence, their love whispered the loudest.",
+        "book_image": "/images/genres/Romance/048.jpeg"
+    },
+    {
+        "author_id": "118",
+        "genre_id": "5",
+        "title": "Loves Song of Hope",
+        "ISBN": "503404784-9",
+        "release_date": "2016-04-30",
+        "description": "Their love was a song that brought hope to their hearts.",
+        "book_image": "/images/genres/Romance/049.jpeg"
+    },
+    {
+        "author_id": "183",
+        "genre_id": "5",
+        "title": "The Art of Love",
+        "ISBN": "839805180-1",
+        "release_date": "2015-03-12",
+        "description": "Their love was a masterpiece, an art of its own.",
+        "book_image": "/images/genres/Romance/050.jpeg"
+    },
+    {
+        "author_id": "101",
+        "genre_id": "5",
+        "title": "Loves Healing Touch",
+        "ISBN": "448585857-3",
+        "release_date": "2008-02-11",
+        "description": "Their love had the power to heal all wounds.",
+        "book_image": "/images/genres/Romance/051.jpeg"
+    },
+    {
+        "author_id": "81",
+        "genre_id": "5",
+        "title": "Loves Reflection",
+        "ISBN": "615768006-4",
+        "release_date": "2018-09-14",
+        "description": "In each others eyes, they saw the reflection of love.",
+        "book_image": "/images/genres/Romance/052.jpeg"
+    },
+    {
+        "author_id": "77",
+        "genre_id": "5",
+        "title": "The Love Spell",
+        "ISBN": "687835523-6",
+        "release_date": "2008-05-07",
+        "description": "Their love was a magical spell that bound them together.",
+        "book_image": "/images/genres/Romance/053.jpeg"
+    },
+    {
+        "author_id": "274",
+        "genre_id": "5",
+        "title": "Loves Resilience",
+        "ISBN": "134003165-3",
+        "release_date": "2016-06-29",
+        "description": "Their love was resilient, enduring every storm.",
+        "book_image": "/images/genres/Romance/054.jpeg"
+    },
+    {
+        "author_id": "69",
+        "genre_id": "5",
+        "title": "Loves Endless Journey",
+        "ISBN": "169545846-5",
+        "release_date": "2001-09-02",
+        "description": "Their love embarked on an endless journey.",
+        "book_image": "/images/genres/Romance/055.jpeg"
+    },
+    {
+        "author_id": "259",
+        "genre_id": "5",
+        "title": "Loves Sweet Surrender",
+        "ISBN": "582062558-0",
+        "release_date": "2013-11-18",
+        "description": "In each others arms, they found sweet surrender.",
+        "book_image": "/images/genres/Romance/056.jpeg"
+    },
+    {
+        "author_id": "158",
+        "genre_id": "5",
+        "title": "Loves Captive Heart",
+        "ISBN": "259850645-5",
+        "release_date": "2011-06-22",
+        "description": "Their hearts were held captive by loves embrace.",
+        "book_image": "/images/genres/Romance/057.jpeg"
+    },
+    {
+        "author_id": "113",
+        "genre_id": "5",
+        "title": "Loves Whispering Wind",
+        "ISBN": "429145801-8",
+        "release_date": "2014-10-03",
+        "description": "Their love echoed through the whispering wind.",
+        "book_image": "/images/genres/Romance/058.jpeg"
+    },
+    {
+        "author_id": "76",
+        "genre_id": "5",
+        "title": "Loves Silent Promise",
+        "ISBN": "249925213-4",
+        "release_date": "2011-12-10",
+        "description": "Their love spoke volumes through silent promises.",
+        "book_image": "/images/genres/Romance/059.jpeg"
+    },
+    {
+        "author_id": "92",
+        "genre_id": "5",
+        "title": "The Language of Romance",
+        "ISBN": "176664583-8",
+        "release_date": "2013-08-01",
+        "description": "In the language of romance, they found each other.",
+        "book_image": "/images/genres/Romance/060.jpeg"
+    },
+    {
+        "author_id": "101",
+        "genre_id": "5",
+        "title": "Loves Healing Touch",
+        "ISBN": "684594651-1",
+        "release_date": "2008-05-26",
+        "description": "Their love had the power to heal all wounds.",
+        "book_image": "/images/genres/Romance/061.jpeg"
+    },
+    {
+        "author_id": "93",
+        "genre_id": "5",
+        "title": "The Love Connection",
+        "ISBN": "113036947-4",
+        "release_date": "2018-11-12",
+        "description": "Their love created a deep and unbreakable connection.",
+        "book_image": "/images/genres/Romance/062.jpeg"
+    },
+    {
+        "author_id": "45",
+        "genre_id": "5",
+        "title": "Loves Dance",
+        "ISBN": "881074472-7",
+        "release_date": "2019-03-15",
+        "description": "Their love was a dance that swept them off their feet.",
+        "book_image": "/images/genres/Romance/063.jpeg"
+    },
+    {
+        "author_id": "253",
+        "genre_id": "5",
+        "title": "The Love Triangle",
+        "ISBN": "164263019-1",
+        "release_date": "2005-04-07",
+        "description": "In the tangle of love, they found their way.",
+        "book_image": "/images/genres/Romance/064.jpeg"
+    },
+    {
+        "author_id": "138",
+        "genre_id": "5",
+        "title": "Loves Second Chance",
+        "ISBN": "297294189-9",
+        "release_date": "2007-02-16",
+        "description": "Their love gave them a second chance at happiness.",
+        "book_image": "/images/genres/Romance/065.jpeg"
+    },
+    {
+        "author_id": "89",
+        "genre_id": "5",
+        "title": "Loves Redemption",
+        "ISBN": "944525210-9",
+        "release_date": "2011-02-09",
+        "description": "Love redeemed their past and gave them hope.",
+        "book_image": "/images/genres/Romance/066.jpeg"
+    },
+    {
+        "author_id": "274",
+        "genre_id": "5",
+        "title": "Eternal Devotion",
+        "ISBN": "799558141-0",
+        "release_date": "2013-05-31",
+        "description": "Their love was an eternal devotion that transcended time.",
+        "book_image": "/images/genres/Romance/067.jpeg"
+    },
+    {
+        "author_id": "23",
+        "genre_id": "5",
+        "title": "Loves Eternal Embrace",
+        "ISBN": "228402125-1",
+        "release_date": "2009-12-02",
+        "description": "In loves embrace, they found eternity.",
+        "book_image": "/images/genres/Romance/068.jpeg"
+    },
+    {
+        "author_id": "221",
+        "genre_id": "5",
+        "title": "Loves Fragile Wings",
+        "ISBN": "365472180-7",
+        "release_date": "2012-04-24",
+        "description": "Their love had fragile wings that kept them afloat.",
+        "book_image": "/images/genres/Romance/069.jpeg"
+    },
+    {
+        "author_id": "149",
+        "genre_id": "5",
+        "title": "Hearts United",
+        "ISBN": "389454671-5",
+        "release_date": "2016-02-11",
+        "description": "Their hearts were united in a bond of love.",
+        "book_image": "/images/genres/Romance/070.jpeg"
+    },
+    {
+        "author_id": "192",
+        "genre_id": "5",
+        "title": "Loves Silent Symphony",
+        "ISBN": "493591572-6",
+        "release_date": "2015-09-20",
+        "description": "Their love composed a beautiful symphony in silence.",
+        "book_image": "/images/genres/Romance/071.jpeg"
+    },
+    {
+        "author_id": "29",
+        "genre_id": "5",
+        "title": "Loves Echo",
+        "ISBN": "110614244-1",
+        "release_date": "2017-04-07",
+        "description": "Their love echoed through the chambers of their hearts.",
+        "book_image": "/images/genres/Romance/072.jpeg"
+    },
+    {
+        "author_id": "63",
+        "genre_id": "5",
+        "title": "Loves Serendipity",
+        "ISBN": "777041316-3",
+        "release_date": "2002-06-18",
+        "description": "Their love was a serendipitous encounter that changed their lives.",
+        "book_image": "/images/genres/Romance/073.jpeg"
+    },
+    {
+        "author_id": "95",
+        "genre_id": "5",
+        "title": "Loves Eternal Flame",
+        "ISBN": "550329782-7",
+        "release_date": "2018-02-12",
+        "description": "Their love burned as an eternal flame.",
+        "book_image": "/images/genres/Romance/074.jpeg"
+    },
+    {
+        "author_id": "114",
+        "genre_id": "5",
+        "title": "Loves Secret Whisper",
+        "ISBN": "632781896-2",
+        "release_date": "2012-03-16",
+        "description": "Their love whispered secrets that only they could hear.",
+        "book_image": "/images/genres/Romance/075.jpeg"
+    },
+    {
+        "author_id": "238",
+        "genre_id": "5",
+        "title": "Loves Embers",
+        "ISBN": "774116001-8",
+        "release_date": "2013-12-04",
+        "description": "Their love burned like embers, eternal and warm.",
+        "book_image": "/images/genres/Romance/076.jpeg"
+    },
+    {
+        "author_id": "29",
+        "genre_id": "5",
+        "title": "Loves Enchantment",
+        "ISBN": "136935839-5",
+        "release_date": "2005-03-29",
+        "description": "Their love was an enchantment that knew no bounds.",
+        "book_image": "/images/genres/Romance/077.jpeg"
+    },
+    {
+        "author_id": "102",
+        "genre_id": "5",
+        "title": "Loves Silent Whispers",
+        "ISBN": "723543197-3",
+        "release_date": "2009-09-29",
+        "description": "In silence, their hearts heard loves whispers.",
+        "book_image": "/images/genres/Romance/078.jpeg"
+    },
+    {
+        "author_id": "52",
+        "genre_id": "5",
+        "title": "Loves Legacy",
+        "ISBN": "810421413-1",
+        "release_date": "2017-10-28",
+        "description": "Their love left a legacy that would live on.",
+        "book_image": "/images/genres/Romance/079.jpeg"
+    },
+    {
+        "author_id": "220",
+        "genre_id": "5",
+        "title": "Loves Tapestry",
+        "ISBN": "195194384-3",
+        "release_date": "2006-03-07",
+        "description": "Their love wove a beautiful tapestry of memories.",
+        "book_image": "/images/genres/Romance/080.jpeg"
+    },
+    {
+        "author_id": "163",
+        "genre_id": "5",
+        "title": "Loves Surrender",
+        "ISBN": "523261187-1",
+        "release_date": "2018-01-15",
+        "description": "Their love surrendered to the fate of their hearts.",
+        "book_image": "/images/genres/Romance/081.jpeg"
+    },
+    {
+        "author_id": "69",
+        "genre_id": "5",
+        "title": "Loves Eternal Promise",
+        "ISBN": "839077876-7",
+        "release_date": "2013-06-30",
+        "description": "Their love made an eternal promise that endured.",
+        "book_image": "/images/genres/Romance/082.jpeg"
+    },
+    {
+        "author_id": "100",
+        "genre_id": "5",
+        "title": "Loves Reflections",
+        "ISBN": "315065027-4",
+        "release_date": "2019-01-08",
+        "description": "Their love reflected in the still waters of their hearts.",
+        "book_image": "/images/genres/Romance/083.jpeg"
+    },
+    {
+        "author_id": "44",
+        "genre_id": "5",
+        "title": "Loves Eternal Song",
+        "ISBN": "487008887-1",
+        "release_date": "2015-07-22",
+        "description": "Their love sang an eternal song of happiness.",
+        "book_image": "/images/genres/Romance/084.jpeg"
+    },
+    {
+        "author_id": "98",
+        "genre_id": "5",
+        "title": "Loves Chosen Path",
+        "ISBN": "803780670-2",
+        "release_date": "2005-10-09",
+        "description": "Their love chose a path destined to be together.",
+        "book_image": "/images/genres/Romance/085.jpeg"
+    },
+    {
+        "author_id": "201",
+        "genre_id": "5",
+        "title": "Loves Serenade",
+        "ISBN": "616455317-7",
+        "release_date": "2013-11-02",
+        "description": "Their love was a serenade that touched the soul.",
+        "book_image": "/images/genres/Romance/086.jpeg"
+    },
+    {
+        "author_id": "158",
+        "genre_id": "5",
+        "title": "Loves Abiding Promise",
+        "ISBN": "950965114-7",
+        "release_date": "2016-03-19",
+        "description": "Their love made a promise to always abide by each other.",
+        "book_image": "/images/genres/Romance/087.jpeg"
+    },
+    {
+        "author_id": "236",
+        "genre_id": "5",
+        "title": "Loves Secret Garden",
+        "ISBN": "387491818-6",
+        "release_date": "2020-03-05",
+        "description": "In the secret garden of love, they found solace.",
+        "book_image": "/images/genres/Romance/088.jpeg"
+    },
+    {
+        "author_id": "30",
+        "genre_id": "5",
+        "title": "Loves Unbreakable Bond",
+        "ISBN": "781442378-0",
+        "release_date": "2011-05-28",
+        "description": "Their love formed an unbreakable bond.",
+        "book_image": "/images/genres/Romance/089.jpeg"
+    },
+    {
+        "author_id": "131",
+        "genre_id": "5",
+        "title": "Loves Daring Adventure",
+        "ISBN": "595394778-7",
+        "release_date": "2002-03-14",
+        "description": "Their love was a daring adventure they embraced.",
+        "book_image": "/images/genres/Romance/090.jpeg"
+    },
+    {
+        "author_id": "221",
+        "genre_id": "5",
+        "title": "Loves Tender Whisper",
+        "ISBN": "223174411-7",
+        "release_date": "2013-03-27",
+        "description": "Their love whispered tenderly, a song for their hearts.",
+        "book_image": "/images/genres/Romance/091.jpeg"
+    },
+    {
+        "author_id": "36",
+        "genre_id": "5",
+        "title": "The Language of Love",
+        "ISBN": "917280318-1",
+        "release_date": "2014-07-14",
+        "description": "In the language of love, their hearts found harmony.",
+        "book_image": "/images/genres/Romance/092.jpeg"
+    },
+    {
+        "author_id": "80",
+        "genre_id": "5",
+        "title": "Loves Eternal Dance",
+        "ISBN": "463487161-5",
+        "release_date": "2005-01-11",
+        "description": "Their love danced eternally through the ages.",
+        "book_image": "/images/genres/Romance/093.jpeg"
+    },
+    {
+        "author_id": "266",
+        "genre_id": "5",
+        "title": "Loves Whispers in the Wind",
+        "ISBN": "560201123-5",
+        "release_date": "2023-02-17",
+        "description": "Their love whispered softly in the wind.",
+        "book_image": "/images/genres/Romance/094.jpeg"
+    },
+    {
+        "author_id": "239",
+        "genre_id": "5",
+        "title": "Loves Endless Symphony",
+        "ISBN": "747231434-7",
+        "release_date": "2016-11-22",
+        "description": "Their love composed an endless symphony of emotions.",
+        "book_image": "/images/genres/Romance/095.jpeg"
+    },
+    {
+        "author_id": "41",
+        "genre_id": "5",
+        "title": "Loves Echoes",
+        "ISBN": "107174856-0",
+        "release_date": "2020-02-19",
+        "description": "Their love echoed through the passages of their hearts.",
+        "book_image": "/images/genres/Romance/096.jpeg"
+    },
+    {
+        "author_id": "244",
+        "genre_id": "5",
+        "title": "Loves Healing Embrace",
+        "ISBN": "658967743-1",
+        "release_date": "2009-05-16",
+        "description": "Their love healed all wounds in its warm embrace.",
+        "book_image": "/images/genres/Romance/097.jpeg"
+    },
+    {
+        "author_id": "114",
+        "genre_id": "5",
+        "title": "Loves Eternal Symphony",
+        "ISBN": "844935524-0",
+        "release_date": "2009-01-07",
+        "description": "Their love composed an eternal symphony in their souls.",
+        "book_image": "/images/genres/Romance/098.jpeg"
+    },
+    {
+        "author_id": "276",
+        "genre_id": "5",
+        "title": "Loves Unending Journey",
+        "ISBN": "364141830-4",
+        "release_date": "2018-08-10",
+        "description": "Their love embarked on an unending journey.",
+        "book_image": "/images/genres/Romance/099.jpeg"
+    },
+    {
+        "author_id": "49",
+        "genre_id": "5",
+        "title": "Loves Silent Melody",
+        "ISBN": "996539777-0",
+        "release_date": "2004-06-11",
+        "description": "Their love played a silent melody in their hearts.",
+        "book_image": "/images/genres/Romance/100.jpeg"
+    },
+    {
+        "author_id": "293",
+        "genre_id": "5",
+        "title": "Loves Tender Promise",
+        "ISBN": "349372413-3",
+        "release_date": "2011-01-16",
+        "description": "Their love made a tender promise to stay together.",
+        "book_image": "/images/genres/Romance/101.jpeg"
+    },
+    {
+        "author_id": "129",
+        "genre_id": "5",
+        "title": "Loves Everlasting Flame",
+        "ISBN": "872699927-0",
+        "release_date": "2010-07-20",
+        "description": "Their love burned as an everlasting flame.",
+        "book_image": "/images/genres/Romance/102.jpeg"
+    },
+    {
+        "author_id": "201",
+        "genre_id": "5",
+        "title": "Loves Radiant Glow",
+        "ISBN": "544640843-6",
+        "release_date": "2018-03-27",
+        "description": "Their love radiated a glow that brightened their lives.",
+        "book_image": "/images/genres/Romance/103.jpeg"
+    },
+    {
+        "author_id": "165",
+        "genre_id": "5",
+        "title": "Loves Undying Hope",
+        "ISBN": "986035657-5",
+        "release_date": "2017-02-13",
+        "description": "Their love held onto undying hope even in the darkest times.",
+        "book_image": "/images/genres/Romance/104.jpeg"
+    },
+    {
+        "author_id": "15",
+        "genre_id": "5",
+        "title": "Loves Eternal Gift",
+        "ISBN": "508453310-9",
+        "release_date": "2003-03-05",
+        "description": "Their love was an eternal gift that kept on giving.",
+        "book_image": "/images/genres/Romance/105.jpeg"
+    },
+    {
+        "author_id": "75",
+        "genre_id": "5",
+        "title": "Loves Embrace",
+        "ISBN": "899411218-7",
+        "release_date": "2016-12-18",
+        "description": "In loves embrace, they found solace.",
+        "book_image": "/images/genres/Romance/106.jpeg"
+    },
+    {
+        "author_id": "162",
+        "genre_id": "5",
+        "title": "Loves Unbreakable Bond",
+        "ISBN": "327647936-0",
+        "release_date": "2019-07-01",
+        "description": "Their love formed an unbreakable bond.",
+        "book_image": "/images/genres/Romance/107.jpeg"
+    },
+    {
+        "author_id": "29",
+        "genre_id": "5",
+        "title": "Loves Sweet Serenade",
+        "ISBN": "139773396-4",
+        "release_date": "2014-02-01",
+        "description": "Their love was a sweet serenade that echoed in their hearts.",
+        "book_image": "/images/genres/Romance/108.jpeg"
+    },
+    {
+        "author_id": "81",
+        "genre_id": "5",
+        "title": "Loves Enchantment",
+        "ISBN": "133853987-9",
+        "release_date": "2015-10-09",
+        "description": "Their love was an enchantment that bound them forever.",
+        "book_image": "/images/genres/Romance/109.jpeg"
+    },
+    {
+        "author_id": "200",
+        "genre_id": "5",
+        "title": "Loves Eternal Bond",
+        "ISBN": "537931237-3",
+        "release_date": "2022-07-26",
+        "description": "Their love formed an eternal bond that nothing could break.",
+        "book_image": "/images/genres/Romance/110.jpeg"
+    },
+    {
+        "author_id": "173",
+        "genre_id": "5",
+        "title": "Loves Sacred Vows",
+        "ISBN": "137213139-0",
+        "release_date": "2006-10-15",
+        "description": "Their love was bound by sacred vows that held them together.",
+        "book_image": "/images/genres/Romance/111.jpeg"
+    },
+    {
+        "author_id": "168",
+        "genre_id": "5",
+        "title": "Loves Enduring Promise",
+        "ISBN": "912820719-7",
+        "release_date": "2010-04-11",
+        "description": "Their love promised to endure all trials and tribulations.",
+        "book_image": "/images/genres/Romance/112.jpeg"
+    },
+    {
+        "author_id": "238",
+        "genre_id": "5",
+        "title": "Loves Gentle Whisper",
+        "ISBN": "946799447-6",
+        "release_date": "2012-12-27",
+        "description": "Their love whispered gently, a song for their souls.",
+        "book_image": "/images/genres/Romance/113.jpeg"
+    },
+    {
+        "author_id": "43",
+        "genre_id": "5",
+        "title": "Loves Everlasting Song",
+        "ISBN": "404525307-7",
+        "release_date": "2006-05-30",
+        "description": "Their love sang an everlasting song that echoed through time.",
+        "book_image": "/images/genres/Romance/114.jpeg"
+    },
+    {
+        "author_id": "149",
+        "genre_id": "5",
+        "title": "Loves Eternal Promise",
+        "ISBN": "938541758-9",
+        "release_date": "2014-08-04",
+        "description": "Their love made an eternal promise that would never fade.",
+        "book_image": "/images/genres/Romance/115.jpeg"
+    },
+    {
+        "author_id": "255",
+        "genre_id": "5",
+        "title": "Loves Tender Embrace",
+        "ISBN": "526166753-3",
+        "release_date": "2020-05-07",
+        "description": "Their love embraced tenderly, holding each other close.",
+        "book_image": "/images/genres/Romance/116.jpeg"
+    },
+    {
+        "author_id": "111",
+        "genre_id": "5",
+        "title": "Loves Whispers of Hope",
+        "ISBN": "107070261-7",
+        "release_date": "2019-09-01",
+        "description": "Their love whispered hope that lit up their hearts.",
+        "book_image": "/images/genres/Romance/117.jpeg"
+    },
+    {
+        "author_id": "171",
+        "genre_id": "5",
+        "title": "Loves Endless Symphony",
+        "ISBN": "693414387-0",
+        "release_date": "2007-09-26",
+        "description": "Their love composed an endless symphony in their souls.",
+        "book_image": "/images/genres/Romance/118.jpeg"
+    },
+    {
+        "author_id": "271",
+        "genre_id": "5",
+        "title": "Loves Whispering Wind",
+        "ISBN": "133204518-4",
+        "release_date": "2022-06-12",
+        "description": "Their love whispered softly on the wings of the wind.",
+        "book_image": "/images/genres/Romance/119.jpeg"
+    },
+    {
+        "author_id": "167",
+        "genre_id": "5",
+        "title": "Loves Timeless Embrace",
+        "ISBN": "512469491-2",
+        "release_date": "2007-11-28",
+        "description": "Their love embraced timelessly, forever young at heart.",
+        "book_image": "/images/genres/Romance/120.jpeg"
+    },
+    {
+        "author_id": "120",
+        "genre_id": "5",
+        "title": "Loves Melody",
+        "ISBN": "202497927-1",
+        "release_date": "2002-07-19",
+        "description": "Their love played the sweetest melody in their hearts.",
+        "book_image": "/images/genres/Romance/121.jpeg"
+    },
+    {
+        "author_id": "221",
+        "genre_id": "5",
+        "title": "Loves Silent Symphony",
+        "ISBN": "614143272-2",
+        "release_date": "2011-09-05",
+        "description": "In silence, their love composed a beautiful symphony.",
+        "book_image": "/images/genres/Romance/122.jpeg"
+    },
+    {
+        "author_id": "293",
+        "genre_id": "5",
+        "title": "Loves Enchanted Garden",
+        "ISBN": "393857899-5",
+        "release_date": "2022-11-02",
+        "description": "Their love blossomed in an enchanted garden of their own.",
+        "book_image": "/images/genres/Romance/123.jpeg"
+    },
+    {
+        "author_id": "105",
+        "genre_id": "5",
+        "title": "Loves Lasting Promise",
+        "ISBN": "605447329-8",
+        "release_date": "2018-10-03",
+        "description": "Their love promised to last through the ages.",
+        "book_image": "/images/genres/Romance/124.jpeg"
+    },
+    {
+        "author_id": "171",
+        "genre_id": "5",
+        "title": "Loves Tender Whisper",
+        "ISBN": "605556043-6",
+        "release_date": "2017-12-01",
+        "description": "Their love whispered tenderly, a song for their souls.",
+        "book_image": "/images/genres/Romance/125.jpeg"
+    }
+]
