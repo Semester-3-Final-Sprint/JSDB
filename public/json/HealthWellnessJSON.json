@@ -1,0 +1,1127 @@
+﻿[
+    {
+        "author_id": "237",
+        "genre_id": "4",
+        "title": "Holistic Healing: Nurturing Mind, Body, Spirit",
+        "ISBN": "978-1234567890",
+        "release_date": "2023-07-15",
+        "description": "Nurture your mind, body, and spirit with a holistic approach to healing.",
+        "book_image": "/images/genres/HealthandWellness/001.jpeg"
+    },
+    {
+        "author_id": "198",
+        "genre_id": "4",
+        "title": "Meditation and Mindfulness: Inner Peace Guide",
+        "ISBN": "978-9876543210",
+        "release_date": "2023-06-28",
+        "description": "Discover the power of meditation and mindfulness for cultivating inner peace.",
+        "book_image": "/images/genres/HealthandWellness/002.jpeg"
+    },
+    {
+        "author_id": "82",
+        "genre_id": "4",
+        "title": "Nutrition for Optimal Health: Science and Practice",
+        "ISBN": "978-5678901234",
+        "release_date": "2023-05-12",
+        "description": "Explore the science and practice of nutrition for achieving optimal health.",
+        "book_image": "/images/genres/HealthandWellness/003.jpeg"
+    },
+    {
+        "author_id": "119",
+        "genre_id": "4",
+        "title": "Wellness Habits: Building a Balanced Lifestyle",
+        "ISBN": "978-0123456789",
+        "release_date": "2023-04-03",
+        "description": "Build balanced wellness habits to enhance your overall quality of life.",
+        "book_image": "/images/genres/HealthandWellness/004.jpeg"
+    },
+    {
+        "author_id": "281",
+        "genre_id": "4",
+        "title": "Mind-Body Connection: Unlocking Your Full Potential",
+        "ISBN": "978-5432109876",
+        "release_date": "2023-03-19",
+        "description": "Discover the profound connection between the mind and body for unlocking your full potential.",
+        "book_image": "/images/genres/HealthandWellness/005.jpeg"
+    },
+    {
+        "author_id": "145",
+        "genre_id": "4",
+        "title": "Holistic Nutrition: Nourishing from the Inside Out",
+        "ISBN": "978-8765432109",
+        "release_date": "2023-02-04",
+        "description": "Learn the principles of holistic nutrition for nourishing your body from the inside out.",
+        "book_image": "/images/genres/HealthandWellness/006.jpeg"
+    },
+    {
+        "author_id": "292",
+        "genre_id": "4",
+        "title": "Natural Remedies Handbook: Ancient Wisdom for Modern Health",
+        "ISBN": "978-0123456789",
+        "release_date": "2023-01-15",
+        "description": "Explore ancient natural remedies for maintaining modern health and wellness.",
+        "book_image": "/images/genres/HealthandWellness/007.jpeg"
+    },
+    {
+        "author_id": "112",
+        "genre_id": "4",
+        "title": "Yoga for Everyday Life: Finding Balance and Serenity",
+        "ISBN": "978-9876543210",
+        "release_date": "2022-12-28",
+        "description": "Incorporate yoga into your everyday life to find balance",
+        "book_image": "/images/genres/HealthandWellness/008.jpeg"
+    },
+    {
+        "author_id": "57",
+        "genre_id": "4",
+        "title": "Healthy Cooking: Culinary Delights for Nutritional Living",
+        "ISBN": "978-5678901234",
+        "release_date": "2022-11-12",
+        "description": "Indulge in delicious and healthy culinary creations that promote nutritional living.",
+        "book_image": "/images/genres/HealthandWellness/009.jpeg"
+    },
+    {
+        "author_id": "289",
+        "genre_id": "4",
+        "title": "Stress-Free Living: Embrace Tranquility in a Hectic World",
+        "ISBN": "978-0123456789",
+        "release_date": "2022-10-03",
+        "description": "Discover strategies to achieve stress-free living and embrace tranquility in today''s hectic world.",
+        "book_image": "/images/genres/HealthandWellness/010.jpeg"
+    },
+    {
+        "author_id": "76",
+        "genre_id": "4",
+        "title": "Holistic Fitness Guide: Integrating Mind, Body, and Spirit",
+        "ISBN": "978-5432109876",
+        "release_date": "2022-09-19",
+        "description": "Integrate mind, body, and spirit in your fitness journey with holistic approaches.",
+        "book_image": "/images/genres/HealthandWellness/011.jpeg"
+    },
+    {
+        "author_id": "165",
+        "genre_id": "4",
+        "title": "The Art of Self-Care: Nurturing Your Inner Wellbeing",
+        "ISBN": "978-8765432109",
+        "release_date": "2022-08-04",
+        "description": "Master the art of self-care and nurture your inner wellbeing for a fulfilling life.",
+        "book_image": "/images/genres/HealthandWellness/012.jpeg"
+    },
+    {
+        "author_id": "234",
+        "genre_id": "4",
+        "title": "Mindful Meditation: Cultivate Peace and Clarity Within",
+        "ISBN": "978-1234567890",
+        "release_date": "2022-07-21",
+        "description": "Learn the practice of mindful meditation to cultivate inner peace and clarity.",
+        "book_image": "/images/genres/HealthandWellness/013.jpeg"
+    },
+    {
+        "author_id": "291",
+        "genre_id": "4",
+        "title": "Nourish Your Soul: A Guide to Soulful Eating",
+        "ISBN": "978-2345678901",
+        "release_date": "2022-06-09",
+        "description": "Discover soulful eating as a pathway to nourishing not only your body",
+        "book_image": "/images/genres/HealthandWellness/014.jpeg"
+    },
+    {
+        "author_id": "176",
+        "genre_id": "4",
+        "title": "Joyful Movement: Embrace Your Body with Wholesome Exercise",
+        "ISBN": "978-3456789012",
+        "release_date": "2022-05-18",
+        "description": "Celebrate the goodness of your body through joyful and wholesome movement.",
+        "book_image": "/images/genres/HealthandWellness/015.jpeg"
+    },
+    {
+        "author_id": "72",
+        "genre_id": "4",
+        "title": "The Sleep Solution: Wake Up Refreshed and Energized",
+        "ISBN": "978-4567890123",
+        "release_date": "2022-04-27",
+        "description": "Discover a comprehensive sleep solution to wake up feeling refreshed and energized.",
+        "book_image": "/images/genres/HealthandWellness/016.jpeg"
+    },
+    {
+        "author_id": "208",
+        "genre_id": "4",
+        "title": "Plant-Powered Nutrition: Thriving on a Whole-Food, Plant-Based Diet",
+        "ISBN": "978-5678901234",
+        "release_date": "2022-03-12",
+        "description": "Unlock the benefits of a whole-food, plant-based diet and achieve optimal nutrition.",
+        "book_image": "/images/genres/HealthandWellness/017.jpeg"
+    },
+    {
+        "author_id": "143",
+        "genre_id": "4",
+        "title": "Holistic Healing Remedies: Ancient Wisdom for Modern Ailments",
+        "ISBN": "978-6789012345",
+        "release_date": "2022-02-05",
+        "description": "Explore ancient holistic remedies to address a wide range of modern ailments.",
+        "book_image": "/images/genres/HealthandWellness/018.jpeg"
+    },
+    {
+        "author_id": "299",
+        "genre_id": "4",
+        "title": "Emotional Wellbeing: Cultivating Resilience and Inner Harmony",
+        "ISBN": "978-7890123456",
+        "release_date": "2021-12-28",
+        "description": "Cultivate emotional resilience and inner harmony for overall emotional wellbeing.",
+        "book_image": "/images/genres/HealthandWellness/019.jpeg"
+    },
+    {
+        "author_id": "55",
+        "genre_id": "4",
+        "title": "Mediterranean Diet Lifestyle: A Flavorful Approach to Health",
+        "ISBN": "978-8901234567",
+        "release_date": "2021-11-17",
+        "description": "Adopt a Mediterranean diet to embrace a flavorful and healthful approach to life.",
+        "book_image": "/images/genres/HealthandWellness/020.jpeg"
+    },
+    {
+        "author_id": "101",
+        "genre_id": "4",
+        "title": "Mind-Body Connection: Achieving Wellness Through Holistic Practices",
+        "ISBN": "978-1234567890",
+        "release_date": "2021-10-09",
+        "description": "Understand the powerful connection between the mind and body and achieve holistic wellness.",
+        "book_image": "/images/genres/HealthandWellness/021.jpeg"
+    },
+    {
+        "author_id": "278",
+        "genre_id": "4",
+        "title": "Nutrition Essentials: Science-Backed Insights for Vibrant Health",
+        "ISBN": "978-2345678901",
+        "release_date": "2021-09-28",
+        "description": "Gain essential insights into nutrition backed by science for achieving vibrant health.",
+        "book_image": "/images/genres/HealthandWellness/022.jpeg"
+    },
+    {
+        "author_id": "147",
+        "genre_id": "4",
+        "title": "The Yoga Journey: From Novice to Yogi",
+        "ISBN": "978-3456789012",
+        "release_date": "2021-08-19",
+        "description": "Embark on a transformative yoga journey",
+        "book_image": "/images/genres/HealthandWellness/023.jpeg"
+    },
+    {
+        "author_id": "210",
+        "genre_id": "4",
+        "title": "Self-Care Strategies for Daily Renewal",
+        "ISBN": "978-4567890123",
+        "release_date": "2021-07-07",
+        "description": "Discover self-care strategies that promote daily renewal and enhance overall wellbeing.",
+        "book_image": "/images/genres/HealthandWellness/024.jpeg"
+    },
+    {
+        "author_id": "123",
+        "genre_id": "4",
+        "title": "Eating for Energy: Fuel Your Body for an Active Lifestyle",
+        "ISBN": "978-5678901234",
+        "release_date": "2021-06-15",
+        "description": "Learn how to eat for sustained energy and fuel your active lifestyle.",
+        "book_image": "/images/genres/HealthandWellness/025.jpeg"
+    },
+    {
+        "author_id": "287",
+        "genre_id": "4",
+        "title": "Holistic Stress Management: Finding Calm in the Chaos",
+        "ISBN": "978-6789012345",
+        "release_date": "2021-05-22",
+        "description": "Manage stress through holistic approaches and find a sense of calm amidst life''s chaos.",
+        "book_image": "/images/genres/HealthandWellness/026.jpeg"
+    },
+    {
+        "author_id": "68",
+        "genre_id": "4",
+        "title": "Healthy Habits for Busy Lives: Simple Strategies for Lasting Wellness",
+        "ISBN": "978-7890123456",
+        "release_date": "2021-04-29",
+        "description": "Discover simple yet effective strategies to cultivate healthy habits",
+        "book_image": "/images/genres/HealthandWellness/027.jpeg"
+    },
+    {
+        "author_id": "156",
+        "genre_id": "4",
+        "title": "The Art of Mindful Eating: Nourish Your Body, Soul, and Senses",
+        "ISBN": "978-8901234567",
+        "release_date": "2021-03-14",
+        "description": "Explore the benefits of mindful eating and how it can nourish your body, soul, and senses.",
+        "book_image": "/images/genres/HealthandWellness/028.jpeg"
+    },
+    {
+        "author_id": "288",
+        "genre_id": "4",
+        "title": "Holistic Approaches to Sleep: Unlocking Deeper, Restorative Rest",
+        "ISBN": "978-1234567890",
+        "release_date": "2021-02-08",
+        "description": "Discover holistic methods to improve sleep quality and experience deeper, more restorative rest.",
+        "book_image": "/images/genres/HealthandWellness/029.jpeg"
+    },
+    {
+        "author_id": "78",
+        "genre_id": "4",
+        "title": "Plant-Based Nutrition for Athletes: Enhancing Performance and Recovery",
+        "ISBN": "978-2345678901",
+        "release_date": "2021-01-18",
+        "description": "Optimize athletic performance and enhance recovery with the power of plant-based nutrition.",
+        "book_image": "/images/genres/HealthandWellness/030.jpeg"
+    },
+    {
+        "author_id": "222",
+        "genre_id": "4",
+        "title": "Natural Remedies for Everyday Ailments: Herbal and Holistic Approaches",
+        "ISBN": "978-3456789012",
+        "release_date": "2020-12-23",
+        "description": "Discover herbal and holistic remedies to address common everyday ailments naturally.",
+        "book_image": "/images/genres/HealthandWellness/031.jpeg"
+    },
+    {
+        "author_id": "133",
+        "genre_id": "4",
+        "title": "The Joy of Movement: Embracing the Power of Physical Activity",
+        "ISBN": "978-4567890123",
+        "release_date": "2020-11-09",
+        "description": "Embrace the joy of movement and discover the transformative power of regular physical activity.",
+        "book_image": "/images/genres/HealthandWellness/032.jpeg"
+    },
+    {
+        "author_id": "300",
+        "genre_id": "4",
+        "title": "The Gut-Health Guide: Achieving Digestive Wellness Through a Balanced Microbiome",
+        "ISBN": "978-5678901234",
+        "release_date": "2020-10-15",
+        "description": "Achieve optimal digestive wellness by understanding and balancing your gut microbiome.",
+        "book_image": "/images/genres/HealthandWellness/033.jpeg"
+    },
+    {
+        "author_id": "60",
+        "genre_id": "4",
+        "title": "Aging Gracefully: Navigating the Journey with Vitality and Joy",
+        "ISBN": "978-6789012345",
+        "release_date": "2020-09-27",
+        "description": "Navigate the journey of aging with vitality",
+        "book_image": "/images/genres/HealthandWellness/034.jpeg"
+    },
+    {
+        "author_id": "188",
+        "genre_id": "4",
+        "title": "Mindful Tech: Finding Balance in the Digital Age",
+        "ISBN": "978-7890123456",
+        "release_date": "2020-08-31",
+        "description": "Discover mindfulness techniques to find a healthy balance with technology and navigate the digital age.",
+        "book_image": "/images/genres/HealthandWellness/035.jpeg"
+    },
+    {
+        "author_id": "92",
+        "genre_id": "4",
+        "title": "The Power of Breath: Harnessing the Connection Between Mind and Body",
+        "ISBN": "978-8901234567",
+        "release_date": "2020-07-12",
+        "description": "Unlock the potential of your breath to enhance the connection between your mind and body.",
+        "book_image": "/images/genres/HealthandWellness/036.jpeg"
+    },
+    {
+        "author_id": "214",
+        "genre_id": "4",
+        "title": "Radiant Skin from Within: A Holistic Guide to Healthy Skin",
+        "ISBN": "978-8901234567",
+        "release_date": "2020-06-23",
+        "description": "Achieve radiant and healthy skin through holistic practices that focus on inner well-being.",
+        "book_image": "/images/genres/HealthandWellness/037.jpeg"
+    },
+    {
+        "author_id": "118",
+        "genre_id": "4",
+        "title": "Nourishing Self-Care Rituals: Embrace Joy and Wellness in Your Daily Life",
+        "ISBN": "978-1234567890",
+        "release_date": "2020-05-01",
+        "description": "Create a joyful and wellness-centered daily routine with nourishing self-care rituals.",
+        "book_image": "/images/genres/HealthandWellness/038.jpeg"
+    },
+    {
+        "author_id": "279",
+        "genre_id": "4",
+        "title": "The Mind-Gut Connection: Cultivating a Healthy Brain through a Healthy Gut",
+        "ISBN": "978-2345678901",
+        "release_date": "2020-04-09",
+        "description": "Explore the profound connection between the gut and brain and how it influences overall health.",
+        "book_image": "/images/genres/HealthandWellness/039.jpeg"
+    },
+    {
+        "author_id": "97",
+        "genre_id": "4",
+        "title": "Holistic Fitness for Life: Embracing Wellness at Every Stage",
+        "ISBN": "978-3456789012",
+        "release_date": "2020-03-15",
+        "description": "Discover a holistic approach to fitness that promotes well-being and vitality at every stage of life.",
+        "book_image": "/images/genres/HealthandWellness/040.jpeg"
+    },
+    {
+        "author_id": "303",
+        "genre_id": "4",
+        "title": "The Yoga Mindset: Cultivating Presence and Balance On and Off the Mat",
+        "ISBN": "978-4567890123",
+        "release_date": "2020-02-22",
+        "description": "Develop a yoga mindset to cultivate presence",
+        "book_image": "/images/genres/HealthandWellness/041.jpeg"
+    },
+    {
+        "author_id": "81",
+        "genre_id": "4",
+        "title": "Nutrition for Mental Clarity: Fueling Your Brain for Focus and Cognitive Wellness",
+        "ISBN": "978-5678901234",
+        "release_date": "2020-01-29",
+        "description": "Optimize your mental clarity and cognitive function through proper nutrition and nourishment.",
+        "book_image": "/images/genres/HealthandWellness/042.jpeg"
+    },
+    {
+        "author_id": "227",
+        "genre_id": "4",
+        "title": "The Joy of Eating Well: Embrace Wholesome and Delicious Food for Vibrant Health",
+        "ISBN": "978-6789012345",
+        "release_date": "2019-12-07",
+        "description": "Discover the joy of eating well with wholesome and delicious food that promotes vibrant health.",
+        "book_image": "/images/genres/HealthandWellness/043.jpeg"
+    },
+    {
+        "author_id": "139",
+        "genre_id": "4",
+        "title": "Holistic Stress Management: Cultivate Calm and Well-Being in a Hectic World",
+        "ISBN": "978-7890123456",
+        "release_date": "2019-11-14",
+        "description": "Learn holistic techniques to manage stress",
+        "book_image": "/images/genres/HealthandWellness/044.jpeg"
+    },
+    {
+        "author_id": "311",
+        "genre_id": "4",
+        "title": "Plant-Powered Vitality: Revitalize Your Body, Mind, and Spirit with Plant-Based Nutrition",
+        "ISBN": "978-8901234567",
+        "release_date": "2019-10-22",
+        "description": "Revitalize your body, mind, and spirit with the power of plant-based nutrition and vibrant living.",
+        "book_image": "/images/genres/HealthandWellness/045.jpeg"
+    },
+    {
+        "author_id": "65",
+        "genre_id": "4",
+        "title": "Mindful Sleep Solutions: Create Bedtime Rituals for Restful Nights",
+        "ISBN": "978-1234567890",
+        "release_date": "2019-09-30",
+        "description": "Develop mindful bedtime rituals and sleep solutions for more restful and rejuvenating nights.",
+        "book_image": "/images/genres/HealthandWellness/046.jpeg"
+    },
+    {
+        "author_id": "188",
+        "genre_id": "4",
+        "title": "Mind-Body Healing: Unlocking Your Natural Ability to Heal",
+        "ISBN": "978-2345678901",
+        "release_date": "2019-08-09",
+        "description": "Explore the mind-body connection and harness your natural ability to promote healing and well-being.",
+        "book_image": "/images/genres/HealthandWellness/047.jpeg"
+    },
+    {
+        "author_id": "34",
+        "genre_id": "4",
+        "title": "Energize Your Life: Holistic Approaches to Boost Your Energy Levels",
+        "ISBN": "978-3456789012",
+        "release_date": "2019-07-18",
+        "description": "Discover holistic approaches to boost your energy levels and maintain vitality in your daily life.",
+        "book_image": "/images/genres/HealthandWellness/048.jpeg"
+    },
+    {
+        "author_id": "263",
+        "genre_id": "4",
+        "title": "Gentle Yoga Flow: Nurturing Your Body and Spirit through Tranquil Movement",
+        "ISBN": "978-4567890123",
+        "release_date": "2019-06-26",
+        "description": "Experience the benefits of gentle yoga flow and nurture your body and spirit through tranquil movement.",
+        "book_image": "/images/genres/HealthandWellness/049.jpeg"
+    },
+    {
+        "author_id": "123",
+        "genre_id": "4",
+        "title": "Whole Life Detox: Renew Your Mind, Body, and Spirit with Holistic Cleansing",
+        "ISBN": "978-5678901234",
+        "release_date": "2019-05-04",
+        "description": "Renew your mind, body, and spirit with a holistic approach to detoxification and cleansing.",
+        "book_image": "/images/genres/HealthandWellness/050.jpeg"
+    },
+    {
+        "author_id": "291",
+        "genre_id": "4",
+        "title": "The Art of Mindful Movement: Embrace Presence and Body Awareness",
+        "ISBN": "978-6789012345",
+        "release_date": "2019-04-12",
+        "description": "Learn the art of mindful movement and embrace presence",
+        "book_image": "/images/genres/HealthandWellness/051.jpeg"
+    },
+    {
+        "author_id": "77",
+        "genre_id": "4",
+        "title": "Holistic Nutrition Essentials: A Comprehensive Guide to Balanced Living",
+        "ISBN": "978-7890123456",
+        "release_date": "2019-03-21",
+        "description": "Gain insights into holistic nutrition and create a balanced lifestyle that supports overall well-being.",
+        "book_image": "/images/genres/HealthandWellness/052.jpeg"
+    },
+    {
+        "author_id": "206",
+        "genre_id": "4",
+        "title": "Natural Remedies Handbook: Your Guide to Holistic Health and Wellness",
+        "ISBN": "978-8901234567",
+        "release_date": "2019-02-28",
+        "description": "Discover a comprehensive guide to natural remedies and holistic practices for optimal health and wellness.",
+        "book_image": "/images/genres/HealthandWellness/053.jpeg"
+    },
+    {
+        "author_id": "99",
+        "genre_id": "4",
+        "title": "The Healing Power of Breath: Harness the Benefits of Breathwork for a Balanced Life",
+        "ISBN": "978-1234567890",
+        "release_date": "2019-01-07",
+        "description": "Learn about the benefits of breathwork and how it can enhance balance and well-being in your life.",
+        "book_image": "/images/genres/HealthandWellness/054.jpeg"
+    },
+    {
+        "author_id": "315",
+        "genre_id": "4",
+        "title": "Eating for Energy and Vitality: A Holistic Approach to Nourishment",
+        "ISBN": "978-2345678901",
+        "release_date": "2018-12-15",
+        "description": "Explore a holistic approach to nourishment and discover how to eat for energy and vitality.",
+        "book_image": "/images/genres/HealthandWellness/055.jpeg"
+    },
+    {
+        "author_id": "60",
+        "genre_id": "4",
+        "title": "Meditation for Inner Harmony: Embrace Peace and Wellness Through Meditation",
+        "ISBN": "978-3456789012",
+        "release_date": "2018-11-24",
+        "description": "Experience inner harmony and cultivate peace and wellness through the practice of meditation.",
+        "book_image": "/images/genres/HealthandWellness/056.jpeg"
+    },
+    {
+        "author_id": "27",
+        "genre_id": "4",
+        "title": "Nourish Your Soul: A Guide to Soulful Eating and Self-Care",
+        "ISBN": "978-4567890123",
+        "release_date": "2018-10-03",
+        "description": "Discover the importance of soulful eating and self-care for nourishing your body and soul.",
+        "book_image": "/images/genres/HealthandWellness/057.jpeg"
+    },
+    {
+        "author_id": "172",
+        "genre_id": "4",
+        "title": "Plant-Powered Living: Embrace a Plant-Based Lifestyle for Health and Vitality",
+        "ISBN": "978-5678901234",
+        "release_date": "2018-09-11",
+        "description": "Learn how to embrace a plant-based lifestyle and experience health and vitality like never before.",
+        "book_image": "/images/genres/HealthandWellness/058.jpeg"
+    },
+    {
+        "author_id": "289",
+        "genre_id": "4",
+        "title": "Stress-Free Success: A Holistic Approach to Achieving Your Goals with Ease",
+        "ISBN": "978-6789012345",
+        "release_date": "2018-08-20",
+        "description": "Achieve success with ease by adopting a holistic approach to goal setting and stress management.",
+        "book_image": "/images/genres/HealthandWellness/059.jpeg"
+    },
+    {
+        "author_id": "115",
+        "genre_id": "4",
+        "title": "The Yoga Mindset: Cultivate Inner Peace and Resilience Through Yoga Principles",
+        "ISBN": "978-7890123456",
+        "release_date": "2018-07-29",
+        "description": "Cultivate inner peace and resilience through the transformative principles of yoga.",
+        "book_image": "/images/genres/HealthandWellness/060.jpeg"
+    },
+    {
+        "author_id": "248",
+        "genre_id": "4",
+        "title": "Emotional Wellness Revolution: Harness the Power of Your Emotions for Lasting Well-Being",
+        "ISBN": "978-8901234567",
+        "release_date": "2018-06-07",
+        "description": "Join the emotional wellness revolution and discover the power of your emotions for lasting well-being.",
+        "book_image": "/images/genres/HealthandWellness/061.jpeg"
+    },
+    {
+        "author_id": "87",
+        "genre_id": "4",
+        "title": "Holistic Fitness Guide: Achieve Your Best Self Through Mind, Body, and Spirit Integration",
+        "ISBN": "978-1234567890",
+        "release_date": "2018-05-16",
+        "description": "Integrate mind, body, and spirit to achieve your optimal self with this holistic fitness guide.",
+        "book_image": "/images/genres/HealthandWellness/062.jpeg"
+    },
+    {
+        "author_id": "301",
+        "genre_id": "4",
+        "title": "The Mindful Athlete: Finding Flow in Your Sports Performance with Mindfulness",
+        "ISBN": "978-2345678901",
+        "release_date": "2018-04-25",
+        "description": "Enhance your sports performance by integrating mindfulness practices into your athletic journey.",
+        "book_image": "/images/genres/HealthandWellness/063.jpeg"
+    },
+    {
+        "author_id": "142",
+        "genre_id": "4",
+        "title": "Spiritual Cleansing: Purify Your Soul and Energize Your Being for a Radiant Life",
+        "ISBN": "978-3456789012",
+        "release_date": "2018-03-04",
+        "description": "Purify your soul and energize your being through spiritual cleansing for a radiant and vibrant life.",
+        "book_image": "/images/genres/HealthandWellness/064.jpeg"
+    },
+    {
+        "author_id": "269",
+        "genre_id": "4",
+        "title": "The Joy of Movement: Connect with Your Body and Spirit Through the Magic of Motion",
+        "ISBN": "978-4567890123",
+        "release_date": "2018-02-12",
+        "description": "Experience the magic of motion and discover how it can help you connect with your body and spirit.",
+        "book_image": "/images/genres/HealthandWellness/065.jpeg"
+    },
+    {
+        "author_id": "130",
+        "genre_id": "4",
+        "title": "Holistic Stress Management: Cultivate Calm and Well-Being in Your Hectic Life",
+        "ISBN": "978-5678901234",
+        "release_date": "2018-01-21",
+        "description": "Manage stress holistically and create a sense of calm and well-being in the midst of your hectic life.",
+        "book_image": "/images/genres/HealthandWellness/066.jpeg"
+    },
+    {
+        "author_id": "64",
+        "genre_id": "4",
+        "title": "The Art of Mindful Eating: Transform Your Relationship with Food and Rediscover Joyful Eating",
+        "ISBN": "978-6789012345",
+        "release_date": "2017-12-30",
+        "description": "Transform your relationship with food and rediscover the joy of mindful eating.",
+        "book_image": "/images/genres/HealthandWellness/067.jpeg"
+    },
+    {
+        "author_id": "198",
+        "genre_id": "4",
+        "title": "Gut Health Reset: Rebalance Your Microbiome and Improve Your Digestion Naturally",
+        "ISBN": "978-7890123456",
+        "release_date": "2017-11-08",
+        "description": "Rebalance your microbiome and improve your digestion through natural gut health reset methods.",
+        "book_image": "/images/genres/HealthandWellness/068.jpeg"
+    },
+    {
+        "author_id": "37",
+        "genre_id": "4",
+        "title": "The Sleep Solution: Unlock the Power of Restorative Sleep for Better Health and Energy",
+        "ISBN": "978-8901234567",
+        "release_date": "2017-10-17",
+        "description": "Unlock the secrets of restorative sleep and harness its power for better overall health and energy.",
+        "book_image": "/images/genres/HealthandWellness/069.jpeg"
+    },
+    {
+        "author_id": "285",
+        "genre_id": "4",
+        "title": "Mindful Aging: Embrace the Wisdom of the Years and Cultivate a Joyful and Purposeful Life",
+        "ISBN": "978-1234567890",
+        "release_date": "2017-09-26",
+        "description": "Embrace the wisdom of aging mindfully and cultivate joy and purpose in your later years.",
+        "book_image": "/images/genres/HealthandWellness/070.jpeg"
+    },
+    {
+        "author_id": "103",
+        "genre_id": "4",
+        "title": "Nourish and Flourish: A Comprehensive Guide to Balanced Nutrition and Vibrant Living",
+        "ISBN": "978-2345678901",
+        "release_date": "2017-08-05",
+        "description": "Discover a comprehensive guide to balanced nutrition and vibrant living that will help you nourish and flourish.",
+        "book_image": "/images/genres/HealthandWellness/071.jpeg"
+    },
+    {
+        "author_id": "216",
+        "genre_id": "4",
+        "title": "Holistic Self-Care for Busy Lives: Cultivate Balance, Health, and Well-Being",
+        "ISBN": "978-3456789012",
+        "release_date": "2017-07-14",
+        "description": "Cultivate balance, health, and well-being with holistic self-care practices designed for busy lives.",
+        "book_image": "/images/genres/HealthandWellness/072.jpeg"
+    },
+    {
+        "author_id": "74",
+        "genre_id": "4",
+        "title": "The Empowered Mind: Harness the Mental Strength and Resilience Needed for Success",
+        "ISBN": "978-4567890123",
+        "release_date": "2017-06-23",
+        "description": "Develop the mental strength and resilience necessary for success with The Empowered Mind.",
+        "book_image": "/images/genres/HealthandWellness/073.jpeg"
+    },
+    {
+        "author_id": "150",
+        "genre_id": "4",
+        "title": "Natural Beauty from Within: Enhance Your Radiance with Nourishing Herbal Remedies and Self-Care",
+        "ISBN": "978-5678901234",
+        "release_date": "2017-05-02",
+        "description": "Enhance your radiance with nourishing herbal remedies and self-care practices for natural beauty from within.",
+        "book_image": "/images/genres/HealthandWellness/074.jpeg"
+    },
+    {
+        "author_id": "262",
+        "genre_id": "4",
+        "title": "The Gratitude Principle: Cultivate Thankfulness for a Joyful and Abundant Life",
+        "ISBN": "978-6789012345",
+        "release_date": "2017-04-11",
+        "description": "Cultivate thankfulness and embrace the gratitude principle for a life filled with joy and abundance.",
+        "book_image": "/images/genres/HealthandWellness/075.jpeg"
+    },
+    {
+        "author_id": "124",
+        "genre_id": "4",
+        "title": "Fitness Fuel: Optimize Your Nutrition for Peak Athletic Performance",
+        "ISBN": "978-7890123456",
+        "release_date": "2017-03-20",
+        "description": "Optimize your nutrition to fuel your fitness journey and achieve peak athletic performance.",
+        "book_image": "/images/genres/HealthandWellness/076.jpeg"
+    },
+    {
+        "author_id": "30",
+        "genre_id": "4",
+        "title": "The Joy of Movement: Embrace Fun and Adventure to Stay Active and Healthy",
+        "ISBN": "978-8901234567",
+        "release_date": "2017-02-27",
+        "description": "Embrace the joy of movement and discover how to stay active",
+        "book_image": "/images/genres/HealthandWellness/077.jpeg"
+    },
+    {
+        "author_id": "172",
+        "genre_id": "4",
+        "title": "Plant-Powered Life: Harness the Power of Plant-Based Nutrition for Lifelong Health",
+        "ISBN": "978-1234567890",
+        "release_date": "2017-01-06",
+        "description": "Discover the benefits of plant-based nutrition and harness its power for lifelong health and vitality.",
+        "book_image": "/images/genres/HealthandWellness/078.jpeg"
+    },
+    {
+        "author_id": "91",
+        "genre_id": "4",
+        "title": "Stress-Free Success: Master the Art of Stress Management for Peak Performance",
+        "ISBN": "978-2345678901",
+        "release_date": "2016-12-15",
+        "description": "Master the art of stress management to achieve stress-free success and peak performance in all areas of life.",
+        "book_image": "/images/genres/HealthandWellness/079.jpeg"
+    },
+    {
+        "author_id": "249",
+        "genre_id": "4",
+        "title": "Eating for Energy: Fuel Your Day for Optimal Performance and Vitality",
+        "ISBN": "978-3456789012",
+        "release_date": "2016-11-24",
+        "description": "Fuel your day for optimal performance and vitality with the right eating habits and strategies.",
+        "book_image": "/images/genres/HealthandWellness/080.jpeg"
+    },
+    {
+        "author_id": "56",
+        "genre_id": "4",
+        "title": "The Mindful Workday: Find Balance and Purpose in Your Work for Increased Well-Being",
+        "ISBN": "978-4567890123",
+        "release_date": "2016-10-03",
+        "description": "Discover how to find balance",
+        "book_image": "/images/genres/HealthandWellness/081.jpeg"
+    },
+    {
+        "author_id": "182",
+        "genre_id": "4",
+        "title": "Wholehearted Living: Embrace Authenticity and Cultivate Resilience for a Life of Wholeness",
+        "ISBN": "978-5678901234",
+        "release_date": "2016-09-12",
+        "description": "Embrace authenticity and cultivate resilience for a life of wholeness and wholehearted living.",
+        "book_image": "/images/genres/HealthandWellness/082.jpeg"
+    },
+    {
+        "author_id": "76",
+        "genre_id": "4",
+        "title": "Nutrition Essentials for Busy Professionals: Fuel Your Busy Life with Optimal Nutrition",
+        "ISBN": "978-6789012345",
+        "release_date": "2016-08-21",
+        "description": "Fuel your busy professional life with optimal nutrition essentials and maintain health and energy.",
+        "book_image": "/images/genres/HealthandWellness/083.jpeg"
+    },
+    {
+        "author_id": "145",
+        "genre_id": "4",
+        "title": "The Strength Training Revolution: Transform Your Body and Mind Through Lifting",
+        "ISBN": "978-7890123456",
+        "release_date": "2016-07-30",
+        "description": "Transform your body and mind through lifting and embrace the strength training revolution.",
+        "book_image": "/images/genres/HealthandWellness/084.jpeg"
+    },
+    {
+        "author_id": "268",
+        "genre_id": "4",
+        "title": "The Empowered Athlete: Mindset, Nutrition, and Training for Peak Performance",
+        "ISBN": "978-8901234567",
+        "release_date": "2016-06-08",
+        "description": "Become an empowered athlete with the right mindset, nutrition, and training strategies for peak performance.",
+        "book_image": "/images/genres/HealthandWellness/085.jpeg"
+    },
+    {
+        "author_id": "128",
+        "genre_id": "4",
+        "title": "Healthy Habits for a Balanced Life: Simple Steps for Nutrition, Fitness, and Well-Being",
+        "ISBN": "978-1234567890",
+        "release_date": "2016-05-17",
+        "description": "Develop healthy habits for a balanced life with simple steps for nutrition, fitness, and overall well-being.",
+        "book_image": "/images/genres/HealthandWellness/086.jpeg"
+    },
+    {
+        "author_id": "29",
+        "genre_id": "4",
+        "title": "The Yoga Guide: Mastering Poses and Mindfulness for Inner and Outer Strength",
+        "ISBN": "978-2345678901",
+        "release_date": "2016-04-26",
+        "description": "Master yoga poses and mindfulness for inner and outer strength with this comprehensive guide.",
+        "book_image": "/images/genres/HealthandWellness/087.jpeg"
+    },
+    {
+        "author_id": "185",
+        "genre_id": "4",
+        "title": "Gut Health Revolution: Enhance Your Well-Being Through a Happy and Healthy Gut",
+        "ISBN": "978-3456789012",
+        "release_date": "2016-03-05",
+        "description": "Join the gut health revolution and enhance your overall well-being through a happy and healthy gut.",
+        "book_image": "/images/genres/HealthandWellness/088.jpeg"
+    },
+    {
+        "author_id": "68",
+        "genre_id": "4",
+        "title": "Holistic Nutrition: Nourish Your Body, Mind, and Soul with Wholesome Eating",
+        "ISBN": "978-4567890123",
+        "release_date": "2016-02-14",
+        "description": "Nourish your body, mind, and soul with the power of holistic nutrition and wholesome eating.",
+        "book_image": "/images/genres/HealthandWellness/089.jpeg"
+    },
+    {
+        "author_id": "139",
+        "genre_id": "4",
+        "title": "The Sleep Solution: Achieve Restful Nights and Wake Up Rejuvenated",
+        "ISBN": "978-5678901234",
+        "release_date": "2016-01-24",
+        "description": "Discover the sleep solution and achieve restful nights to wake up rejuvenated and full of energy.",
+        "book_image": "/images/genres/HealthandWellness/090.jpeg"
+    },
+    {
+        "author_id": "260",
+        "genre_id": "4",
+        "title": "Fitness Over 40: Strategies for Staying Active and Fit as You Age",
+        "ISBN": "978-6789012345",
+        "release_date": "2015-12-03",
+        "description": "Discover fitness strategies for staying active",
+        "book_image": "/images/genres/HealthandWellness/091.jpeg"
+    },
+    {
+        "author_id": "119",
+        "genre_id": "4",
+        "title": "The Mind-Body Connection: Achieve Holistic Well-Being Through Mental and Physical Balance",
+        "ISBN": "978-7890123456",
+        "release_date": "2015-11-13",
+        "description": "Achieve holistic well-being through the powerful mind-body connection and find mental and physical balance.",
+        "book_image": "/images/genres/HealthandWellness/092.jpeg"
+    },
+    {
+        "author_id": "276",
+        "genre_id": "4",
+        "title": "Nutrition Made Simple: A Practical Guide to Eating for Health and Vitality",
+        "ISBN": "978-8901234567",
+        "release_date": "2015-10-23",
+        "description": "Simplify your nutrition with this practical guide to eating for health",
+        "book_image": "/images/genres/HealthandWellness/093.jpeg"
+    },
+    {
+        "author_id": "106",
+        "genre_id": "4",
+        "title": "The Wellness Mindset: Cultivate Positive Thoughts and Habits for Lifelong Well-Being",
+        "ISBN": "978-1234567890",
+        "release_date": "2015-09-02",
+        "description": "Cultivate a wellness mindset with positive thoughts and habits for a life of lifelong well-being.",
+        "book_image": "/images/genres/HealthandWellness/094.jpeg"
+    },
+    {
+        "author_id": "221",
+        "genre_id": "4",
+        "title": "Strong and Balanced: A Guide to Functional Fitness for Overall Health",
+        "ISBN": "978-2345678901",
+        "release_date": "2015-08-12",
+        "description": "Achieve overall health with functional fitness using the techniques and guidance from this book.",
+        "book_image": "/images/genres/HealthandWellness/095.jpeg"
+    },
+    {
+        "author_id": "78",
+        "genre_id": "4",
+        "title": "Mindful Eating Mastery: Rediscover a Healthy and Joyful Relationship with Food",
+        "ISBN": "978-3456789012",
+        "release_date": "2015-07-22",
+        "description": "Rediscover a healthy and joyful relationship with food through mindful eating mastery.",
+        "book_image": "/images/genres/HealthandWellness/096.jpeg"
+    },
+    {
+        "author_id": "293",
+        "genre_id": "4",
+        "title": "Natural Healing Remedies: Harness the Power of Nature for Optimal Wellness",
+        "ISBN": "978-4567890123",
+        "release_date": "2015-06-01",
+        "description": "Harness the power of nature for optimal wellness with these natural healing remedies.",
+        "book_image": "/images/genres/HealthandWellness/097.jpeg"
+    },
+    {
+        "author_id": "45",
+        "genre_id": "4",
+        "title": "Vegan Lifestyle Essentials: Your Guide to a Plant-Based Life of Vitality",
+        "ISBN": "978-5678901234",
+        "release_date": "2015-05-11",
+        "description": "Discover the essentials of a vegan lifestyle and embrace a plant-based life of vitality.",
+        "book_image": "/images/genres/HealthandWellness/098.jpeg"
+    },
+    {
+        "author_id": "164",
+        "genre_id": "4",
+        "title": "Aging Gracefully: Embrace the Journey of Growing Older with Grace and Positivity",
+        "ISBN": "978-6789012345",
+        "release_date": "2015-04-21",
+        "description": "Embrace the journey of growing older with grace and positivity in this guide to aging gracefully.",
+        "book_image": "/images/genres/HealthandWellness/099.jpeg"
+    },
+    {
+        "author_id": "12",
+        "genre_id": "4",
+        "title": "Stress-Free Living: Overcome Everyday Stressors and Find Inner Peace",
+        "ISBN": "978-7890123456",
+        "release_date": "2015-03-31",
+        "description": "Overcome everyday stressors and find inner peace with the strategies shared in this book.",
+        "book_image": "/images/genres/HealthandWellness/100.jpeg"
+    },
+    {
+        "author_id": "199",
+        "genre_id": "4",
+        "title": "Nutrition for Athletes: Fuel Your Performance and Recovery with Proper Nutrition",
+        "ISBN": "978-8901234567",
+        "release_date": "2015-03-10",
+        "description": "Fuel your athletic performance and recovery with proper nutrition tailored for athletes.",
+        "book_image": "/images/genres/HealthandWellness/101.jpeg"
+    },
+    {
+        "author_id": "88",
+        "genre_id": "4",
+        "title": "Healthy Habits for Busy Lifestyles: Prioritize Your Health Despite a Hectic Schedule",
+        "ISBN": "978-1234567890",
+        "release_date": "2015-02-18",
+        "description": "Prioritize your health even with a busy lifestyle by adopting these healthy habits.",
+        "book_image": "/images/genres/HealthandWellness/102.jpeg"
+    },
+    {
+        "author_id": "246",
+        "genre_id": "4",
+        "title": "Emotional Wellness Guide: Cultivate Emotional Resilience and Navigate Life''s Challenges",
+        "ISBN": "978-2345678901",
+        "release_date": "2015-01-28",
+        "description": "Cultivate emotional resilience and navigate life''s challenges with this comprehensive emotional wellness guide.",
+        "book_image": "/images/genres/HealthandWellness/103.jpeg"
+    },
+    {
+        "author_id": "127",
+        "genre_id": "4",
+        "title": "The Flexible Body: Unlock Your Body''s Potential with Safe and Effective Stretching",
+        "ISBN": "978-3456789012",
+        "release_date": "2014-12-08",
+        "description": "Unlock your body''s potential through safe and effective stretching techniques outlined in this book.",
+        "book_image": "/images/genres/HealthandWellness/104.jpeg"
+    },
+    {
+        "author_id": "265",
+        "genre_id": "4",
+        "title": "Mental Fitness Matters: Strengthen Your Mind for Resilience and Clarity",
+        "ISBN": "978-5678901234",
+        "release_date": "2014-11-18",
+        "description": "Strengthen your mind",
+        "book_image": "/images/genres/HealthandWellness/105.jpeg"
+    },
+    {
+        "author_id": "133",
+        "genre_id": "4",
+        "title": "Eating for Energy: Fuel Your Day with the Right Nutritional Choices",
+        "ISBN": "978-6789012345",
+        "release_date": "2014-10-28",
+        "description": "Discover the right nutritional choices to fuel your day with lasting energy and vitality.",
+        "book_image": "/images/genres/HealthandWellness/106.jpeg"
+    },
+    {
+        "author_id": "82",
+        "genre_id": "4",
+        "title": "The Mind-Body Connection: Achieve Holistic Wellness Through Alignment",
+        "ISBN": "978-7890123456",
+        "release_date": "2014-10-07",
+        "description": "Explore the powerful connection between the mind and body and achieve holistic wellness through alignment.",
+        "book_image": "/images/genres/HealthandWellness/107.jpeg"
+    },
+    {
+        "author_id": "172",
+        "genre_id": "4",
+        "title": "Holistic Health Handbook: A Comprehensive Guide to Mind, Body, and Spirit",
+        "ISBN": "978-8901234567",
+        "release_date": "2014-09-17",
+        "description": "Discover a comprehensive guide to holistic health, encompassing the mind, body, and spirit.",
+        "book_image": "/images/genres/HealthandWellness/108.jpeg"
+    },
+    {
+        "author_id": "33",
+        "genre_id": "4",
+        "title": "The Power of Meditation: Cultivate Inner Peace and Tranquility",
+        "ISBN": "978-1234567890",
+        "release_date": "2014-08-27",
+        "description": "Cultivate inner peace and tranquility through the practice of meditation.",
+        "book_image": "/images/genres/HealthandWellness/109.jpeg"
+    },
+    {
+        "author_id": "289",
+        "genre_id": "4",
+        "title": "Yoga for Every Body: Embrace Your Unique Path to Physical and Mental Wellness",
+        "ISBN": "978-2345678901",
+        "release_date": "2014-08-06",
+        "description": "Embrace the practice of yoga and discover your unique path to physical and mental wellness.",
+        "book_image": "/images/genres/HealthandWellness/110.jpeg"
+    },
+    {
+        "author_id": "60",
+        "genre_id": "4",
+        "title": "Nutrition Essentials for Beginners: Build a Foundation for a Healthy Life",
+        "ISBN": "978-3456789012",
+        "release_date": "2014-07-17",
+        "description": "Build a solid foundation for a healthy life by understanding the essentials of nutrition.",
+        "book_image": "/images/genres/HealthandWellness/111.jpeg"
+    },
+    {
+        "author_id": "205",
+        "genre_id": "4",
+        "title": "Mental Clarity and Productivity Boost: Optimize Your Mind for Effective Work",
+        "ISBN": "978-4567890123",
+        "release_date": "2014-06-25",
+        "description": "Optimize your mind and enhance productivity through strategies that promote mental clarity.",
+        "book_image": "/images/genres/HealthandWellness/112.jpeg"
+    },
+    {
+        "author_id": "95",
+        "genre_id": "4",
+        "title": "The Joy of Movement: Discover the Healing Powers of Physical Activity",
+        "ISBN": "978-5678901234",
+        "release_date": "2014-06-04",
+        "description": "Experience the healing powers of physical activity and find joy in movement.",
+        "book_image": "/images/genres/HealthandWellness/113.jpeg"
+    },
+    {
+        "author_id": "215",
+        "genre_id": "4",
+        "title": "Gut Health Revolution: Boost Your Immunity and Overall Health from the Inside Out",
+        "ISBN": "978-6789012345",
+        "release_date": "2014-05-14",
+        "description": "Revolutionize your health by focusing on gut health and boosting your immunity from the inside out.",
+        "book_image": "/images/genres/HealthandWellness/114.jpeg"
+    },
+    {
+        "author_id": "108",
+        "genre_id": "4",
+        "title": "Holistic Healing Therapies: Explore Alternative Approaches to Health and Wellness",
+        "ISBN": "978-7890123456",
+        "release_date": "2014-04-23",
+        "description": "Explore a variety of alternative approaches to health and wellness through holistic healing therapies.",
+        "book_image": "/images/genres/HealthandWellness/115.jpeg"
+    },
+    {
+        "author_id": "225",
+        "genre_id": "4",
+        "title": "The Sleep Solution: Unlock the Secrets to Restful Nights and Energized Days",
+        "ISBN": "978-8901234567",
+        "release_date": "2014-04-02",
+        "description": "Unlock the secrets to restful nights and energized days with solutions for better sleep.",
+        "book_image": "/images/genres/HealthandWellness/116.jpeg"
+    },
+    {
+        "author_id": "273",
+        "genre_id": "4",
+        "title": "Mindful Eating Mastery: Cultivate Awareness and Enjoy a Healthy Relationship with Food",
+        "ISBN": "978-1234567890",
+        "release_date": "2014-03-12",
+        "description": "Cultivate awareness and develop a healthy relationship with food through the practice of mindful eating.",
+        "book_image": "/images/genres/HealthandWellness/117.jpeg"
+    },
+    {
+        "author_id": "138",
+        "genre_id": "4",
+        "title": "Emotional Resilience Revolution: Harness the Power of Your Emotions for Better Wellbeing",
+        "ISBN": "978-2345678901",
+        "release_date": "2014-02-19",
+        "description": "Harness the power of your emotions and build emotional resilience for enhanced wellbeing.",
+        "book_image": "/images/genres/HealthandWellness/118.jpeg"
+    },
+    {
+        "author_id": "16",
+        "genre_id": "4",
+        "title": "Holistic Fitness Formula: Integrate Physical, Mental, and Spiritual Health",
+        "ISBN": "978-3456789012",
+        "release_date": "2014-01-29",
+        "description": "Integrate physical, mental, and spiritual health with a holistic fitness formula.",
+        "book_image": "/images/genres/HealthandWellness/119.jpeg"
+    },
+    {
+        "author_id": "294",
+        "genre_id": "4",
+        "title": "Plant-Based Energy: Fuel Your Body with Nutrient-Packed, Natural Foods",
+        "ISBN": "978-4567890123",
+        "release_date": "2013-12-08",
+        "description": "Fuel your body with natural, nutrient-packed foods and experience plant-based energy.",
+        "book_image": "/images/genres/HealthandWellness/120.jpeg"
+    },
+    {
+        "author_id": "75",
+        "genre_id": "4",
+        "title": "Stress-Free Living in a Chaotic World: Cultivate Calmness and Find Balance",
+        "ISBN": "978-5678901234",
+        "release_date": "2013-11-18",
+        "description": "Cultivate calmness and find balance amidst a chaotic world with stress-free living strategies.",
+        "book_image": "/images/genres/HealthandWellness/121.jpeg"
+    },
+    {
+        "author_id": "194",
+        "genre_id": "4",
+        "title": "Natures Healing Wonders: Tap into the Curative Powers of the Natural World",
+        "ISBN": "978-6789012345",
+        "release_date": "2013-10-29",
+        "description": "Discover the curative powers of the natural world and embrace natures healing wonders.",
+        "book_image": "/images/genres/HealthandWellness/122.jpeg"
+    },
+    {
+        "author_id": "123",
+        "genre_id": "4",
+        "title": "The Art of Breath: Master the Techniques of Pranayama and Breathe for Vitality",
+        "ISBN": "978-7890123456",
+        "release_date": "2013-10-08",
+        "description": "Master the techniques of pranayama and harness the power of breath for vitality.",
+        "book_image": "/images/genres/HealthandWellness/123.jpeg"
+    },
+    {
+        "author_id": "209",
+        "genre_id": "4",
+        "title": "Holistic Parenting Guide: Nurturing Your Childs Body, Mind, and Spirit",
+        "ISBN": "978-8901234567",
+        "release_date": "2013-09-18",
+        "description": "Nurture your childs body, mind, and spirit with a holistic parenting guide.",
+        "book_image": "/images/genres/HealthandWellness/124.jpeg"
+    },
+    {
+        "author_id": "85",
+        "genre_id": "4",
+        "title": "The Joy of Aging Gracefully: Embrace the Journey to Wellness and Longevity",
+        "ISBN": "978-1234567890",
+        "release_date": "2013-08-28",
+        "description": "Embrace the journey to wellness and longevity and find joy in aging gracefully.",
+        "book_image": "/images/genres/HealthandWellness/125.jpeg"
+    }
+]
