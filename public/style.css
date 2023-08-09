@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300;500;700&family=Macondo+Swash+Caps&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Jura", sans-serif;
+  font-family: "Macondo Swash Caps", cursive;
+  letter-spacing: 1px;
+}
+
+.book-card {
+  background-color: white;
+  border: 4px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  width: 800px;
+  height: 350px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.book-thumbnail {
+  height: 200px;
+  width: 50%;
+}
+
+.book-thumbnail img {
+  object-fit: cover;
+  max-height: 300px;
+  width: 300px;
+}
+
+.book-info {
+  height: 300px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.book-head h2,
+h3 {
+  font-size: 2em;
+  color: #a81d1d;
+  text-shadow: -1px -1px 1px black, 1px -1px 1px black, -1px 1px 1px black,
+    1px 1px 1px black;
+}
