@@ -1,0 +1,11 @@
+<html lang="en">
+  <%- include('./partials/head.ejs') %>
+  <body>
+    <%- include('./partials/nav.ejs') %>
+    <div class="content">
+      <% if (books.length > 0) { %> <% books.forEach(book => { %> <%-
+      include('./partials/book.ejs', { book }) %> <% });} %>
+    </div>
+    <%- include('./partials/footer.ejs') %>
+  </body>
+</html>
