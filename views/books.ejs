@@ -1,10 +1,12 @@
 <html lang="en">
-  <%- include('./partials/head.ejs') %>
+  <%- include('./partials/nav.ejs') %>
   <body>
-    <%- include('./partials/nav.ejs') %>
+    <%- include('./partials/head.ejs') %>
     <div class="content">
-      <% if (books.length > 0) { %> <% books.forEach(book => { %> <%-
-      include('./partials/book.ejs', { book }) %> <% });} %>
+      <% if (books.length > 0) { %>
+      <h2 class="search-results">Search Results</h2>
+      <% books.forEach(book => { %> <%- include('./partials/book.ejs', { book })
+      %> <% });} %>
     </div>
     <%- include('./partials/footer.ejs') %>
   </body>
