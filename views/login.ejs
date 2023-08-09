@@ -6,15 +6,17 @@
 </head>
 <body>
     <%- include('./partials/nav.ejs') %>
-    <div class="content">
-<div class="login-content">
-    <h1>Login</h1>
+    <div class="login-content">
+        <div id="login-title">
+    <h1 class="login-h1">Login</h1>
+    </div>
+    <div id="login-form">
     <form action="/login" method="post">
         <label for="username">Username</label>
         <input type="text" name="username" id="username">
         <label for="password">Password</label>
         <input type="password" name="password" id="password">
-        <input type="submit" value="Login">
+        <input type="submit" value="Login" class="login-btn">
     </form>
 </div>
 </div>
