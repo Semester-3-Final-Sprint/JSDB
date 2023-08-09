@@ -47,3 +47,25 @@ h3 {
   text-shadow: -1px -1px 1px black, 1px -1px 1px black, -1px 1px 1px black,
     1px 1px 1px black;
 }
+
+/* body {
+  background-image: url(./images/graphics/backgroundimage.jpg);
+} */
+
+
+.login-content {
+  background: white;
+  border-radius: 10px;
+  max-width: 600px;
+  height: 200px;
+  margin: auto;
+}
+
+.login-title {
+justify-content: center;
+
+}
+
+#login-form {
+  display: flex;
+}
