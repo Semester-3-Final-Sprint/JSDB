@@ -1,0 +1,17 @@
+<div class="book-card">
+  <div class="book-thumbnail">
+    <img src="<%= book.book_image %>" alt="book image" />
+  </div>
+  <div class="book-info">
+    <div class="book-head">
+      <h2>Title: <%= book.title %></h2>
+      <h3>Author: <%= book.author_name %></h3>
+      <h3>Genre: <%= book.genre_name %></h3>
+    </div>
+
+    <p class="book-description"><%= book.description %></p>
+    <p class="book-release">
+      ISBN #: <%= book.ISBN %> / Release date: <%= book.release_date %>
+    </p>
+  </div>
+</div>
