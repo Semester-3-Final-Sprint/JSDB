@@ -47,6 +47,7 @@
     1px 1px 1px black;
 }
 
+
 .content {
   display: flex;
   flex-direction: column;
@@ -119,3 +120,4 @@ a {
   color: black;
   margin: 10px;
 }
+
