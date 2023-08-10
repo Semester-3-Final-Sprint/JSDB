@@ -1,0 +1,8 @@
+
+<div class="welcome">
+    <% if (loggedInUser) { %>
+        <p>Welcome, <%= loggedInUser.username %>!</p>
+    <% } else { %>
+        <p>Welcome, Guest!</p>
+    <% } %>
+</div>
