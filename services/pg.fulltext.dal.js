@@ -3,7 +3,7 @@ const dal = require("./pg.db");
 var getFullText = function (text) {
   if (DEBUG) console.log("pg.dal.getFullText()");
   return new Promise(function (resolve, reject) {
-    const sql = `SELECT title, description FROM Book \
+    const sql = `SELECT title, description FROM public."Book" \
         WHERE description LIKE '%'||$1||'%' \
         OR title LIKE '%'||$1||'%'`;
     if (DEBUG) console.log(sql);

@@ -1,8 +1,7 @@
 var router = require("express").Router();
 
 if (DEBUG) {
-  console.log("ROUTE: /api/actors");
-  console.log("ROUTE: /api/logins");
+  console.log("ROUTE: /api/book");
   console.log("ROUTE: /api/full");
 }
 
