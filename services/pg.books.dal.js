@@ -31,7 +31,22 @@ const getBooksBasic = () => {
   });
 };
 
+const getBookByGenreId = (id) => {
+  if (DEBUG) console.log("pg.books.dal.getBookByGenreId()");
+  return new Promise((resolve, reject) => {
+    const sql = `SELECT * FROM all_books WHERE genre_id = $1`;
+    dal.query(sql, [id], (err, result) => {
+      if (err) {
+        reject(err);
+      } else {
+        resolve(result.rows);
+      }
+    });
+  });
+};
+
 module.exports = {
   getAllBooks,
   getBooksBasic,
+  getBookByGenreId,
 };

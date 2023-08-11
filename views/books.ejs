@@ -1,7 +1,7 @@
 <html lang="en">
   <%- include('./partials/nav.ejs') %>
   <body>
-    <%- include('./partials/head.ejs') %>
+    <%- include('./partials/head.ejs', { genres }) %>
     <div class="content">
       <% if (books.length > 0) { %>
       <h2 class="search-results">Search Results</h2>
