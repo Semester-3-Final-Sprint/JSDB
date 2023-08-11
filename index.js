@@ -1,5 +1,6 @@
 const express = require("express");
 const methodOverride = require("method-override");
+const getAllUsers = require("./services/pg.users.dal.js");
 
 
 const app = express();
@@ -33,6 +34,14 @@ app.get('/register', (req, res) => {
 })
 
 app.use('/register', registerRouter);
+
+getAllUsers()
+  .then(users => {
+    console.log("Fetched users:", users);
+  })
+  .catch(error => {
+    console.error("Error:", error);
+  });
 
 app.listen(PORT, () => {
   console.log(`Server active and listening on port ${PORT}`);
