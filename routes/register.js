@@ -1,6 +1,6 @@
 const express = require("express");
 const bcrypt = require("bcrypt");
-const authPool = require("../services/auth_db.js");
+const authPool = require("../services/pg.auth.db.js");
 
 const router = express.Router();
 
