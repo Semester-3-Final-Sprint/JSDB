@@ -47,7 +47,6 @@
     1px 1px 1px black;
 }
 
-
 .content {
   display: flex;
   flex-direction: column;
@@ -79,7 +78,7 @@ html {
   margin: 10px;
 }
 
-#search-criteria {
+#searchInput {
   width: 400px;
   padding: 10px;
   text-align: center;
