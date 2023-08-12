@@ -1,0 +1,68 @@
+<div class="title">
+  <h1>Online Website Library Search</h1>
+</div>
+<div class="input-box">
+  <input
+    type="text"
+    id="search-criteria"
+    name="search-criteria"
+    placeholder="Please enter search criteria..."
+  />
+</div>
+<div class="search-options">
+  <div><button class="search-btn">Search by Title</button></div>
+  <div><button class="search-btn">Search by Author</button></div>
+  <div>
+    <select class="search-btn" name="genre" id="genre" onchange="search()">
+      <option value="">Choose Genre</option>
+      <% //genres.forEach((genre) => { %>
+      <!-- <option value="<%- //genre.genre_id %>"><%- //genre.genre_name %></option> -->
+      <% //}); %>
+    </select>
+  </div>
+
+  <!-- <div>
+      <button class="search-btn" onclick="search()">Search by Genre</button>
+    </div> -->
+</div>
+
+<script>
+  //code to load genres into select.
+  const genreSelect = document.getElementById("genre");
+
+  function loadGenres(genres) {
+    for (let genre of genres) {
+      const option = document.createElement("option");
+      option.textContent = genre.genre_name;
+      option.value = genre.genre_id;
+      genreSelect.appendChild(option);
+    }
+  }
+
+  async function fetchAndLoadGenres() {
+    try {
+      const response = await fetch("/genres/api");
+      const data = await response.json();
+      const genres = data.genres;
+      //   console.log("Genres:", genres); // Check the response here
+      loadGenres(genres);
+    } catch (error) {
+      console.log("Error fetching genres: " + error);
+    }
+  }
+
+  fetchAndLoadGenres();
+
+  // it will go. You watch.
+  const urlGo = (url) => {
+    window.location.href = url;
+  };
+
+  // gets value of selected genre, build url, then go there.
+  const search = () => {
+    const selectedGenre = document.getElementById("genre").value;
+    if (selectedGenre) {
+      urlGo(`/books/${selectedGenre}`);
+    }
+  };
+</script>
