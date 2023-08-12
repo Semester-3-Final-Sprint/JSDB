@@ -7,6 +7,17 @@ const {
   getBookByGenreId,
 } = require("../services/pg.books.dal");
 const { getGenres } = require("../services/pg.genres.dal");
+const cache = require("../services/cacheManager");
+// genres-'cache'
+// let genres;
+// async function loadGenres() {
+//   genres = await getGenres();
+// }
+// await loadGenres();
+// setInterval(() => {
+//   loadGenres();
+//   console.log("genres cache updated...");
+// }, 500);
 
 router.get("/", async (req, res) => {
   //   const books = [
@@ -43,8 +54,9 @@ router.get("/", async (req, res) => {
   //   ];
   try {
     let books = await getAllBooks(); //implement in dal.
-    let genres = await getGenres();
-    res.render("books", { books, genres });
+    // let genres = await getGenres();
+    // let genres = cache.genresGet();
+    res.render("books", { books });
   } catch (error) {
     console.log("There was an error " + error);
   }
@@ -127,11 +139,11 @@ router.get("/:id", async (req, res) => {
   //   ];
   try {
     let books = await getBookByGenreId(req.params.id);
-    let genres = await getGenres();
+    // let genres = cache.genresGet();
     if (books.length === 0) {
       res.render("norecord");
     } else {
-      res.render("books", { books, genres });
+      res.render("books", { books });
     }
   } catch {
     res.render("503");

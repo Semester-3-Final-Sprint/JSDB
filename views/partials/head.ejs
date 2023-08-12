@@ -3,43 +3,4 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>O.W.L.S</title>
   <link rel="stylesheet" href="/style.css" />
-  <div class="title">
-    <h1>Online Website Library Search</h1>
-  </div>
-  <div class="input-box">
-    <input
-      type="text"
-      id="search-criteria"
-      name="search-criteria"
-      placeholder="Please enter search criteria..."
-    />
-  </div>
-  <div class="search-options">
-    <div><button class="search-btn">Search by Title</button></div>
-    <div><button class="search-btn">Search by Author</button></div>
-    <div>
-      <select class="search-btn" name="genre" id="genre" onchange="search()">
-        <option value="">Choose Genre</option>
-        <% genres.forEach((genre) => { %>
-        <option value="<%- genre.genre_id %>"><%- genre.genre_name %></option>
-        <% }); %>
-      </select>
-    </div>
-
-    <!-- <div>
-      <button class="search-btn" onclick="search()">Search by Genre</button>
-    </div> -->
-  </div>
 </head>
-<script>
-  const urlGo = (url) => {
-    window.location.href = url;
-  };
-
-  const search = () => {
-    const selectedGenre = document.getElementById("genre").value;
-    if (selectedGenre) {
-      urlGo(`/books/${selectedGenre}`);
-    }
-  };
-</script>

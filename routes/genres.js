@@ -2,6 +2,7 @@ const express = require("express");
 const router = express.Router();
 
 const { getGenres } = require("../services/pg.genres.dal");
+const cache = require("../services/cacheManager");
 
 router.get("/api", async (req, res) => {
   //   const genres = [
@@ -19,7 +20,7 @@ router.get("/api", async (req, res) => {
   //     },
   //   ];
   try {
-    let genres = await getGenres(); //from postgresql
+    const genres = cache.genresGet(); //from cache
     res.json({ genres });
   } catch (error) {
     console.log("fuck!");
