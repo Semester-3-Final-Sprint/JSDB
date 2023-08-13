@@ -33,8 +33,14 @@ CREATE TABLE IF NOT EXISTS public."Author"
     last_name character varying COLLATE pg_catalog."default" NOT NULL,
     birth_date date,
     birth_country character varying COLLATE pg_catalog."default",
+    headshot character varying COLLATE pg_catalog."default",
     CONSTRAINT "Author_pkey" PRIMARY KEY (author_id)
 )
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public."Author"
+    OWNER to postgres;
 
 TABLESPACE pg_default;
 
