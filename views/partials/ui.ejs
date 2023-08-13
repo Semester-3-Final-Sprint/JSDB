@@ -4,13 +4,15 @@
 <div class="input-box">
   <input
     type="text"
-    id="search-criteria"
+    id="searchInput"
     name="search-criteria"
     placeholder="Please enter search criteria..."
   />
 </div>
 <div class="search-options">
-  <div><button class="search-btn">Search by Title</button></div>
+  <div>
+    <button class="search-btn" onclick="titleSearch()">Search by Title</button>
+  </div>
   <div>
     <select
       class="search-btn"
@@ -99,6 +101,13 @@
     const selectedAuthor = authorSelect.value;
     if (selectedAuthor) {
       urlGo(`/books/author/${selectedAuthor}`);
+    }
+  };
+      
+  const titleSearch = () => {
+    const searchInput = document.getElementById("searchInput").value;
+    if (searchInput) {
+      urlGo(`/books/search/${searchInput}`);
     }
   };
 </script>
