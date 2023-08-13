@@ -1,9 +1,9 @@
 const express = require("express");
 const methodOverride = require("method-override");
 const cache = require("./services/cacheManager");
+cache.cacheStart();
 
 const getAllUsers = require("./services/pg.users.dal.js");
-
 
 const app = express();
 const PORT = 3000;
@@ -26,6 +26,9 @@ app.get("/", (req, res) => {
 const genreRouter = require("./routes/genres.js");
 app.use("/genres", genreRouter);
 
+const authorRouter = require("./routes/authors");
+app.use("/authors", authorRouter);
+
 const loginRouter = require("./routes/login.js");
 app.get("/login", (req, res) => {
   res.render("login");
@@ -44,13 +47,12 @@ const apiRouter = require("./routes/api");
 app.use("/api", apiRouter);
 
 getAllUsers()
-  .then(users => {
+  .then((users) => {
     console.log("Fetched users:", users);
   })
-  .catch(error => {
+  .catch((error) => {
     console.error("Error:", error);
   });
-
 
 app.listen(PORT, () => {
   console.log(`Server active and listening on port ${PORT}`);

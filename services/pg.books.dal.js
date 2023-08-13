@@ -45,6 +45,21 @@ const getBookByGenreId = (id) => {
   });
 };
 
+
+const getBooksByAuthorId = (id) => {
+  if (DEBUG) console.log("pg.books.dal.getBooksByAuthorId()");
+  return new Promise((resolve, reject) => {
+    const sql = `SELECT * FROM all_books WHERE author_id = $1`;
+    dal.query(sql, [id], (err, result) => {
+      if (err) {
+        reject(err);
+      } else {
+        resolve(result.rows);
+      }
+    });
+  });
+};
+
 const getBooksByTitle = (text) => {
   if (DEBUG) console.log("pg.books.dal.getBookByTitle()");
   return new Promise((resolve, reject) => {
@@ -65,5 +80,6 @@ module.exports = {
   getAllBooks,
   getBooksBasic,
   getBookByGenreId,
+  getBooksByAuthorId,
   getBooksByTitle,
 };
