@@ -11,19 +11,21 @@
 </div>
 <div class="search-options">
   <div><button class="search-btn">Search by Title</button></div>
-  <div><button class="search-btn">Search by Author</button></div>
+  <div>
+    <select
+      class="search-btn"
+      name="author"
+      id="author"
+      onchange="authorSearch()"
+    >
+      <option value="">Choose Author</option>
+    </select>
+  </div>
   <div>
     <select class="search-btn" name="genre" id="genre" onchange="search()">
       <option value="">Choose Genre</option>
-      <% //genres.forEach((genre) => { %>
-      <!-- <option value="<%- //genre.genre_id %>"><%- //genre.genre_name %></option> -->
-      <% //}); %>
     </select>
   </div>
-
-  <!-- <div>
-      <button class="search-btn" onclick="search()">Search by Genre</button>
-    </div> -->
 </div>
 
 <script>
@@ -53,7 +55,33 @@
 
   fetchAndLoadGenres();
 
-  // it will go. You watch.
+  // load authors into select
+  const authorSelect = document.getElementById("author");
+
+  function loadAuthors(authors) {
+    for (let author of authors) {
+      const option = document.createElement("option");
+      option.textContent = author.author_name;
+      option.value = author.author_id;
+      authorSelect.appendChild(option);
+    }
+  }
+
+  async function fetchAndLoadAuthors() {
+    try {
+      const response = await fetch("/authors/api");
+      const data = await response.json();
+      const authors = data.authors;
+      //   console.log("Authors:", authors); //check response here
+      loadAuthors(authors);
+    } catch (error) {
+      console.log("Error fetching authors: " + error);
+    }
+  }
+
+  fetchAndLoadAuthors();
+
+  // it will go.
   const urlGo = (url) => {
     window.location.href = url;
   };
@@ -63,6 +91,14 @@
     const selectedGenre = document.getElementById("genre").value;
     if (selectedGenre) {
       urlGo(`/books/${selectedGenre}`);
+    }
+  };
+
+  // gets value of selected author, build url, then go there.
+  const authorSearch = () => {
+    const selectedAuthor = authorSelect.value;
+    if (selectedAuthor) {
+      urlGo(`/books/author/${selectedAuthor}`);
     }
   };
 </script>
