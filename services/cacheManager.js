@@ -29,7 +29,9 @@ const authorsGet = () => {
 // run all function
 function cacheExecute() {
   let d = new Date();
-  let time = `${d.getHours()}:${d.getMinutes()}`;
+  minutes = d.getMinutes();
+  minutes = minutes < 10 ? "0" + minutes : minutes;
+  let time = `${d.getHours()}:${minutes}`;
   console.log(`cacheExecute @ ${time}`);
   loadGenres();
   loadAuthors();
