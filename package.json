@@ -1,7 +1,7 @@
 {
   "name": "login",
   "version": "1.0.0",
-  "description": "",
+  "description": "A repo for both Database Design and Javascript Final Sprint",
   "main": "index.js",
   "scripts": {
     "devStart": "nodemon index.js"
