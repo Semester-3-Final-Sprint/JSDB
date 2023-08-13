@@ -1,3 +1,85 @@
-<div class="footer-wrapper">
-  <footer class="footer">Copyright &copy; Final Sprint Code Inc.</footer>
-</div>
+<footer class="footer">
+  <div class="message">
+    <h2>You're Still Here? Awesome...</h2>
+  </div>
+  <div class="newsletter">
+    <h3>Subscribe to Our Newsletter</h3>
+    <input type="email" placeholder="Enter your email, please." />
+    <button>Subscribe</button>
+  </div>
+  <div class="event-registration">
+    <h3>Register for Events and Upcoming Programs</h3>
+    <input type="email" placeholder="Enter your email" />
+    <button>Register</button>
+  </div>
+  <div class="quick-links">
+    <h3>Quick Links</h3>
+    <ul>
+      <li><a href="about"></a>About</li>
+      <li><a href="events"></a>Events</li>
+      <li><a href="programs"></a>Programs</li>
+      <li><a href="contact"></a>Contact</li>
+      <li><a href="help"></a>Help & Support</li>
+    </ul>
+  </div>
+  <div class="social-media">
+    <h3>Follow Us!</h3>
+    <ul>
+      <li><a href="#">Facebook</a></li>
+      <li><a href="#">Instagram</a></li>
+      <li><a href="#">Twitter</a></li>
+      <li><a href="#">Discord</a></li>
+    </ul>
+  </div>
+
+  <script>
+    const subscribeButton = document.querySelector(".newsletter button");
+
+    const registerButton = document.querySelector(".event-registration button");
+
+    subscribeButton.addEventListener("click", () => {
+      alert("Thank you for subscribing to our newsletter!");
+    });
+
+    registerButton.addEventListener("click", () => {
+      alert("Thank you for registering for events and programs!");
+    });
+  </script>
+
+  <div class="book-request">
+    <h3>Looking for an obscure book?</h3>
+    <a href="#" id="book-request-link">Request It!</a>
+    <div id="book-request-modal" class="footer-modal"></div>
+    <div class="footer-modal-content">
+      <span class="close">&times;</span>
+      <h4>Request an Obscure Book</h4>
+      <form action="/routes/book_request" method="POST">
+        <label for="book-author">Author:</label>
+        <input type="text" id="book-author" name="book-author" required />
+        <label for="book-title">Title:</label>
+        <input type="text" id="book-title" name="book-title" required />
+        <button type="submit">Submit Book Request</button>
+      </form>
+    </div>
+  </div>
+
+  <script>
+    const bookRequestLink = document.getElementById("book-request-link");
+    const modal = document.getElementById("book-request-modal");
+    const closeBtn = document.querySelector(".close");
+
+    bookRequestLink.addEventListener("click", () => {
+      modal.style.display = "block";
+    });
+
+    closeBtn.addEventListener("click", () => {
+      modal.style.display = "none";
+    });
+
+    window.addEventListener("click", (event) => {
+      if (event.target === modal) {
+        modal.style.display = "none";
+      }
+    });
+  </script>
+</footer>
