@@ -45,7 +45,6 @@ const getBookByGenreId = (id) => {
   });
 };
 
-
 const getBooksByAuthorId = (id) => {
   if (DEBUG) console.log("pg.books.dal.getBooksByAuthorId()");
   return new Promise((resolve, reject) => {
@@ -63,7 +62,7 @@ const getBooksByAuthorId = (id) => {
 const getBooksByTitle = (text) => {
   if (DEBUG) console.log("pg.books.dal.getBookByTitle()");
   return new Promise((resolve, reject) => {
-    const sql = `SELECT * FROM public."Book" \
+    const sql = `SELECT * FROM all_books \
     WHERE description LIKE '%'||$1||'%' \
     OR title LIKE '%'||$1||'%'`;
     dal.query(sql, [text], (err, result) => {
