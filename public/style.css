@@ -74,6 +74,11 @@ html {
   background-color: #a81d1d;
 }
 
+.input-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
 .input-box {
   text-align: center;
   margin: 10px;
@@ -84,6 +89,11 @@ html {
   padding: 10px;
   text-align: center;
   font-size: 16px;
+}
+
+.search-option-wrapper {
+  display: inline;
+  margin-top: 10px;
 }
 
 .search-options {
