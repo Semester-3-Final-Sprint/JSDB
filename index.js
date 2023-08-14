@@ -21,11 +21,15 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(methodOverride("_method"));
 
+app.locals.loggedInUser = null;
+
 const booksRouter = require("./routes/books");
 app.use("/books", booksRouter);
 
 app.get("/", (req, res) => {
+  const loggedInUser = req.app.locals.loggedInUser
   res.redirect("/books");
+  if(DEBUG) console.log("User currently logged in:", loggedInUser);
 });
 
 app.get("/db-switch", (req, res) => {
@@ -57,6 +61,9 @@ app.use("/register", registerRouter);
 
 const apiRouter = require("./routes/api");
 app.use("/api", apiRouter);
+
+const logoutRouter = require("./routes/logout");
+app.use(logoutRouter)
 
 getAllUsers()
   .then((users) => {

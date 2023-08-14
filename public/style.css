@@ -148,6 +148,16 @@ a {
   width: 70px;
 }
 
+
+/* Welcome Message */
+
+.welcome-message {
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 /* Footer Styles */
 
 .footer {
@@ -246,3 +256,4 @@ a {
   text-decoration: none;
   cursor: pointer;
 } */
+

@@ -2,21 +2,18 @@
   <div class="nav">
     <div class="nav-options">
       <nav>
-        <ul>
-          <!-- <li><a href="/books">[ home ]</a></li>
-          <li><a href="/login">[ login ]</a></li>
-          <li><a href="/register">[ register ]</a></li> -->
-          <!-- <li><a href="/shop">[ shop ]</a></li>
-          <li><a href="/products">[ products ]</a></li>
-          <li><a href="/about">[ about ]</a></li> -->
-
         <ul class="nav-list">
           <li><a href="/">Home</a></li>
           <li><a href="/shop">Shop</a></li>
           <li><a href="/products">Products</a></li>
           <li><a href="/about">About</a></li>
-           <li><a href="/login">Login</a></li>
-           <li><a href="/register">Register</a></li>
+
+          <% if (loggedInUser != null) { %>
+            <li><a href="/logout">Logout</a></li>
+          <% } else { %>
+            <li><a href="/login">Login</a></li>
+            <li><a href="/register">Register</a></li>
+          <% } %>
         </ul>
       </nav>
     </div>

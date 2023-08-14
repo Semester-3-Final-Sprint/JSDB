@@ -11,7 +11,7 @@ router.post('/', async (req, res) => {
         const user = result.rows[0];
 
         if (!user) {
-            return res.status(400).send('User does not exist.');
+            return res.render('login', { errorMessage: 'User does not exist.' });
         }
 
         const providedPassword = req.body.password;
@@ -26,25 +26,24 @@ router.post('/', async (req, res) => {
                 const updateUserQuery = "UPDATE users SET isloggedin = true, loggedin = $1 WHERE username = $2";
                 await authPool.query(updateUserQuery, [user.username, user.username]);
 
-                
-                const loggedInUser = user;
+                req.app.locals.loggedInUser = user;
 
-                console.log("Logged in user:", loggedInUser);
-                res.redirect('/');
+                console.log("Logged in user:", user);
+                return res.redirect('/');
             } else {
-                res.status(400).send('Incorrect password');
+                return res.render('login', { errorMessage: 'Incorrect password' });
             }
         } else {
             if (providedPassword === user.password) {
                 // Update the user's isloggedin value to true
                 const updateUserQuery = "UPDATE users SET isloggedin = true, loggedin = $1 WHERE username = $2";
                 await authPool.query(updateUserQuery, [user.username, user.username]);
-                console.log("User logged in: ", user);
-                const loggedInUser = user;
-                res.redirect('/');
-                console.log("Logged in user:", loggedInUser);
+
+                req.app.locals.loggedInUser = user;
+                console.log("Logged in user:", user);
+                return res.redirect('/');
             } else {
-                res.status(400).send('Incorrect password');
+                return res.render('login', { errorMessage: 'Incorrect password' });
             }
         }
     } catch (error) {
@@ -52,5 +51,6 @@ router.post('/', async (req, res) => {
         res.status(500).send("Internal Server Error");
     }
 });
+
 
 module.exports = router;
