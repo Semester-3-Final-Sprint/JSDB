@@ -14,11 +14,15 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(methodOverride("_method"));
 
+app.locals.loggedInUser = null;
+
 const booksRouter = require("./routes/books");
 app.use("/books", booksRouter);
 
 app.get("/", (req, res) => {
+  const loggedInUser = req.app.locals.loggedInUser
   res.redirect("/books");
+  if(DEBUG) console.log("User currently logged in:", loggedInUser);
 });
 
 const loginRouter = require("./routes/login.js"); 
@@ -34,6 +38,9 @@ app.get('/register', (req, res) => {
 })
 
 app.use('/register', registerRouter);
+
+const logoutRouter = require("./routes/logout");
+app.use(logoutRouter)
 
 getAllUsers()
   .then(users => {

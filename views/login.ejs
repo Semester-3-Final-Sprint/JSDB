@@ -18,6 +18,12 @@
         <input type="password" name="password" id="password">
         <input type="submit" value="Login" class="login-btn">
     </form>
+    <% if (typeof errorMessage != "undefined" && errorMessage) { %>
+        <div class="error">
+                <strong><%= errorMessage %></strong>
+            </div>
+        </div>
+    <% } %>
 </div>
 </div>
     <%- include('./partials/footer.ejs') %>
