@@ -1,16 +1,19 @@
 const express = require("express");
 const router = express.Router();
 
-const pgDal = require("../services/pg.fulltext.dal");
-
 const {
   getAllBooks,
   getBooksBasic,
   getBookByGenreId,
   getBooksByAuthorId,
   getBooksByTitle,
+  getBooksByDescription,
 } = require("../services/pg.books.dal");
-const { mongoGetAllBooks } = require("../services/m.books.dal");
+const {
+  mongoGetAllBooks,
+  // mongoGetBooksByDescription,
+  // mongoGetBooksByTitle,
+} = require("../services/m.books.dal");
 // const { getGenres } = require("../services/pg.genres.dal");
 const cache = require("../services/cacheManager");
 
@@ -234,8 +237,9 @@ router.get("/author/:id", async (req, res) => {
   }
 });
 
-// text search
-router.get("/search/:text", async (req, res) => {
+// text search by title
+router.get("/searchTitle/:text", async (req, res) => {
+  // if pg search is selected
   try {
     let books = await getBooksByTitle(req.params.text);
     if (books.length === 0) {
@@ -245,9 +249,45 @@ router.get("/search/:text", async (req, res) => {
       res.render("books", { books });
     }
   } catch {
-    res.render("503");
-    // res.statusCode = 503;
-    // res.json({ message: "Service Unavailable", status: 503 });
+    // if mongo search is selected
+    try {
+      let books = await mongoGetBooksByTitle(req.params.text);
+      if (books.length === 0) {
+        res.statusCode = 404;
+        res.json({ message: "Not Found", status: 404 });
+      } else {
+        res.render("books", { books });
+      }
+    } catch {
+      res.render("503");
+    }
+  }
+});
+
+// text search by description
+router.get("/searchDescription/:text", async (req, res) => {
+  // if pg search is selected
+  try {
+    let books = await getBooksByDescription(req.params.text);
+    if (books.length === 0) {
+      res.statusCode = 404;
+      res.json({ message: "Not Found", status: 404 });
+    } else {
+      res.render("books", { books });
+    }
+  } catch {
+    // if mongo search is selected
+    try {
+      let books = await mongoGetBooksByDescription(req.params.text);
+      if (books.length === 0) {
+        res.statusCode = 404;
+        res.json({ message: "Not Found", status: 404 });
+      } else {
+        res.render("books", { books });
+      }
+    } catch {
+      res.render("503");
+    }
   }
 });
 

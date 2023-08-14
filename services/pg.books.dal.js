@@ -75,10 +75,26 @@ const getBooksByTitle = (text) => {
   });
 };
 
+const getBooksByDescription = (text) => {
+  if (DEBUG) console.log("pg.books.dal.getBookByDescription()");
+  return new Promise((resolve, reject) => {
+    const sql = `SELECT * FROM all_books \
+    WHERE description LIKE '%'||$1||'%'`;
+    dal.query(sql, [text], (err, result) => {
+      if (err) {
+        reject(err);
+      } else {
+        resolve(result.rows);
+      }
+    });
+  });
+};
+
 module.exports = {
   getAllBooks,
   getBooksBasic,
   getBookByGenreId,
   getBooksByAuthorId,
   getBooksByTitle,
+  getBooksByDescription,
 };
