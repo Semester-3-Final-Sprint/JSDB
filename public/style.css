@@ -147,38 +147,58 @@ a {
   width: 70px;
 }
 
+/* Footer Styles */
+
 .footer {
-  background-color: whitesmoke;
+  background-color: rgb(207, 179, 214);
   padding: 20px;
+}
+
+.message {
+  background-color: #b6c841;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.logo {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.logo img {
+  width: 150px;
+  height: auto;
+  padding-top: 10px;
+}
+.footer-content {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10px;
+}
+.footer-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .newsletter,
-.event-registration,
 .quick-links,
-.social-media {
-  width: 25%;
+.social-media,
+.event-registration {
+  background-color: #cd4e4e;
+  padding: 10px;
+  margin-right: 10px;
 }
 
-ul {
-  list-style: none;
-  padding: 0;
-}
-
-a {
-  text-decoration: none;
-  color: #333;
-}
-
-input[type="email"] {
+.input[type="email"] {
   width: 100%;
   padding: 5 px;
   margin-bottom: 10px;
 }
 
-button {
+.button {
   background-color: #333;
   color: #fff;
   border: none;
@@ -186,7 +206,14 @@ button {
   cursor: pointer;
 }
 
-.foot-modal {
+.book-request {
+  background-color: #aaa;
+  padding: 10px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* .foot-modal {
   display: none;
   position: fixed;
   z-index: 1;
@@ -217,4 +244,4 @@ button {
   color: black;
   text-decoration: none;
   cursor: pointer;
-}
+} */
