@@ -171,15 +171,16 @@ a {
 /* Footer Styles */
 
 .footer {
-  background-color: rgb(207, 179, 214);
+  background-color: rgb(118, 184, 202);
   padding: 20px;
 }
 
 .message {
-  background-color: #b6c841;
+  background-color: #463608;
   padding: 10px;
   text-align: center;
   font-size: 1.5em;
+  color: white;
 }
 
 .logo {
@@ -202,15 +203,17 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  color: white;
 }
 
 .newsletter,
 .quick-links,
 .social-media,
 .event-registration {
-  background-color: #cd4e4e;
+  background-color: #117385;
   padding: 10px;
   margin-right: 10px;
+  color: white;
 }
 
 .input[type="email"] {
@@ -220,7 +223,7 @@ a {
 }
 
 .button {
-  background-color: #333;
+  background-color: #463608;
   color: #fff;
   border: none;
   padding: 5px 10px;
@@ -228,10 +231,11 @@ a {
 }
 
 .book-request {
-  background-color: #aaa;
+  background-color: #463608;
   padding: 10px;
   text-align: center;
   margin-top: 10px;
+  color: white;
 }
 
 /* .foot-modal {
