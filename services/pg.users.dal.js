@@ -14,5 +14,18 @@ console.log("pg.books.dal.getAllUsers()");
     });
   };
 
+  const getLoggedInUser = async () => {
+    try {
+        const users = await getAllUsers();
+        const loggedInUser = users.find(user => user.isloggedin === true && user.username === user.loggedin);
+        return loggedInUser || null; 
+    } catch (error) {
+        console.error("Error fetching logged-in user:", error);
+        throw error;
+    }
+};
 
-  module.exports = getAllUsers;
+  module.exports = getAllUsers, getLoggedInUser;
+
+  
+

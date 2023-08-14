@@ -1,10 +1,17 @@
 const express = require("express");
 const methodOverride = require("method-override");
-const getAllUsers = require("./services/pg.users.dal.js");
 
+const getAllUsers = require("./services/pg.users.dal.js");
 
 const app = express();
 const PORT = 3000;
+
+// Default DB
+app.locals.activeDB = "postgres";
+
+// start cache based on default db.
+const cache = require("./services/cacheManager");
+cache.cacheStart(app.locals.activeDB);
 
 global.DEBUG = true;
 
@@ -25,38 +32,56 @@ app.get("/", (req, res) => {
   if(DEBUG) console.log("User currently logged in:", loggedInUser);
 });
 
-const loginRouter = require("./routes/login.js"); 
-app.get('/login', (req, res) => {
-  res.render('login'); 
+app.get("/db-switch", (req, res) => {
+  app.locals.activeDB =
+    app.locals.activeDB === "postgres" ? "mongo" : "postgres";
+  cache.cacheStart(app.locals.activeDB);
+  res.redirect("/books");
 });
 
-app.use('/login', loginRouter);
+const genreRouter = require("./routes/genres.js");
+app.use("/genres", genreRouter);
+
+const authorRouter = require("./routes/authors");
+app.use("/authors", authorRouter);
+
+const loginRouter = require("./routes/login.js");
+app.get("/login", (req, res) => {
+  res.render("login");
+});
+
+app.use("/login", loginRouter);
 
 const registerRouter = require("./routes/register");
-app.get('/register', (req, res) => {
-  res.render('register');
-})
+app.get("/register", (req, res) => {
+  res.render("register");
+});
 
-app.use('/register', registerRouter);
+app.use("/register", registerRouter);
+
+const apiRouter = require("./routes/api");
+app.use("/api", apiRouter);
 
 const logoutRouter = require("./routes/logout");
 app.use(logoutRouter)
 
 getAllUsers()
-  .then(users => {
+  .then((users) => {
     console.log("Fetched users:", users);
   })
-  .catch(error => {
+  .catch((error) => {
     console.error("Error:", error);
   });
 
 app.listen(PORT, () => {
   console.log(`Server active and listening on port ${PORT}`);
-  
+
   if (DEBUG) {
     console.log("Debug mode is enabled.");
     console.log("Login router: ", loginRouter);
-    console.log("Available routes: ", app._router.stack.map(layer => layer.route));
+    console.log(
+      "Available routes: ",
+      app._router.stack.map((layer) => layer.route)
+    );
   }
 });
-

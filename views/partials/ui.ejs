@@ -1,0 +1,123 @@
+<div class="title">
+  <h1>Online Website Library Search</h1>
+</div>
+<div class="input-box">
+  <input
+    type="text"
+    id="searchInput"
+    name="search-criteria"
+    placeholder="Please enter search criteria..."
+  />
+</div>
+<div class="search-options">
+  <div>
+    <button class="search-btn" onclick="titleSearch()">Search by Title</button>
+  </div>
+  <div>
+    <select
+      class="search-btn"
+      name="author"
+      id="author"
+      onchange="authorSearch()"
+    >
+      <option value="">Choose Author</option>
+    </select>
+  </div>
+  <div>
+    <select class="search-btn" name="genre" id="genre" onchange="search()">
+      <option value="">Choose Genre</option>
+    </select>
+  </div>
+  <div>
+    <button
+      class="search-btn"
+      name="db-switch"
+      id="db-switch"
+      onclick="urlGo('/db-switch')"
+    >
+      Switch DB
+    </button>
+  </div>
+</div>
+
+<script>
+  //code to load genres into select.
+  const genreSelect = document.getElementById("genre");
+
+  function loadGenres(genres) {
+    for (let genre of genres) {
+      const option = document.createElement("option");
+      option.textContent = genre.genre_name;
+      option.value = genre.genre_id;
+      genreSelect.appendChild(option);
+    }
+  }
+
+  async function fetchAndLoadGenres() {
+    try {
+      const response = await fetch("/genres/api");
+      const data = await response.json();
+      const genres = data.genres;
+      //   console.log("Genres:", genres); // Check the response here
+      loadGenres(genres);
+    } catch (error) {
+      console.log("Error fetching genres: " + error);
+    }
+  }
+
+  fetchAndLoadGenres();
+
+  // load authors into select
+  const authorSelect = document.getElementById("author");
+
+  function loadAuthors(authors) {
+    for (let author of authors) {
+      const option = document.createElement("option");
+      option.textContent = author.author_name;
+      option.value = author.author_id;
+      authorSelect.appendChild(option);
+    }
+  }
+
+  async function fetchAndLoadAuthors() {
+    try {
+      const response = await fetch("/authors/api");
+      const data = await response.json();
+      const authors = data.authors;
+      //   console.log("Authors:", authors); //check response here
+      loadAuthors(authors);
+    } catch (error) {
+      console.log("Error fetching authors: " + error);
+    }
+  }
+
+  fetchAndLoadAuthors();
+
+  // it will go.
+  const urlGo = (url) => {
+    window.location.href = url;
+  };
+
+  // gets value of selected genre, build url, then go there.
+  const search = () => {
+    const selectedGenre = document.getElementById("genre").value;
+    if (selectedGenre) {
+      urlGo(`/books/${selectedGenre}`);
+    }
+  };
+
+  // gets value of selected author, build url, then go there.
+  const authorSearch = () => {
+    const selectedAuthor = authorSelect.value;
+    if (selectedAuthor) {
+      urlGo(`/books/author/${selectedAuthor}`);
+    }
+  };
+
+  const titleSearch = () => {
+    const searchInput = document.getElementById("searchInput").value;
+    if (searchInput) {
+      urlGo(`/books/search/${searchInput}`);
+    }
+  };
+</script>
