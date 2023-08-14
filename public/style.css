@@ -92,6 +92,7 @@ html {
 }
 
 .search-btn {
+  color: black;
   background-color: white;
   margin: 20px;
   padding: 12px;

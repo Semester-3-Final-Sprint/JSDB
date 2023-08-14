@@ -28,6 +28,16 @@
       <option value="">Choose Genre</option>
     </select>
   </div>
+  <div>
+    <button
+      class="search-btn"
+      name="db-switch"
+      id="db-switch"
+      onclick="urlGo('/db-switch')"
+    >
+      Switch DB
+    </button>
+  </div>
 </div>
 
 <script>
@@ -103,7 +113,7 @@
       urlGo(`/books/author/${selectedAuthor}`);
     }
   };
-      
+
   const titleSearch = () => {
     const searchInput = document.getElementById("searchInput").value;
     if (searchInput) {

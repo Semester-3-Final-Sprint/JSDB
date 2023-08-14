@@ -1,12 +1,17 @@
 const express = require("express");
 const methodOverride = require("method-override");
-const cache = require("./services/cacheManager");
-cache.cacheStart();
 
 const getAllUsers = require("./services/pg.users.dal.js");
 
 const app = express();
 const PORT = 3000;
+
+// Default DB
+app.locals.activeDB = "postgres";
+
+// start cache based on default db.
+const cache = require("./services/cacheManager");
+cache.cacheStart(app.locals.activeDB);
 
 global.DEBUG = true;
 
@@ -20,6 +25,13 @@ const booksRouter = require("./routes/books");
 app.use("/books", booksRouter);
 
 app.get("/", (req, res) => {
+  res.redirect("/books");
+});
+
+app.get("/db-switch", (req, res) => {
+  app.locals.activeDB =
+    app.locals.activeDB === "postgres" ? "mongo" : "postgres";
+  cache.cacheStart(app.locals.activeDB);
   res.redirect("/books");
 });
 

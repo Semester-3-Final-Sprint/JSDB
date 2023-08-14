@@ -1,8 +1,15 @@
 const { getGenres } = require("../services/pg.genres.dal");
 const { getAuthors } = require("../services/pg.author.dal");
+const { mongoGetGenres } = require("../services/m.genres.dal");
+const { mongoGetAuthors } = require("../services/m.author.dal");
 
 // genres cache
 let genres = [];
+
+async function mongoLoadGenres() {
+  genres = await mongoGetGenres();
+  console.log("mongoLoadGenres()...");
+}
 
 async function loadGenres() {
   genres = await getGenres();
@@ -15,6 +22,11 @@ const genresGet = () => {
 
 // authors cache
 let authors = [];
+
+async function mongoLoadAuthors() {
+  authors = await mongoGetAuthors();
+  console.log("mongoLoadAuthors()...");
+}
 
 async function loadAuthors() {
   authors = await getAuthors();
@@ -37,12 +49,27 @@ function cacheExecute() {
   loadAuthors();
 }
 
-const cacheStart = () => {
-  cacheExecute();
-  setInterval(cacheExecute, 300000);
+function mongoCacheExecute() {
+  let d = new Date();
+  minutes = d.getMinutes();
+  minutes = minutes < 10 ? "0" + minutes : minutes;
+  let time = `${d.getHours()}:${minutes}`;
+  console.log(`mongoCacheExecute @ ${time}`);
+  mongoLoadGenres();
+  mongoLoadAuthors();
+}
+
+const cacheStart = (activeDB) => {
+  clearInterval();
+  if (activeDB === "postgres") {
+    cacheExecute();
+    setInterval(cacheExecute, 300000);
+  } else {
+    mongoCacheExecute();
+    setInterval(mongoCacheExecute, 300000);
+  }
 };
 
-loadAuthors();
 module.exports = {
   genresGet,
   authorsGet,
