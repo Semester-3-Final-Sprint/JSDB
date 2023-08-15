@@ -2,6 +2,7 @@ const express = require("express");
 const router = express.Router();
 
 const cache = require("../services/cacheManager");
+const { getAuthorByID } = require("../services/pg.author.dal");
 
 router.get("/api", async (req, res) => {
   //   const genres = [
@@ -21,6 +22,15 @@ router.get("/api", async (req, res) => {
   try {
     const authors = cache.authorsGet(); //from cache
     res.json({ authors });
+  } catch (error) {
+    res.status(503).json({ error: "Internal Server Error" });
+  }
+});
+
+router.get("/api/:id", async (req, res) => {
+  try {
+    const author = getAuthorByID(id);
+    res.json({ author });
   } catch (error) {
     res.status(503).json({ error: "Internal Server Error" });
   }

@@ -15,6 +15,21 @@ const getAuthors = () => {
   });
 };
 
+const getAuthorByID = async (id) => {
+  console.log("pg.books.dal.getAuthorByID()");
+  return new Promise((resolve, reject) => {
+    const sql = `SELECT author_id, first_name || ' ' || last_name AS author_name, birth_date, birth_country, headshot FROM public."Author" WHERE author_id = $1`;
+    dal.query(sql, [id], (err, result) => {
+      if (err) {
+        reject(err);
+      } else {
+        resolve(result.rows);
+      }
+    });
+  });
+};
+
 module.exports = {
   getAuthors,
+  getAuthorByID,
 };

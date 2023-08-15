@@ -18,6 +18,7 @@ const {
   mongoGetBooksByDescription,
   mongoGetBooksByTitle,
 } = require("../services/m.books.dal");
+const { getAuthorByID } = require("../services/pg.author.dal");
 
 // router.get("/", async (req, res) => {
 //   //   const books = [
@@ -260,9 +261,14 @@ router.get("/author/:id", async (req, res) => {
       console.log("books retrieved from mongoDB");
     }
 
+    const author = await getAuthorByID(req.params.id);
+
+    console.log("author: " + author);
+
     const data = {
       books,
       activeDB: req.app.locals.activeDB,
+      author,
     };
     //
     if (books.length === 0) {
