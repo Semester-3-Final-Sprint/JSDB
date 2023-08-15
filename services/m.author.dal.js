@@ -14,6 +14,9 @@ async function mongoGetAuthors() {
             author_name: { $concat: ["$first_name", " ", "$last_name"] },
           },
         },
+        {
+          $sort: { author_name: 1 },
+        },
       ]);
     const results = await cursor.toArray();
     return results;
