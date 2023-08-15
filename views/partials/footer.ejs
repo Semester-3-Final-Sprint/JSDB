@@ -1,58 +1,73 @@
 <footer class="footer">
   <div class="message">
-    <h2>You're Still Here? Awesome...</h2>
-  </div>
-  <div class="newsletter">
-    <h3>Subscribe to Our Newsletter</h3>
-    <input type="email" placeholder="Enter your email, please." />
-    <button>Subscribe</button>
-  </div>
-  <div class="event-registration">
-    <h3>Register for Events and Upcoming Programs</h3>
-    <input type="email" placeholder="Enter your email" />
-    <button>Register</button>
-  </div>
-  <div class="quick-links">
-    <h3>Quick Links</h3>
-    <ul>
-      <li><a href="about"></a>About</li>
-      <li><a href="events"></a>Events</li>
-      <li><a href="programs"></a>Programs</li>
-      <li><a href="contact"></a>Contact</li>
-      <li><a href="help"></a>Help & Support</li>
-    </ul>
-  </div>
-  <div class="social-media">
-    <h3>Follow Us!</h3>
-    <ul>
-      <li><a href="#">Facebook</a></li>
-      <li><a href="#">Instagram</a></li>
-      <li><a href="#">Twitter</a></li>
-      <li><a href="#">Discord</a></li>
-    </ul>
+    <div class="logo">
+      <img src="/images/graphics/OWLS-Logo.png" alt="O.W.L Logo" />
+    </div>
+    <h2>You're Still Here? That's great!</h2>
   </div>
 
-  <script>
-    const subscribeButton = document.querySelector(".newsletter button");
+  <div class="footer-content">
+    <div class="footer-div">
+      <div class="newsletter">
+        <h3>Subscribe to Our Newsletter</h3>
+        <br />
+        <input type="email" placeholder="Enter your email" width="20px" />
+        <button>Subscribe</button>
+      </div>
+      <div class="quick-links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="about"></a>About</li>
+          <li><a href="events"></a>Events</li>
+          <li><a href="contact"></a>Contact</li>
+          <li><a href="help"></a>Help & Support</li>
+        </ul>
+      </div>
+      <div class="social-media">
+        <h3>Follow Us!</h3>
+        <ul>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Discord</a></li>
+        </ul>
+      </div>
+      <div class="event-registration">
+        <h3>Register for Events</h3>
+        <br />
+        <input type="email" placeholder="Enter your email" width="20px" />
+        <button>Register</button>
+      </div>
+    </div>
+    <script>
+      const subscribeButton = document.querySelector(".newsletter button");
 
-    const registerButton = document.querySelector(".event-registration button");
+      const registerButton = document.querySelector(
+        ".event-registration button"
+      );
 
-    subscribeButton.addEventListener("click", () => {
-      alert("Thank you for subscribing to our newsletter!");
-    });
+      subscribeButton.addEventListener("click", () => {
+        alert("Thank you for subscribing to our newsletter!");
+      });
 
-    registerButton.addEventListener("click", () => {
-      alert("Thank you for registering for events and programs!");
-    });
-  </script>
+      registerButton.addEventListener("click", () => {
+        alert("Thank you for registering for events and programs!");
+      });
+    </script>
+  </div>
 
   <div class="book-request">
-    <h3>Looking for an obscure book?</h3>
-    <a href="#" id="book-request-link">Request It!</a>
+    <h3>
+      Having trouble finding that rare book? Request it below; we will do our
+      best to find it for you!
+    </h3>
+    <!-- <a href="#" id="book-request-link">Request It!</a> -->
     <div id="book-request-modal" class="footer-modal"></div>
     <div class="footer-modal-content">
-      <span class="close">&times;</span>
-      <h4>Request an Obscure Book</h4>
+      <br />
+      <!-- <span class="close">&times;</span> -->
+      <h4>Request a Book</h4>
+      <br />
       <form action="/routes/book_request" method="POST">
         <label for="book-author">Author:</label>
         <input type="text" id="book-author" name="book-author" required />

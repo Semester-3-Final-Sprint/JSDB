@@ -17,9 +17,26 @@
   />
 </div>
 <div class="search-options">
+
+<div class="input-wrapper">
+
   <div>
-    <button class="search-btn" onclick="titleSearch()">Search by Title</button>
+    <input
+      class="input-box"
+      type="text"
+      id="searchInput"
+      name="search-criteria"
+      placeholder="Please enter search criteria..."
+    />
   </div>
+  <div class="search-option-wrapper">
+    <div><button onclick="titleSearch()">Search by title</button></div>
+    <div>
+      <button onclick="descriptionSearch()">Search by Description</button>
+    </div>
+  </div>
+</div>
+<div class="search-options">
   <div>
     <select
       class="search-btn"
@@ -124,7 +141,14 @@
   const titleSearch = () => {
     const searchInput = document.getElementById("searchInput").value;
     if (searchInput) {
-      urlGo(`/books/search/${searchInput}`);
+      urlGo(`/books/searchTitle/${searchInput}`);
+    }
+  };
+
+  const descriptionSearch = () => {
+    const searchInput = document.getElementById("searchInput").value;
+    if (searchInput) {
+      urlGo(`/books/searchDescription/${searchInput}`);
     }
   };
 </script>

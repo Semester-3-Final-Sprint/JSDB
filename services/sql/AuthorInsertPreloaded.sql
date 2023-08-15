@@ -63,7 +63,7 @@ insert into "Author" (author_id, first_name, last_name, birth_date, birth_countr
 insert into "Author" (author_id, first_name, last_name, birth_date, birth_country, headshot) values (63, 'Clare', 'Hallows', '1960-02-20 18:00:46', 'Brazil', '/images/authors/063.jpeg');
 insert into "Author" (author_id, first_name, last_name, birth_date, birth_country, headshot) values (64, 'Denys', 'Rizzillo', '1986-10-15 16:05:22', 'Cuba', '/images/authors/064.jpeg');
 insert into "Author" (author_id, first_name, last_name, birth_date, birth_country, headshot) values (65, 'Monroe', 'Sloy', '1937-03-28 13:26:22', 'Philippines', '/images/authors/065.jpeg');
-insert into "Author" (author_id, first_name, last_name, birth_date, birth_country, headshot) values (66, 'Rebeka', 'Tabour', '1944-08-06 11:44:43', 'Japan'), '/images/authors/066.jpeg';
+insert into "Author" (author_id, first_name, last_name, birth_date, birth_country, headshot) values (66, 'Rebeka', 'Tabour', '1944-08-06 11:44:43', 'Japan', '/images/authors/066.jpeg');
 insert into "Author" (author_id, first_name, last_name, birth_date, birth_country, headshot) values (67, 'Devon', 'Rooms', '1966-09-06 20:40:03', 'China', '/images/authors/067.jpeg');
 insert into "Author" (author_id, first_name, last_name, birth_date, birth_country, headshot) values (68, 'Brent', 'Heathfield', '1941-10-09 23:34:25', 'Syria', '/images/authors/068.jpeg');
 insert into "Author" (author_id, first_name, last_name, birth_date, birth_country, headshot) values (69, 'Kameko', 'Dunbavin', '1990-07-14 03:15:25', 'Malaysia', '/images/authors/069.jpeg');
@@ -209,7 +209,7 @@ insert into "Author" (author_id, first_name, last_name, birth_date, birth_countr
 insert into "Author" (author_id, first_name, last_name, birth_date, birth_country, headshot) values (209, 'Roley', 'Haggerty', '1977-10-14 21:27:33', 'Philippines', '/images/authors/209.jpeg');
 insert into "Author" (author_id, first_name, last_name, birth_date, birth_country, headshot) values (210, 'Bell', 'Goudge', '1964-12-29 01:38:58', 'Russia', '/images/authors/210.jpeg');
 insert into "Author" (author_id, first_name, last_name, birth_date, birth_country, headshot) values (211, 'Clyve', 'Hazeldine', '1961-09-10 18:48:09', 'Sweden', '/images/authors/211.jpeg');
-insert into "Author" (author_id, first_name, last_name, birth_date, birth_country, headshot) values (212, 'Bethena', 'Fronek', '1980-11-21 17:06:37', 'Poland'), '/images/authors/212.jpeg';
+insert into "Author" (author_id, first_name, last_name, birth_date, birth_country, headshot) values (212, 'Bethena', 'Fronek', '1980-11-21 17:06:37', 'Poland', '/images/authors/212.jpeg');
 insert into "Author" (author_id, first_name, last_name, birth_date, birth_country, headshot) values (213, 'Anson', 'Claus', '2002-07-20 11:44:03', 'China', '/images/authors/213.jpeg');
 insert into "Author" (author_id, first_name, last_name, birth_date, birth_country, headshot) values (214, 'Jessa', 'Cashman', '1902-08-22 15:31:52', 'Thailand', '/images/authors/214.jpeg');
 insert into "Author" (author_id, first_name, last_name, birth_date, birth_country, headshot) values (215, 'Eduardo', 'Frissell', '2005-12-12 00:30:12', 'China', '/images/authors/215.jpeg');
