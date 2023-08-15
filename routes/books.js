@@ -1,18 +1,19 @@
 const express = require("express");
 const router = express.Router();
+const logEvents = require("../services/logEvents");
 
-const {
-  getAllBooks,
-  getBooksBasic,
-  getBookByGenreId,
-  getBooksByAuthorId,
-  getBooksByTitle,
-  getBooksByDescription,
-} = require("../services/pg.books.dal");
+// const {
+//   getAllBooks,
+//   getBooksBasic,
+//   getBookByGenreId,
+//   getBooksByAuthorId,
+//   getBooksByTitle,
+//   getBooksByDescription,
+// } = require("../services/pg.books.dal");
 const {
   mongoGetAllBooks,
-  // mongoGetBooksByDescription,
-  // mongoGetBooksByTitle,
+  mongoGetBooksByDescription,
+  mongoGetBooksByTitle,
 } = require("../services/m.books.dal");
 // const { getGenres } = require("../services/pg.genres.dal");
 const cache = require("../services/cacheManager");
@@ -95,6 +96,7 @@ router.get("/", async (req, res) => {
   //   ];
   try {
     let books = await mongoGetAllBooks(); //implement in dal.
+    
     // let genres = await getGenres();
     // let genres = cache.genresGet();
     res.render("books", { books });
@@ -240,6 +242,8 @@ router.get("/author/:id", async (req, res) => {
 // text search by title
 router.get("/searchTitle/:text", async (req, res) => {
   // if pg search is selected
+  logEvents(req, 'SEARCH', 'info', `Title search: ${req.params.text} (Postgres)`);
+
   try {
     let books = await getBooksByTitle(req.params.text);
     if (books.length === 0) {
@@ -252,6 +256,7 @@ router.get("/searchTitle/:text", async (req, res) => {
     // if mongo search is selected
     try {
       let books = await mongoGetBooksByTitle(req.params.text);
+      logEvents(req, 'SEARCH', 'info', `Title search: ${req.params.text} (MongoDB)`);
       if (books.length === 0) {
         res.statusCode = 404;
         res.json({ message: "Not Found", status: 404 });
@@ -259,6 +264,7 @@ router.get("/searchTitle/:text", async (req, res) => {
         res.render("books", { books });
       }
     } catch {
+      logEvents(req, 'SEARCH', 'error', `Title search error: ${req.params.text}`);
       res.render("503");
     }
   }
@@ -269,6 +275,8 @@ router.get("/searchDescription/:text", async (req, res) => {
   // if pg search is selected
   try {
     let books = await getBooksByDescription(req.params.text);
+    logEvents(req, 'SEARCH', 'info', `Description search: ${req.params.text} (Postgres)`);
+
     if (books.length === 0) {
       res.statusCode = 404;
       res.json({ message: "Not Found", status: 404 });
@@ -279,6 +287,7 @@ router.get("/searchDescription/:text", async (req, res) => {
     // if mongo search is selected
     try {
       let books = await mongoGetBooksByDescription(req.params.text);
+      logEvents(req, 'SEARCH', 'info', `Description search: ${req.params.text} (MongoDB)`);
       if (books.length === 0) {
         res.statusCode = 404;
         res.json({ message: "Not Found", status: 404 });
@@ -286,6 +295,7 @@ router.get("/searchDescription/:text", async (req, res) => {
         res.render("books", { books });
       }
     } catch {
+      logEvents(req, 'SEARCH', 'error', `Description search error: ${req.params.text}`);
       res.render("503");
     }
   }

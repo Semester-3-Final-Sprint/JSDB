@@ -1,6 +1,7 @@
 const express = require("express");
 const bcrypt = require("bcrypt");
 const authPool = require("../services/pg.auth.db.js");
+const logEvents = require("../services/logEvents"); // Import the logEvents function
 
 const router = express.Router();
 
@@ -11,6 +12,7 @@ router.post('/', async (req, res) => {
         const user = result.rows[0];
 
         if (!user) {
+            logEvents(req, 'LOGIN', 'info', `Failed login attempt for user ${req.body.username}`);
             return res.render('login', { errorMessage: 'User does not exist.' });
         }
 
@@ -27,10 +29,10 @@ router.post('/', async (req, res) => {
                 await authPool.query(updateUserQuery, [user.username, user.username]);
 
                 req.app.locals.loggedInUser = user;
-
-                console.log("Logged in user:", user);
+                logEvents(req, 'LOGIN', 'info', `User ${user.username} logged in`);
                 return res.redirect('/');
             } else {
+                logEvents(req, 'LOGIN', 'error', `Failed login attempt for user ${user.username}`);
                 return res.render('login', { errorMessage: 'Incorrect password' });
             }
         } else {
@@ -40,17 +42,18 @@ router.post('/', async (req, res) => {
                 await authPool.query(updateUserQuery, [user.username, user.username]);
 
                 req.app.locals.loggedInUser = user;
-                console.log("Logged in user:", user);
+                logEvents(req, 'LOGIN', 'info', `User ${user.username} logged in`);
                 return res.redirect('/');
             } else {
+                logEvents(req, 'LOGIN', 'error', `Failed login attempt for user ${user.username}`);
                 return res.render('login', { errorMessage: 'Incorrect password' });
             }
         }
     } catch (error) {
         console.error("Error during login:", error);
+        logEvents(req, 'LOGIN', 'error', `Error during login for user ${req.body.username}`);
         res.status(500).send("Internal Server Error");
     }
 });
-
 
 module.exports = router;
