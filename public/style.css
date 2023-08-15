@@ -99,6 +99,7 @@ html {
 .search-options {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .search-btn {
@@ -157,7 +158,6 @@ a {
 .login-btn {
   width: 70px;
 }
-
 
 /* Welcome Message */
 
@@ -271,3 +271,42 @@ a {
   cursor: pointer;
 } */
 
+.db-switch {
+  margin-right: 10px;
+  background-color: white;
+  height: 35px;
+  border-radius: 10px;
+  box-shadow: 5px 4px 4px 0px rgba(0, 0, 0, 0.4);
+}
+
+.pg-btn:hover {
+  cursor: pointer;
+}
+
+.pg-btn:focus {
+  background-color: rgb(130, 123, 123);
+}
+
+.pg-btn {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+.mongo-btn:hover {
+  cursor: pointer;
+}
+
+.mongo-btn {
+  border: none;
+  background-color: white;
+  padding: 5px;
+  height: 35px;
+  border-radius: 10px;
+}
+
+.mongo-btn:focus {
+  background-color: rgb(130, 123, 123);
+}

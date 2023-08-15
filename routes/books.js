@@ -1,18 +1,18 @@
 const express = require("express");
 const router = express.Router();
 
-const {
-  getAllBooks,
-  getBooksBasic,
-  getBookByGenreId,
-  getBooksByAuthorId,
-  getBooksByTitle,
-  getBooksByDescription,
-} = require("../services/pg.books.dal");
+// const {
+//   getAllBooks,
+//   getBooksBasic,
+//   getBookByGenreId,
+//   getBooksByAuthorId,
+//   getBooksByTitle,
+//   getBooksByDescription,
+// } = require("../services/pg.books.dal");
 const {
   mongoGetAllBooks,
-  // mongoGetBooksByDescription,
-  // mongoGetBooksByTitle,
+  mongoGetBooksByDescription,
+  mongoGetBooksByTitle,
 } = require("../services/m.books.dal");
 // const { getGenres } = require("../services/pg.genres.dal");
 const cache = require("../services/cacheManager");
