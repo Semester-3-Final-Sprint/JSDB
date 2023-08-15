@@ -65,6 +65,13 @@
   justify-content: center;
 }
 
+.db-declare {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 0.7em;
+}
+
 h1 {
   font-size: 68px;
   -webkit-text-stroke: 1px white;

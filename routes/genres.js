@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 
-const { getGenres } = require("../services/pg.genres.dal");
+// const { getGenres } = require("../services/pg.genres.dal");
 const cache = require("../services/cacheManager");
 
 router.get("/api", async (req, res) => {
@@ -23,8 +23,7 @@ router.get("/api", async (req, res) => {
     const genres = cache.genresGet(); //from cache
     res.json({ genres });
   } catch (error) {
-    console.log("fuck!");
-    // res.status(503).json({ error: "Internal Server Error" });
+    res.status(503).json({ error: "Internal Server Error" });
   }
 });
 

@@ -1,6 +1,13 @@
 <div class="title">
   <h1>Online Website Library Search</h1>
 </div>
+<div class="db-declare">
+  <% if (activeDB === 'postgres') { %>
+  <h2>Powered by postgres DB</h2>
+  <% } else { %>
+  <h2>Powered by mongoDB</h2>
+  <% } %>
+</div>
 <div class="input-box">
   <input
     type="text"
