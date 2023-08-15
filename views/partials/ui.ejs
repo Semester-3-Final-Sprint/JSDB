@@ -1,6 +1,13 @@
 <div class="title">
   <h1>Online Website Library Search</h1>
 </div>
+<div class="db-declare">
+  <% if (activeDB === 'postgres') { %>
+  <h2>Powered by postgres DB</h2>
+  <% } else { %>
+  <h2>Powered by mongoDB</h2>
+  <% } %>
+</div>
 <div class="input-wrapper">
   <div>
     <input
@@ -44,6 +51,9 @@
       Switch DB
     </button>
   </div>
+</div>
+<div class="author-display" id="author-id">
+  <h2 value=""></h2>
 </div>
 
 <script>
@@ -117,8 +127,18 @@
     const selectedAuthor = authorSelect.value;
     if (selectedAuthor) {
       urlGo(`/books/author/${selectedAuthor}`);
+      displayAuthor(selectedAuthor);
     }
   };
+
+  const authorProfile = document.getElementById("author-id");
+
+  function displayAuthor(author) {
+    const authorVisual = document.createElement("h2");
+    authorVisual.textContent = selectedAuthor.author_name;
+    authorVisual.value = author.author_id;
+    authorProfile.appendChild(authorVisual);
+  }
 
   const titleSearch = () => {
     const searchInput = document.getElementById("searchInput").value;
