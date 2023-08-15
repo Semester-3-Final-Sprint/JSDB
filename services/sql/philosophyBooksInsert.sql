@@ -73,7 +73,7 @@ VALUES (68, 8, 'The Philosophical Hangover', '450286997-X', '2007-07-22 00:43:09
 INSERT INTO "Book" (author_id, genre_id, title, "ISBN", release_date, description, book_image)
 VALUES (101, 8, 'In & Out of Existence', '465766778-5', '2016-10-13 22:34:02', 'Philosophically explore the nature of existence and the complexities of being.', '/images/genres/philosophy/037.jpeg');
 INSERT INTO "Book" (author_id, genre_id, title, "ISBN", release_date, description, book_image)
-VALUES (10, 8, 'Il Capitano of Ideals', '849448038-3', '1956-09-16 16:07:38', 'Embark on a journey with Il Capitano and explore the philosophical ideals that drive him.', '/images/genres/philosophy/038.jpeg');
+VALUES (83, 8, 'Il Capitano of Ideals', '849448038-3', '1956-09-16 16:07:38', 'Embark on a journey with Il Capitano and explore the philosophical ideals that drive him.', '/images/genres/philosophy/038.jpeg');
 INSERT INTO "Book" (author_id, genre_id, title, "ISBN", release_date, description, book_image)
 VALUES (82, 8, 'The Date of Reflection', '933425309-6', '1934-06-20 13:37:22', 'Reflect on philosophical musings during a date and the profound questions it raises.', '/images/genres/philosophy/039.jpeg');
 INSERT INTO "Book" (author_id, genre_id, title, "ISBN", release_date, description, book_image)
