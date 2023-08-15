@@ -19,7 +19,8 @@ async function mongoGetAllBooks() {
 async function mongoGetBookByGenreId(id) {
   try {
     await dal.connect();
-    const cursor = books.find({ genre_id: id });
+    const query = { genre_id: parseInt(id) };
+    const cursor = books.find(query);
     const results = await cursor.toArray();
     return results;
   } catch (error) {
@@ -32,11 +33,13 @@ async function mongoGetBookByGenreId(id) {
 async function mongoGetBooksByAuthorId(id) {
   try {
     await dal.connect();
-    const cursor = books.find({ author_id: id });
+    const query = { author_id: parseInt(id) };
+    const cursor = books.find(query);
     const results = await cursor.toArray();
     return results;
   } catch (error) {
     console.log(error);
+    throw error("");
   } finally {
     await dal.close(); // Close the connection when done
   }

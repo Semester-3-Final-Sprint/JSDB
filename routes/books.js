@@ -199,7 +199,6 @@ router.get("/:id", async (req, res) => {
       console.log("books retrieved from mongoDB");
     }
     console.log(books);
-    q;
     const data = {
       books,
       activeDB: req.app.locals.activeDB,
