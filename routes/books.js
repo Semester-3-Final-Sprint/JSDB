@@ -15,13 +15,9 @@ const {
   mongoGetAllBooks,
   mongoGetBookByGenreId,
   mongoGetBooksByAuthorId,
+  mongoGetBooksByDescription,
   mongoGetBooksByTitle,
 } = require("../services/m.books.dal");
-
-// const cache = require("../services/cacheManager");
-// mongoGetBooksByDescription,
-// mongoGetBooksByTitle,
-// } = require("../services/m.books.dal");
 
 // router.get("/", async (req, res) => {
 //   //   const books = [
