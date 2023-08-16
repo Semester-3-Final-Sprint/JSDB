@@ -1,55 +1,57 @@
-<div class="title">
-  <h1>Online Website Library Search</h1>
-</div>
-<div class="db-declare">
-  <% if (activeDB === 'postgres') { %>
-  <h2>Powered by postgres DB</h2>
-  <% } else { %>
-  <h2>Powered by mongoDB</h2>
-  <% } %>
-</div>
-<div class="input-wrapper">
-  <div>
-    <input
-      class="input-box"
-      type="text"
-      id="searchInput"
-      name="search-criteria"
-      placeholder="Please enter search criteria..."
-    />
+<div class="ui-wrapper">
+  <div class="title">
+    <h1>Online Website Library Search</h1>
   </div>
-  <div class="search-option-wrapper">
-    <div><button onclick="titleSearch()">Search by title</button></div>
+  <div class="db-declare">
+    <% if (activeDB === 'postgres') { %>
+    <h2>Powered by postgres DB</h2>
+    <% } else { %>
+    <h2>Powered by mongoDB</h2>
+    <% } %>
+  </div>
+  <div class="input-wrapper">
     <div>
-      <button onclick="descriptionSearch()">Search by Description</button>
+      <input
+        class="input-box"
+        type="text"
+        id="searchInput"
+        name="search-criteria"
+        placeholder="Please enter search criteria..."
+      />
+    </div>
+    <div class="search-option-wrapper">
+      <div><button onclick="titleSearch()">Search by title</button></div>
+      <div>
+        <button onclick="descriptionSearch()">Search by Description</button>
+      </div>
     </div>
   </div>
-</div>
-<div class="search-options">
-  <div>
-    <select
-      class="search-btn"
-      name="author"
-      id="author"
-      onchange="authorSearch()"
-    >
-      <option value="">Choose Author</option>
-    </select>
-  </div>
-  <div>
-    <select class="search-btn" name="genre" id="genre" onchange="search()">
-      <option value="">Choose Genre</option>
-    </select>
-  </div>
-  <div>
-    <button
-      class="search-btn"
-      name="db-switch"
-      id="db-switch"
-      onclick="urlGo('/db-switch')"
-    >
-      Switch DB
-    </button>
+  <div class="search-options">
+    <div>
+      <select
+        class="search-btn"
+        name="author"
+        id="author"
+        onchange="authorSearch()"
+      >
+        <option value="">Choose Author</option>
+      </select>
+    </div>
+    <div>
+      <select class="search-btn" name="genre" id="genre" onchange="search()">
+        <option value="">Choose Genre</option>
+      </select>
+    </div>
+    <div>
+      <button
+        class="search-btn"
+        name="db-switch"
+        id="db-switch"
+        onclick="urlGo('/db-switch')"
+      >
+        Switch DB
+      </button>
+    </div>
   </div>
 </div>
 
