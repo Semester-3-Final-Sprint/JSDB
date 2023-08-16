@@ -21,6 +21,7 @@ const {
   mongoGetAuthors,
 } = require("../services/m.books.dal");
 const { getAuthorById } = require("../services/pg.author.dal");
+const { mongoGetAuthorById } = require("../services/m.author.dal");
 
 // router.get("/", async (req, res) => {
 //   //   const books = [
@@ -200,10 +201,20 @@ router.get("/:id", async (req, res) => {
       books = await getBookByGenreId(req.params.id);
       console.log("books retrieved from postgres");
       console.log(books);
-      logEvents(req, "SELECT", "info", `Genre select: ${books[0].genre_name} (Postgres)`);
+      logEvents(
+        req,
+        "SELECT",
+        "info",
+        `Genre select: ${books[0].genre_name} (Postgres)`
+      );
     } else {
       books = await mongoGetBookByGenreId(req.params.id);
-      logEvents(req, "SELECT", "info", `Genre select: ${books[0].genre_name} (MongoDB)`);
+      logEvents(
+        req,
+        "SELECT",
+        "info",
+        `Genre select: ${books[0].genre_name} (MongoDB)`
+      );
       console.log("books retrieved from mongoDB");
     }
     // console.log(books);
@@ -258,20 +269,21 @@ router.get("/author/:id", async (req, res) => {
   try {
     //
     let books = [];
+    let author = [];
     if (req.app.locals.activeDB === "postgres") {
       books = await getBooksByAuthorId(req.params.id);
-      console.log("books retrieved from postgres");
+      author = await getAuthorById(req.params.id);
+      console.log("books and author retrieved from postgres");
     } else {
       books = await mongoGetBooksByAuthorId(req.params.id);
-      console.log("books retrieved from mongoDB");
+      author = await mongoGetAuthorById(req.params.id);
+      console.log("books and author retrieved from mongoDB");
     }
 
-    const author = await getAuthorById(req.params.id);
-    console.log(author[0])
-    logEvents(req, 'SEARCH', 'info', `Author select: ${author[0].author_name}`);
+    console.log(author[0]);
+    logEvents(req, "SEARCH", "info", `Author select: ${author[0].author_name}`);
 
     // console.log("author: " + author);
-    
 
     const data = {
       books,
