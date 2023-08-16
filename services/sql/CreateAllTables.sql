@@ -41,11 +41,6 @@ TABLESPACE pg_default;
 
 ALTER TABLE IF EXISTS public."Author"
     OWNER to postgres;
-
-TABLESPACE pg_default;
-
-ALTER TABLE IF EXISTS public."Author"
-    OWNER to postgres;
 	
 	-- Table: public.Book
 
