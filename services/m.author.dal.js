@@ -24,7 +24,19 @@ async function mongoGetAuthors() {
     console.log(error);
   }
 }
+async function mongoGetAuthorById(id) {
+  try {
+    await dal.connect();
+    const query = { author_id: parseInt(id) };
+    const cursor = dal.db("owls_library").collection("Author").find(query);
+    const results = await cursor.toArray();
+    return results;
+  } catch (error) {
+    console.log(error);
+  }
+}
 
 module.exports = {
   mongoGetAuthors,
+  mongoGetAuthorById,
 };
