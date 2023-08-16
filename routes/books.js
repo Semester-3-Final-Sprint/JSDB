@@ -274,14 +274,15 @@ router.get("/author/:id", async (req, res) => {
       books = await getBooksByAuthorId(req.params.id);
       author = await getAuthorById(req.params.id);
       console.log("books and author retrieved from postgres");
+      logEvents(req, "SEARCH", "info", `Author select: ${author[0].author_name} (Postgres)`);
     } else {
       books = await mongoGetBooksByAuthorId(req.params.id);
       author = await mongoGetAuthorById(req.params.id);
       console.log("books and author retrieved from mongoDB");
+      logEvents(req, "SEARCH", "info", `Author select: ${author[0].first_name} ${author[0].last_name} (MongoDB)`);
     }
 
-    console.log(author[0]);
-    logEvents(req, "SEARCH", "info", `Author select: ${author[0].author_name}`);
+    // console.log(author[0]);
 
     // console.log("author: " + author);
 
