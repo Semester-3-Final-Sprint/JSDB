@@ -38,8 +38,6 @@
 .author-card {
   background-color: #117385;
   color: antiquewhite;
-  text-shadow: -1px -1px 1px #463608, 1px -1px 1px b#463608,
-    -1px 1px 1px #463608, 1px 1px 1px #463608;
 }
 
 .book-thumbnail,
@@ -67,12 +65,16 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  font-size: 1.5em;
+  color: antiquewhite;
+  text-shadow: -1px -1px 1px #463608, 1px -1px 1px #463608, -1px 1px 1px #463608,
+    1px 1px 1px #463608;
   margin: 0 0 0 10px;
 }
 
 .book-info {
   height: 300px;
-  width: 50%;
+  width: 65%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
