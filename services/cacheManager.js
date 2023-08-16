@@ -59,14 +59,16 @@ function mongoCacheExecute() {
   mongoLoadAuthors();
 }
 
+let intervalId;
+
 const cacheStart = (activeDB) => {
-  clearInterval();
+  clearInterval(intervalId);
   if (activeDB === "postgres") {
     cacheExecute();
-    setInterval(cacheExecute, 300000);
+    intervalId = setInterval(cacheExecute, 300000);
   } else {
     mongoCacheExecute();
-    setInterval(mongoCacheExecute, 300000);
+    intervalId = setInterval(mongoCacheExecute, 300000);
   }
 };
 
