@@ -97,9 +97,9 @@
 
 .search-results {
   text-align: center;
-  color: #463608;
-  text-shadow: -1px -1px 1px antiquewhite, 1px -1px 1px antiquewhite,
-    -1px 1px 1px antiquewhite, 1px 1px 1px antiquewhite;
+  color: antiquewhite;
+  text-shadow: -1px -1px 1px #463608, 1px -1px 1px #463608, -1px 1px 1px #463608,
+    1px 1px 1px #463608;
 }
 
 /* Head Styles */
@@ -119,7 +119,6 @@ h1 {
   font-size: 68px;
   -webkit-text-stroke: 1px antiquewhite;
 }
-
 
 html {
   background-color: #463608;
@@ -163,6 +162,9 @@ html {
   cursor: pointer;
 }
 
+.search-buttons {
+  width: 135px;
+}
 .search-btn:hover {
   text-decoration: underline;
 }
@@ -174,12 +176,13 @@ html {
   padding: 10px;
 }
 
-nav li {
+li {
   list-style-type: none;
 }
 
-nav a {
+a {
   color: antiquewhite;
+  text-decoration: none;
   margin: 10px;
 }
 
@@ -228,9 +231,9 @@ nav a {
 
 .welcome-message {
   text-align: center;
-  color: #463608;
-  text-shadow: -1px -1px 1px antiquewhite, 1px -1px 1px antiquewhite,
-    -1px 1px 1px antiquewhite, 1px 1px 1px antiquewhite;
+  color: antiquewhite;
+  text-shadow: -1px -1px 1px #463608, 1px -1px 1px #463608, -1px 1px 1px #463608,
+    1px 1px 1px #463608;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -303,6 +306,11 @@ nav a {
   text-align: center;
   margin-top: 10px;
   color: antiquewhite;
+}
+
+.about-wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .page-warning {
