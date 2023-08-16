@@ -284,61 +284,79 @@ router.get("/author/:id", async (req, res) => {
 
 // text search by title
 router.get("/searchTitle/:text", async (req, res) => {
-  // if pg search is selected
   try {
-    let books = await getBooksByTitle(req.params.text);
-    logEvents(req, 'SEARCH', 'info', `Title search: ${req.params.text} (Postgres)`);
-    if (books.length === 0) {
-      res.statusCode = 404;
-      res.json({ message: "Not Found", status: 404 });
+    let books = [];
+    if (req.app.locals.activeDB === "postgres") {
+      books = await getBooksByTitle(req.params.text);
+      console.log("books retrieved from postgres");
+      logEvents(
+        req,
+        "SEARCH",
+        "info",
+        `Title search: ${req.params.text} (Postgres)`
+      );
     } else {
-      res.render("books", { books });
+      books = await mongoGetBooksByTitle(req.params.text);
+      console.log("books retrieved from postgres");
+      logEvents(
+        req,
+        "SEARCH",
+        "info",
+        `Title search: ${req.params.text} (MongoDB)`
+      );
+    }
+
+    const data = {
+      books,
+      activeDB: req.app.locals.activeDB,
+    };
+
+    if (books.length === 0) {
+      res.render("norecord");
+    } else {
+      res.render("books", data);
     }
   } catch {
-    // if mongo search is selected
-    try {
-      let books = await mongoGetBooksByTitle(req.params.text);
-      logEvents(req, 'SEARCH', 'info', `Title search: ${req.params.text} (MongoDB)`);
-      if (books.length === 0) {
-        res.statusCode = 404;
-        res.json({ message: "Not Found", status: 404 });
-      } else {
-        res.render("books", { books });
-      }
-    } catch {
-      logEvents(req, 'SEARCH', 'error', `Title search error: ${req.params.text}`);
-      res.render("503");
-    }
+    res.render("503");
   }
 });
 
 // text search by description
 router.get("/searchDescription/:text", async (req, res) => {
-  // if pg search is selected
   try {
-    let books = await getBooksByDescription(req.params.text);
-    logEvents(req, 'SEARCH', 'info', `Description search: ${req.params.text} (Postgres)`);
-    if (books.length === 0) {
-      res.statusCode = 404;
-      res.json({ message: "Not Found", status: 404 });
+    let books = [];
+    if (req.app.locals.activeDB === "postgres") {
+      books = await getBooksByDescription(req.params.text);
+      console.log("books retrieved from postgres");
+      logEvents(
+        req,
+        "SEARCH",
+        "info",
+        `Description search: ${req.params.text} (Postgres)`
+      );
     } else {
-      res.render("books", { books });
+      books = await mongoGetBooksByDescription(req.params.text);
+      console.log("books retrieved from postgres");
+      logEvents(
+        req,
+        "SEARCH",
+        "info",
+        `Description search: ${req.params.text} (MongoDB)`
+      );
+    }
+
+    const data = {
+      books,
+      activeDB: req.app.locals.activeDB,
+    };
+
+    if (books.length === 0) {
+      res.render("norecord");
+    } else {
+      res.render("books", data);
     }
   } catch {
-    // if mongo search is selected
-    try {
-      let books = await mongoGetBooksByDescription(req.params.text);
-      logEvents(req, 'SEARCH', 'info', `Description search: ${req.params.text} (MongoDB)`);
-      if (books.length === 0) {
-        res.statusCode = 404;
-        res.json({ message: "Not Found", status: 404 });
-      } else {
-        res.render("books", { books });
-      }
-    } catch {
-      logEvents(req, 'SEARCH', 'error', `Description search error: ${req.params.text}`);
-      res.render("503");
-    }
+    res.render("503");
   }
 });
 
