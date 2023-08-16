@@ -1,25 +1,26 @@
 <html lang="en">
-  <%- include('./partials/nav.ejs') %> <%- include('./partials/ui'), { activeDB
-  } %>
   <body>
-    <%- include('./partials/head.ejs') %>
-    <div class="welcome">
-      <% if (loggedInUser) { %>
-      <h2 class="welcome-message">Welcome, <%= loggedInUser.username %>!</h2>
-      <% } else { %>
-      <h2 class="welcome-message">Welcome, Guest!</h2>
-      <% } %>
+    <div class="container">
+      <%- include('./partials/nav.ejs') %> <%- include('./partials/ui'), {
+      activeDB } %> <%- include('./partials/head.ejs') %>
+      <div class="welcome">
+        <% if (loggedInUser) { %>
+        <h2 class="welcome-message">Welcome, <%= loggedInUser.username %>!</h2>
+        <% } else { %>
+        <h2 class="welcome-message">Welcome, Guest!</h2>
+        <% } %>
+      </div>
+      <div class="author-display">
+        <% if (typeof author !== 'undefined') { %> <%-
+        include('./partials/author.ejs'), { author } %> <% } %>
+      </div>
+      <div class="content">
+        <% if (books.length > 0) { %>
+        <h2 class="search-results">Search Results</h2>
+        <% books.forEach(book => { %> <%- include('./partials/book.ejs', { book
+        }) %> <% });} %>
+      </div>
+      <%- include('./partials/footer.ejs') %>
     </div>
-    <div class="author-display">
-      <% if (typeof author !== 'undefined') { %> <%-
-      include('./partials/author.ejs'), { author } %> <% } %>
-    </div>
-    <div class="content">
-      <% if (books.length > 0) { %>
-      <h2 class="search-results">Search Results</h2>
-      <% books.forEach(book => { %> <%- include('./partials/book.ejs', { book })
-      %> <% });} %>
-    </div>
-    <%- include('./partials/footer.ejs') %>
   </body>
 </html>

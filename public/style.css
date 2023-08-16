@@ -8,6 +8,20 @@
   font-family: "Macondo Swash Caps", cursive;
 }
 
+.ui-wrapper,
+.nav-wrapper {
+  background-color: #333333be;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-image: url("/images/graphics/backgroundimage.jpg");
+  background-attachment: fixed;
+}
+
 .book-card,
 .author-card {
   background-color: white;
@@ -147,12 +161,12 @@ html {
   padding: 10px;
 }
 
-li {
+nav li {
   list-style-type: none;
 }
 
-a {
-  color: black;
+nav a {
+  color: white;
   margin: 10px;
 }
 
