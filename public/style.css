@@ -331,3 +331,11 @@ a {
   text-align: center;
   padding-bottom: 25px;
 }
+
+.error {
+  color: antiquewhite;
+  /* border: pink solid 1px; */
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
