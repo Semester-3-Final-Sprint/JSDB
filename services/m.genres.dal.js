@@ -15,6 +15,19 @@ async function mongoGetGenres() {
   }
 }
 
+async function mongoGetGenreById(id) {
+  try {
+    await dal.connect();
+    query = { genre_id: parseInt(id) };
+    const cursor = dal.db("owls_library").collection("Genre").find(query);
+    const results = await cursor.toArray();
+    return results;
+  } catch (error) {
+    console.log(error);
+  }
+}
+
 module.exports = {
   mongoGetGenres,
+  mongoGetGenreById,
 };

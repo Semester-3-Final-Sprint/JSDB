@@ -23,7 +23,8 @@
 }
 
 .book-card,
-.author-card {
+.author-card,
+.genre-card {
   background-color: rgb(118, 184, 202);
   border: 4px solid antiquewhite;
   border-radius: 5px;
@@ -35,25 +36,29 @@
   justify-content: space-between;
 }
 
-.author-card {
+.author-card,
+.genre-card {
   background-color: #117385;
   color: antiquewhite;
 }
 
 .book-thumbnail,
-.author-thumbnail {
+.author-thumbnail,
+.genre-thumbnail {
   height: 200px;
   width: 50%;
 }
 
 .book-thumbnail img,
-.author-thumbnail img {
+.author-thumbnail img,
+.genre-thumbnail img {
   object-fit: cover;
   max-height: 300px;
   width: 300px;
 }
 
-.author-display {
+.author-display,
+.genre-display {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -72,12 +77,13 @@
   margin: 0 0 0 10px;
 }
 
-.book-info {
+.book-info,
+.genre-info {
   height: 300px;
   width: 65%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .book-head h2 {
