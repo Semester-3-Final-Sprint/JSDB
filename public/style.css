@@ -35,6 +35,13 @@
   justify-content: space-between;
 }
 
+.author-card {
+  background-color: rgb(118, 184, 202);
+  color: #dda809;
+  text-shadow: -1px -1px 1px black, 1px -1px 1px black, -1px 1px 1px black,
+    1px 1px 1px black;
+}
+
 .book-thumbnail,
 .author-thumbnail {
   height: 200px;
@@ -56,6 +63,7 @@
 
 .author-info {
   height: 300px;
+  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;

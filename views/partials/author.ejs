@@ -4,7 +4,11 @@
   </div>
   <div class="author-info">
     <h2>Author Name: <%= author.author_name %></h2>
-    <h3>Author Birthdate: <%= author.birth_date %></h3>
+    <h3>
+      Author Birthdate: <%= new
+      Date(author.birth_date).toLocaleDateString("en-us", {year: "numeric",
+      month: "long", day: "numeric"}); %>
+    </h3>
     <h3>Country: <%= author.birth_country %></h3>
   </div>
 </div>
