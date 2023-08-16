@@ -18,6 +18,7 @@ const {
   mongoGetBooksByAuthorId,
   mongoGetBooksByDescription,
   mongoGetBooksByTitle,
+  mongoGetAuthors,
 } = require("../services/m.books.dal");
 const { getAuthorById } = require("../services/pg.author.dal");
 
@@ -198,8 +199,11 @@ router.get("/:id", async (req, res) => {
     if (req.app.locals.activeDB === "postgres") {
       books = await getBookByGenreId(req.params.id);
       console.log("books retrieved from postgres");
+      console.log(books);
+      logEvents(req, "SELECT", "info", `Genre select: ${books[0].genre_name} (Postgres)`);
     } else {
       books = await mongoGetBookByGenreId(req.params.id);
+      logEvents(req, "SELECT", "info", `Genre select: ${books[0].genre_name} (MongoDB)`);
       console.log("books retrieved from mongoDB");
     }
     // console.log(books);
@@ -263,8 +267,11 @@ router.get("/author/:id", async (req, res) => {
     }
 
     const author = await getAuthorById(req.params.id);
+    console.log(author[0])
+    logEvents(req, 'SEARCH', 'info', `Author select: ${author[0].author_name}`);
 
     // console.log("author: " + author);
+    
 
     const data = {
       books,
