@@ -95,7 +95,9 @@
 
 .search-results {
   text-align: center;
-  color: antiquewhite;
+  color: #463608;
+  text-shadow: -1px -1px 1px antiquewhite, 1px -1px 1px antiquewhite,
+    -1px 1px 1px antiquewhite, 1px 1px 1px antiquewhite;
 }
 
 /* Head Styles */
