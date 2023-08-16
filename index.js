@@ -1,6 +1,6 @@
 const express = require("express");
 const methodOverride = require("method-override");
-
+const logEvents = require("./services/logEvents");
 const getAllUsers = require("./services/pg.users.dal.js");
 
 const app = express();
@@ -36,6 +36,7 @@ app.get("/db-switch", (req, res) => {
   app.locals.activeDB =
     app.locals.activeDB === "postgres" ? "mongo" : "postgres";
   cache.cacheStart(app.locals.activeDB);
+  logEvents(req, 'SWITCH', 'info', `User switched from Postgres to ${app.locals.activeDB.charAt(0).toUpperCase() + app.locals.activeDB.slice(1)} database`);
   res.redirect("/books");
 });
 

@@ -1,5 +1,6 @@
 const express = require("express");
 const router = express.Router();
+const logEvents = require("../services/logEvents");
 
 //const pgDal = require("../services/pg.fulltext.dal");
 
@@ -200,7 +201,7 @@ router.get("/:id", async (req, res) => {
       books = await mongoGetBookByGenreId(req.params.id);
       console.log("books retrieved from mongoDB");
     }
-    console.log(books);
+    // console.log(books);
     const data = {
       books,
       activeDB: req.app.locals.activeDB,
@@ -280,6 +281,7 @@ router.get("/searchTitle/:text", async (req, res) => {
   // if pg search is selected
   try {
     let books = await getBooksByTitle(req.params.text);
+    logEvents(req, 'SEARCH', 'info', `Title search: ${req.params.text} (Postgres)`);
     if (books.length === 0) {
       res.statusCode = 404;
       res.json({ message: "Not Found", status: 404 });
@@ -290,6 +292,7 @@ router.get("/searchTitle/:text", async (req, res) => {
     // if mongo search is selected
     try {
       let books = await mongoGetBooksByTitle(req.params.text);
+      logEvents(req, 'SEARCH', 'info', `Title search: ${req.params.text} (MongoDB)`);
       if (books.length === 0) {
         res.statusCode = 404;
         res.json({ message: "Not Found", status: 404 });
@@ -297,6 +300,7 @@ router.get("/searchTitle/:text", async (req, res) => {
         res.render("books", { books });
       }
     } catch {
+      logEvents(req, 'SEARCH', 'error', `Title search error: ${req.params.text}`);
       res.render("503");
     }
   }
@@ -307,6 +311,7 @@ router.get("/searchDescription/:text", async (req, res) => {
   // if pg search is selected
   try {
     let books = await getBooksByDescription(req.params.text);
+    logEvents(req, 'SEARCH', 'info', `Description search: ${req.params.text} (Postgres)`);
     if (books.length === 0) {
       res.statusCode = 404;
       res.json({ message: "Not Found", status: 404 });
@@ -317,6 +322,7 @@ router.get("/searchDescription/:text", async (req, res) => {
     // if mongo search is selected
     try {
       let books = await mongoGetBooksByDescription(req.params.text);
+      logEvents(req, 'SEARCH', 'info', `Description search: ${req.params.text} (MongoDB)`);
       if (books.length === 0) {
         res.statusCode = 404;
         res.json({ message: "Not Found", status: 404 });
@@ -324,6 +330,7 @@ router.get("/searchDescription/:text", async (req, res) => {
         res.render("books", { books });
       }
     } catch {
+      logEvents(req, 'SEARCH', 'error', `Description search error: ${req.params.text}`);
       res.render("503");
     }
   }
