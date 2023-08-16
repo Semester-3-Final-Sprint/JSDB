@@ -63,8 +63,7 @@ const getBooksByTitle = (text) => {
   if (DEBUG) console.log("pg.books.dal.getBookByTitle()");
   return new Promise((resolve, reject) => {
     const sql = `SELECT * FROM all_books \
-    WHERE description LIKE '%'||$1||'%' \
-    OR title LIKE '%'||$1||'%'`;
+    WHERE title LIKE '%'||$1||'%'`;
     dal.query(sql, [text], (err, result) => {
       if (err) {
         reject(err);
