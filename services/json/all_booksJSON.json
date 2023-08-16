@@ -74,7 +74,7 @@
   {
     "book_id": 2604,
     "author_id": 305,
-    "author_name": "Salaidh Gaiger",
+    "author_name": "Moss Avrasin",
     "genre_id": 1,
     "genre_name": "Fantasy",
     "title": "A Taste of Faerie: Chronicles from Elvenwood",
@@ -1178,7 +1178,7 @@
   {
     "book_id": 2696,
     "author_id": 258,
-    "author_name": "Dannie Ianno",
+    "author_name": "Karyl Goulding",
     "genre_id": 1,
     "genre_name": "Fantasy",
     "title": "Rider of Prophecy: Pale Rider",
@@ -2017,8 +2017,8 @@
   },
   {
     "book_id": 2766,
-    "author_id": 60,
-    "author_name": "Penn Rotge",
+    "author_id": 306,
+    "author_name": "Leah Walmsley",
     "genre_id": 2,
     "genre_name": "Horror",
     "title": "The Serpent",
@@ -2606,7 +2606,7 @@
   {
     "book_id": 2815,
     "author_id": 229,
-    "author_name": "Ilsa Franchyonok",
+    "author_name": "Kordula Stanworth",
     "genre_id": 2,
     "genre_name": "Horror",
     "title": "General Horror: Echoes from the Abyss",
@@ -3014,7 +3014,7 @@
   {
     "book_id": 2849,
     "author_id": 155,
-    "author_name": "Pierce Henstone",
+    "author_name": "Loria Lingner",
     "genre_id": 2,
     "genre_name": "Horror",
     "title": "The Shark`s Revenge",
@@ -3266,7 +3266,7 @@
   {
     "book_id": 2870,
     "author_id": 90,
-    "author_name": "Oliy Blasgen",
+    "author_name": "Starlene Dax",
     "genre_id": 3,
     "genre_name": "Nature and Science",
     "title": "The Astrological Universe",
@@ -3962,7 +3962,7 @@
   {
     "book_id": 2928,
     "author_id": 66,
-    "author_name": "Estele Eastabrook",
+    "author_name": "Rebecka Tabour",
     "genre_id": 3,
     "genre_name": "Nature and Science",
     "title": "Life on Earth",
@@ -3998,7 +3998,7 @@
   {
     "book_id": 2931,
     "author_id": 264,
-    "author_name": "Noah Midson",
+    "author_name": "Manny Pettingall",
     "genre_id": 3,
     "genre_name": "Nature and Science",
     "title": "The Mysteries of Quantum Mechanics",
@@ -6098,7 +6098,7 @@
   {
     "book_id": 3106,
     "author_id": 196,
-    "author_name": "Zena Shoobridge",
+    "author_name": "Moses Paszak",
     "genre_id": 5,
     "genre_name": "Romance",
     "title": "A Daring Desire",
@@ -6266,7 +6266,7 @@
   {
     "book_id": 3120,
     "author_id": 307,
-    "author_name": "Kameko Dunbavin",
+    "author_name": "Diane Linzey",
     "genre_id": 5,
     "genre_name": "Romance",
     "title": "Loves Magic Spell",
@@ -6542,7 +6542,7 @@
   {
     "book_id": 3143,
     "author_id": 212,
-    "author_name": "Ker Stollenwerck",
+    "author_name": "Andrez Alvares",
     "genre_id": 5,
     "genre_name": "Romance",
     "title": "Loves Enchantment",
@@ -8762,7 +8762,7 @@
   {
     "book_id": 3328,
     "author_id": 184,
-    "author_name": "Dionne Mapholm",
+    "author_name": "Norbie Richelt",
     "genre_id": 6,
     "genre_name": "Science Fiction",
     "title": "Temporal Anomalies",
@@ -9121,8 +9121,8 @@
   },
   {
     "book_id": 3358,
-    "author_id": 4,
-    "author_name": "Kimball Glynne",
+    "author_id": 51,
+    "author_name": "Marion Sipson",
     "genre_id": 51,
     "genre_name": "True Crime",
     "title": "To the Devil a Daughter: A Pact of Evil",
@@ -10118,7 +10118,7 @@
   {
     "book_id": 3441,
     "author_id": 112,
-    "author_name": "Valentine Campany",
+    "author_name": "Marion Sipson",
     "genre_id": 7,
     "genre_name": "True Crime",
     "title": "Satan's Little Game",
@@ -11642,7 +11642,7 @@
   {
     "book_id": 3568,
     "author_id": 83,
-    "author_name": "Ermengarde Reaveley",
+    "author_name": "Dave Avraham",
     "genre_id": 8,
     "genre_name": "Philosophy",
     "title": "Il Capitano of Ideals",
