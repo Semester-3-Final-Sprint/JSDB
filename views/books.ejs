@@ -11,8 +11,8 @@
       <% } %>
     </div>
     <div class="author-display">
-      <% if (author) { %> <%- include('./partials/author.ejs'), { author } %> <%
-      } %>
+      <% if (typeof author !== 'undefined') { %> <%-
+      include('./partials/author.ejs'), { author } %> <% } %>
     </div>
     <div class="content">
       <% if (books.length > 0) { %>

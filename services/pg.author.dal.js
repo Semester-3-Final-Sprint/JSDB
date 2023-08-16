@@ -2,7 +2,7 @@ const dal = require("./pg.db");
 
 //get all authors for select
 const getAuthors = () => {
-  console.log("pg.books.dal.getAuthors()");
+  console.log("pg.author.dal.getAuthors()");
   return new Promise((resolve, reject) => {
     const sql = `SELECT author_id, first_name || ' ' || last_name AS author_name FROM public."Author" ORDER BY author_name ASC`;
     dal.query(sql, [], (err, result) => {
@@ -15,8 +15,8 @@ const getAuthors = () => {
   });
 };
 
-const getAuthorByID = async (id) => {
-  console.log("pg.books.dal.getAuthorByID()");
+const getAuthorById = (id) => {
+  console.log("pg.author.dal.getAuthorByID()");
   return new Promise((resolve, reject) => {
     const sql = `SELECT author_id, first_name || ' ' || last_name AS author_name, birth_date, birth_country, headshot FROM public."Author" WHERE author_id = $1`;
     dal.query(sql, [id], (err, result) => {
@@ -31,5 +31,5 @@ const getAuthorByID = async (id) => {
 
 module.exports = {
   getAuthors,
-  getAuthorByID,
+  getAuthorById,
 };

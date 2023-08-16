@@ -1,17 +1,10 @@
-<div class="book-card">
-  <div class="book-thumbnail">
-    <img src="<%= auhtor.headshot %>" alt="book image" />
+<div class="author-card">
+  <div class="author-thumbnail">
+    <img src="<%= author.headshot %>" alt="author image" />
   </div>
-  <div class="book-info">
-    <div class="book-head">
-      <h2>Author Name: <%= author.author_name %></h2>
-      <h3>Author Birthdate: <%= author.birth_date %></h3>
-      <h3>Country: <%= auhtor.birth_country %></h3>
-    </div>
-
-    <p class="book-description"><%= book.description %></p>
-    <p class="book-release">
-      ISBN #: <%= book.ISBN %> / Release date: <%= book.release_date %>
-    </p>
+  <div class="author-info">
+    <h2>Author Name: <%= author.author_name %></h2>
+    <h3>Author Birthdate: <%= author.birth_date %></h3>
+    <h3>Country: <%= author.birth_country %></h3>
   </div>
 </div>
