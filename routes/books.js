@@ -268,7 +268,7 @@ router.get("/author/:id", async (req, res) => {
 
     const author = await getAuthorById(req.params.id);
     console.log(author[0])
-    logEvents(req, 'SEARCH', 'info', `Author select: ${author[0].author_name}`);
+    logEvents(req, 'SELECT', 'info', `Author select: ${author[0].author_name}`);
 
     // console.log("author: " + author);
     
@@ -294,7 +294,7 @@ router.get("/searchTitle/:text", async (req, res) => {
   // if pg search is selected
   try {
     let books = await getBooksByTitle(req.params.text);
-    logEvents(req, 'SEARCH', 'info', `Title search: ${req.params.text} (Postgres)`);
+    logEvents(req, 'SELECT', 'info', `Genre select: ${req.params.text} (Postgres)`);
     if (books.length === 0) {
       res.statusCode = 404;
       res.json({ message: "Not Found", status: 404 });
@@ -305,7 +305,7 @@ router.get("/searchTitle/:text", async (req, res) => {
     // if mongo search is selected
     try {
       let books = await mongoGetBooksByTitle(req.params.text);
-      logEvents(req, 'SEARCH', 'info', `Title search: ${req.params.text} (MongoDB)`);
+      logEvents(req, 'SELECT', 'info', `Genre select: ${req.params.text} (MongoDB)`);
       if (books.length === 0) {
         res.statusCode = 404;
         res.json({ message: "Not Found", status: 404 });
