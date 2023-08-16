@@ -114,18 +114,24 @@
   };
 
   // gets value of selected genre, build url, then go there.
-  const search = () => {
+  const search = async () => {
     const selectedGenre = document.getElementById("genre").value;
     if (selectedGenre) {
+      console.log('Before logEvents');
       urlGo(`/books/${selectedGenre}`);
+      await logEvents('SELECT', 'info', `Genre selected: ${selectedGenre}`);
+      console.log('After logEvents');
     }
   };
 
   // gets value of selected author, build url, then go there.
-  const authorSearch = () => {
+  const authorSearch = async () => {
     const selectedAuthor = authorSelect.value;
     if (selectedAuthor) {
+      console.log('Before logEvents');
       urlGo(`/books/author/${selectedAuthor}`);
+      await logEvents('SELECT', 'info', `Author selected: ${selectedAuthor}`);
+      console.log('After logEvents');
     }
   };
 
@@ -142,4 +148,44 @@
       urlGo(`/books/searchDescription/${searchInput}`);
     }
   };
+
+  // Function to handle logging events
+const logEvents = (req, event, level, message) => {
+  const now = new Date();
+  const year = now.getFullYear();
+  const month = String(now.getMonth() + 1).padStart(2, '0');
+  const day = String(now.getDate()).padStart(2, '0');
+  const hours = String(now.getHours()).padStart(2, '0');
+  const minutes = String(now.getMinutes()).padStart(2, '0');
+  const seconds = String(now.getSeconds()).padStart(2, '0');
+  const dateTime = `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
+
+  let loggedInUser = 'Guest';
+  if (req.app && req.app.locals && req.app.locals.loggedInUser) {
+    loggedInUser = req.app.locals.loggedInUser.username; 
+  }
+
+  const uniqueIdentifier = Math.random().toString(36).substr(2, 9);
+
+  const logEvent = `${dateTime}\t${event}\t${loggedInUser}\t${message}\t${uniqueIdentifier}`;
+  
+  console.log(logEvent);
+
+  try {
+  
+    const currFolder = 'logs/' + year;
+
+    if (!fs.existsSync(currFolder)) {
+      console.log(`Creating folder: ${currFolder}`);
+      fs.mkdirSync(currFolder, { recursive: true });
+    }
+
+    const fileName = `${year}-${month}-${day}_http_events.log`;
+
+    fs.appendFileSync(path.join(currFolder, fileName), logEvent + '\n');
+  } catch (err) {
+    console.log(err);
+  }
+};
+
 </script>
