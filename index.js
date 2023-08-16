@@ -36,6 +36,7 @@ app.get("/db-switch", (req, res) => {
   app.locals.activeDB =
     app.locals.activeDB === "postgres" ? "mongo" : "postgres";
   cache.cacheStart(app.locals.activeDB);
+  // Log the user's login event
   logEvents(
     req,
     "SWITCH",

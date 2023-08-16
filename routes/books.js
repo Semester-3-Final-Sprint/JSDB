@@ -200,7 +200,8 @@ router.get("/:id", async (req, res) => {
     if (req.app.locals.activeDB === "postgres") {
       books = await getBookByGenreId(req.params.id);
       console.log("books retrieved from postgres");
-      console.log(books);
+
+      // Log the genre name event for postgres
       logEvents(
         req,
         "SELECT",
@@ -209,6 +210,7 @@ router.get("/:id", async (req, res) => {
       );
     } else {
       books = await mongoGetBookByGenreId(req.params.id);
+      // Log the genre name event for mongoDB
       logEvents(
         req,
         "SELECT",
@@ -274,11 +276,13 @@ router.get("/author/:id", async (req, res) => {
       books = await getBooksByAuthorId(req.params.id);
       author = await getAuthorById(req.params.id);
       console.log("books and author retrieved from postgres");
+      // Log the selected author in postgres
       logEvents(req, "SEARCH", "info", `Author select: ${author[0].author_name} (Postgres)`);
     } else {
       books = await mongoGetBooksByAuthorId(req.params.id);
       author = await mongoGetAuthorById(req.params.id);
       console.log("books and author retrieved from mongoDB");
+      // Log the selected author in mongoDB
       logEvents(req, "SEARCH", "info", `Author select: ${author[0].first_name} ${author[0].last_name} (MongoDB)`);
     }
 
@@ -309,6 +313,7 @@ router.get("/searchTitle/:text", async (req, res) => {
     if (req.app.locals.activeDB === "postgres") {
       books = await getBooksByTitle(req.params.text);
       console.log("books retrieved from postgres");
+      // Log the title search event in postgres
       logEvents(
         req,
         "SEARCH",
@@ -317,6 +322,7 @@ router.get("/searchTitle/:text", async (req, res) => {
       );
     } else {
       books = await mongoGetBooksByTitle(req.params.text);
+      // Log the title search event in mongoDB
       console.log("books retrieved from postgres");
       logEvents(
         req,
@@ -347,6 +353,7 @@ router.get("/searchDescription/:text", async (req, res) => {
     let books = [];
     if (req.app.locals.activeDB === "postgres") {
       books = await getBooksByDescription(req.params.text);
+      // Log the description search event in postgres
       console.log("books retrieved from postgres");
       logEvents(
         req,
@@ -356,6 +363,7 @@ router.get("/searchDescription/:text", async (req, res) => {
       );
     } else {
       books = await mongoGetBooksByDescription(req.params.text);
+      // Log the description search event in mongoDB
       console.log("books retrieved from postgres");
       logEvents(
         req,
