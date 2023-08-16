@@ -27,16 +27,23 @@ const booksRouter = require("./routes/books");
 app.use("/books", booksRouter);
 
 app.get("/", (req, res) => {
-  const loggedInUser = req.app.locals.loggedInUser
+  const loggedInUser = req.app.locals.loggedInUser;
   res.redirect("/books");
-  if(DEBUG) console.log("User currently logged in:", loggedInUser);
+  if (DEBUG) console.log("User currently logged in:", loggedInUser);
 });
 
 app.get("/db-switch", (req, res) => {
   app.locals.activeDB =
     app.locals.activeDB === "postgres" ? "mongo" : "postgres";
   cache.cacheStart(app.locals.activeDB);
-  logEvents(req, 'SWITCH', 'info', `User switched from Postgres to ${app.locals.activeDB.charAt(0).toUpperCase() + app.locals.activeDB.slice(1)} database`);
+  logEvents(
+    req,
+    "SWITCH",
+    "info",
+    `User switched from Postgres to ${
+      app.locals.activeDB.charAt(0).toUpperCase() + app.locals.activeDB.slice(1)
+    } database`
+  );
   res.redirect("/books");
 });
 
@@ -45,6 +52,18 @@ app.use("/genres", genreRouter);
 
 const authorRouter = require("./routes/authors");
 app.use("/authors", authorRouter);
+
+app.get("/shop", (req, res) => {
+  res.render("shop.ejs");
+});
+
+app.get("/products", (req, res) => {
+  res.render("products.ejs");
+});
+
+app.get("/about", (req, res) => {
+  res.render("about.ejs");
+});
 
 const loginRouter = require("./routes/login.js");
 app.get("/login", (req, res) => {
@@ -64,7 +83,7 @@ const apiRouter = require("./routes/api");
 app.use("/api", apiRouter);
 
 const logoutRouter = require("./routes/logout");
-app.use(logoutRouter)
+app.use(logoutRouter);
 
 getAllUsers()
   .then((users) => {

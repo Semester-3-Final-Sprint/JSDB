@@ -116,10 +116,6 @@ h1 {
   -webkit-text-stroke: 1px white;
 }
 
-html {
-  background-color: #a81d1d;
-}
-
 .input-wrapper {
   display: flex;
   justify-content: center;
@@ -330,3 +326,16 @@ nav a {
   text-decoration: none;
   cursor: pointer;
 } */
+
+.page-warning {
+  background-color: antiquewhite;
+  text-align: center;
+  margin-top: 50px;
+  padding: 25px;
+}
+
+.about-us-text {
+  background-color: antiquewhite;
+  text-align: center;
+  padding-bottom: 25px;
+}
