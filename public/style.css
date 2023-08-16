@@ -10,7 +10,7 @@
 
 .ui-wrapper,
 .nav-wrapper {
-  background-color: #333333be;
+  background-color: #463708dc;
 }
 
 .container {
@@ -24,8 +24,8 @@
 
 .book-card,
 .author-card {
-  background-color: white;
-  border: 4px solid #ccc;
+  background-color: rgb(118, 184, 202);
+  border: 4px solid antiquewhite;
   border-radius: 5px;
   padding: 10px;
   margin: 10px;
@@ -36,10 +36,10 @@
 }
 
 .author-card {
-  background-color: rgb(118, 184, 202);
-  color: #dda809;
-  text-shadow: -1px -1px 1px black, 1px -1px 1px black, -1px 1px 1px black,
-    1px 1px 1px black;
+  background-color: #117385;
+  color: antiquewhite;
+  text-shadow: -1px -1px 1px #463608, 1px -1px 1px b#463608,
+    -1px 1px 1px #463608, 1px 1px 1px #463608;
 }
 
 .book-thumbnail,
@@ -81,9 +81,9 @@
 .book-head h2 {
   letter-spacing: 2px;
   font-size: 2em;
-  color: #a81d1d;
-  text-shadow: -1px -1px 1px black, 1px -1px 1px black, -1px 1px 1px black,
-    1px 1px 1px black;
+  color: antiquewhite;
+  text-shadow: -1px -1px 1px #463608, 1px -1px 1px #463608, -1px 1px 1px #463608,
+    1px 1px 1px #463608;
 }
 
 .content {
@@ -95,7 +95,7 @@
 
 .search-results {
   text-align: center;
-  color: white;
+  color: antiquewhite;
 }
 
 /* Head Styles */
@@ -107,17 +107,17 @@
 .db-declare {
   display: flex;
   justify-content: center;
-  color: white;
+  color: antiquewhite;
   font-size: 0.7em;
 }
 
 h1 {
   font-size: 68px;
-  -webkit-text-stroke: 1px white;
+  -webkit-text-stroke: 1px antiquewhite;
 }
 
 html {
-  background-color: #a81d1d;
+  background-color: #463608;
 }
 
 .input-wrapper {
@@ -149,12 +149,12 @@ html {
 
 .search-btn {
   color: black;
-  background-color: white;
+  background-color: antiquewhite;
   margin: 20px;
   padding: 12px;
-  border: 2px solid black;
+  border: 2px solid #463608;
   border-radius: 25px;
-  box-shadow: 5px 4px 4px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 5px 4px 4px 0px #463608;
   cursor: pointer;
 }
 
@@ -174,7 +174,7 @@ nav li {
 }
 
 nav a {
-  color: white;
+  color: antiquewhite;
   margin: 10px;
 }
 
@@ -189,7 +189,7 @@ nav a {
   margin: auto;
   height: 200px;
   border-radius: 10px;
-  box-shadow: inset 0 0 15px black;
+  box-shadow: inset 0 0 15px #463608;
   padding-top: 20px;
   margin-top: 20px;
 }
@@ -203,15 +203,15 @@ nav a {
   margin: auto;
   height: 200px;
   border-radius: 10px;
-  box-shadow: inset 0 0 15px black;
+  box-shadow: inset 0 0 15px #463608;
   padding-top: 20px;
   margin-top: 20px;
   margin-bottom: 1000px;
 }
 
 .login-h1 {
-  color: white;
-  -webkit-text-stroke: 1px black;
+  color: antiquewhite;
+  -webkit-text-stroke: 1px #463608;
   margin-bottom: 15px;
 }
 
@@ -223,7 +223,9 @@ nav a {
 
 .welcome-message {
   text-align: center;
-  color: white;
+  color: #463608;
+  text-shadow: -1px -1px 1px antiquewhite, 1px -1px 1px antiquewhite,
+    -1px 1px 1px antiquewhite, 1px 1px 1px antiquewhite;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -240,7 +242,7 @@ nav a {
   padding: 10px;
   text-align: center;
   font-size: 1.5em;
-  color: white;
+  color: antiquewhite;
 }
 
 .logo {
@@ -263,7 +265,7 @@ nav a {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  color: white;
+  color: antiquewhite;
 }
 
 .newsletter,
@@ -273,7 +275,7 @@ nav a {
   background-color: #117385;
   padding: 10px;
   margin-right: 10px;
-  color: white;
+  color: antiquewhite;
 }
 
 .input[type="email"] {
@@ -284,7 +286,7 @@ nav a {
 
 .button {
   background-color: #463608;
-  color: #fff;
+  color: antiquewhite;
   border: none;
   padding: 5px 10px;
   cursor: pointer;
@@ -295,7 +297,7 @@ nav a {
   padding: 10px;
   text-align: center;
   margin-top: 10px;
-  color: white;
+  color: antiquewhite;
 }
 
 /* .foot-modal {
