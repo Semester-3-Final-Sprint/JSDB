@@ -26,12 +26,14 @@ app.locals.loggedInUser = null;
 const booksRouter = require("./routes/books");
 app.use("/books", booksRouter);
 
+// main path -> /books
 app.get("/", (req, res) => {
   const loggedInUser = req.app.locals.loggedInUser;
   res.redirect("/books");
   if (DEBUG) console.log("User currently logged in:", loggedInUser);
 });
 
+// switch activeDB
 app.get("/db-switch", (req, res) => {
   app.locals.activeDB =
     app.locals.activeDB === "postgres" ? "mongo" : "postgres";
@@ -48,20 +50,25 @@ app.get("/db-switch", (req, res) => {
   res.redirect("/books");
 });
 
+// genres route
 const genreRouter = require("./routes/genres.js");
 app.use("/genres", genreRouter);
 
+// authors route
 const authorRouter = require("./routes/authors");
 app.use("/authors", authorRouter);
 
+// shop route
 app.get("/shop", (req, res) => {
   res.render("shop.ejs");
 });
 
+// products route
 app.get("/products", (req, res) => {
   res.render("products.ejs");
 });
 
+// about route
 app.get("/about", (req, res) => {
   res.render("about.ejs");
 });
