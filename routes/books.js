@@ -6,25 +6,27 @@ const logEvents = require("../services/logEvents");
 
 const {
   getAllBooks,
-  getBooksBasic,
+  // getBooksBasic,
   getBookByGenreId,
   getBooksByAuthorId,
   getBooksByTitle,
   getBooksByDescription,
 } = require("../services/pg.books.dal");
+
 const {
   mongoGetAllBooks,
   mongoGetBookByGenreId,
   mongoGetBooksByAuthorId,
   mongoGetBooksByDescription,
   mongoGetBooksByTitle,
-  mongoGetAuthors,
 } = require("../services/m.books.dal");
+
 const { getAuthorById } = require("../services/pg.author.dal");
 const { mongoGetAuthorById } = require("../services/m.author.dal");
 const { getGenreById } = require("../services/pg.genres.dal");
 const { mongoGetGenreById } = require("../services/m.genres.dal");
 
+// default books. loads all books
 router.get("/", async (req, res) => {
   //   const books = [
   //     {
@@ -121,6 +123,7 @@ router.get("/", async (req, res) => {
 //   }
 // });
 
+// filters books by genre_id.
 router.get("/:id", async (req, res) => {
   //   const books = [
   //     {
@@ -172,7 +175,7 @@ router.get("/:id", async (req, res) => {
     } else {
       books = await mongoGetBookByGenreId(req.params.id);
       genre = await mongoGetGenreById(req.params.id);
-      
+
       // Log the genre name event for mongoDB
       logEvents(
         req,
@@ -199,6 +202,7 @@ router.get("/:id", async (req, res) => {
   }
 });
 
+// filters books by author_id
 router.get("/author/:id", async (req, res) => {
   //   const books = [
   //     {
@@ -241,25 +245,31 @@ router.get("/author/:id", async (req, res) => {
       author = await getAuthorById(req.params.id);
       console.log("books and author retrieved from postgres");
       // Log the selected author in postgres
-      logEvents(req, "SEARCH", "info", `Author select: ${author[0].author_name} (Postgres)`);
+      logEvents(
+        req,
+        "SEARCH",
+        "info",
+        `Author select: ${author[0].author_name} (Postgres)`
+      );
     } else {
       books = await mongoGetBooksByAuthorId(req.params.id);
       author = await mongoGetAuthorById(req.params.id);
       console.log("books and author retrieved from mongoDB");
       // Log the selected author in mongoDB
-      logEvents(req, "SEARCH", "info", `Author select: ${author[0].first_name} ${author[0].last_name} (MongoDB)`);
+      logEvents(
+        req,
+        "SEARCH",
+        "info",
+        `Author select: ${author[0].first_name} ${author[0].last_name} (MongoDB)`
+      );
     }
-
-    // console.log(author[0]);
-
-    // console.log("author: " + author);
 
     const data = {
       books,
       activeDB: req.app.locals.activeDB,
       author: author[0],
     };
-    //
+
     if (books.length === 0) {
       res.render("norecord");
     } else {

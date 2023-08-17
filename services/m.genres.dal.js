@@ -1,5 +1,6 @@
 const dal = require("./m.db");
 
+// get genres with genre_id, genre_name (for select)
 async function mongoGetGenres() {
   try {
     await dal.connect();
@@ -15,6 +16,7 @@ async function mongoGetGenres() {
   }
 }
 
+// get genre info for display by genre_id
 async function mongoGetGenreById(id) {
   try {
     await dal.connect();

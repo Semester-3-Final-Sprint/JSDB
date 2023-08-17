@@ -4,19 +4,20 @@ const router = express.Router();
 const cache = require("../services/cacheManager");
 const { getAuthorById, getAuthorFull } = require("../services/pg.author.dal");
 
+// get all author_id, author_name (for select)
 router.get("/api", async (req, res) => {
-  //   const genres = [
+  //   const authors = [
   //     {
-  //       genre_id: "1",
-  //       genre_name: "Genre 1",
+  //       author_id: "1",
+  //       author_name: "author 1",
   //     },
   //     {
-  //       genre_id: "2",
-  //       genre_name: "Genre 2",
+  //       author_id: "2",
+  //       author_name: "author 2",
   //     },
   //     {
-  //       genre_id: "3",
-  //       genre_name: "Genre 3",
+  //       author_id: "3",
+  //       author_name: "author 3",
   //     },
   //   ];
   try {
@@ -27,6 +28,7 @@ router.get("/api", async (req, res) => {
   }
 });
 
+// get all authors with all details.
 router.get("/api/all", async (req, res) => {
   try {
     const authors = await getAuthorFull();
@@ -36,6 +38,7 @@ router.get("/api/all", async (req, res) => {
   }
 });
 
+// get single author by author_id
 router.get("/:id", async (req, res) => {
   try {
     console.log("Received id:", req.params.id);

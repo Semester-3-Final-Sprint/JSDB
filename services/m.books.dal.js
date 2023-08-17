@@ -3,6 +3,7 @@
 const dal = require("./m.db");
 const books = dal.db("owls_library").collection("Book");
 
+// gets all books with all info
 async function mongoGetAllBooks() {
   try {
     await dal.connect();
@@ -16,6 +17,7 @@ async function mongoGetAllBooks() {
   }
 }
 
+// filter books by genre_id
 async function mongoGetBookByGenreId(id) {
   try {
     await dal.connect();
@@ -30,6 +32,7 @@ async function mongoGetBookByGenreId(id) {
   }
 }
 
+// filter books by author_id
 async function mongoGetBooksByAuthorId(id) {
   try {
     await dal.connect();
@@ -45,6 +48,7 @@ async function mongoGetBooksByAuthorId(id) {
   }
 }
 
+// search title text based on input.
 async function mongoGetBooksByTitle(text) {
   if (DEBUG) console.log("m.books.dal.mongoGetBooksByTitle()");
   try {
@@ -61,6 +65,7 @@ async function mongoGetBooksByTitle(text) {
   }
 }
 
+// search description text based on input
 async function mongoGetBooksByDescription(text) {
   if (DEBUG) console.log("m.books.dal.mongoGetBooksByDescription()");
   try {

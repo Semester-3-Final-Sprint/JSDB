@@ -15,6 +15,7 @@ const getAuthors = () => {
   });
 };
 
+// get all author information (for api use)
 const getAuthorFull = () => {
   console.log("pg.author.dal.getAuthorFull()");
   return new Promise((resolve, reject) => {
@@ -30,6 +31,7 @@ const getAuthorFull = () => {
   });
 };
 
+// get author info by author_id (for display)
 const getAuthorById = (id) => {
   console.log("pg.author.dal.getAuthorByID()");
   return new Promise((resolve, reject) => {
