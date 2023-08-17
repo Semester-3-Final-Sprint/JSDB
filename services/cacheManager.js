@@ -59,8 +59,10 @@ function mongoCacheExecute() {
   mongoLoadAuthors();
 }
 
+// needed to clear interval between switches.
 let intervalId;
 
+// starts it up
 const cacheStart = (activeDB) => {
   clearInterval(intervalId);
   if (activeDB === "postgres") {

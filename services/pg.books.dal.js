@@ -15,6 +15,7 @@ const getAllBooks = () => {
   });
 };
 
+// get basic Books info (for 'old' api output)
 const getBooksBasic = () => {
   if (DEBUG) console.log("pg.books.dal.getBooksBasic()");
   return new Promise((resolve, reject) => {
@@ -31,6 +32,7 @@ const getBooksBasic = () => {
   });
 };
 
+// filter books by genre_id
 const getBookByGenreId = (id) => {
   if (DEBUG) console.log("pg.books.dal.getBookByGenreId()");
   return new Promise((resolve, reject) => {
@@ -45,6 +47,7 @@ const getBookByGenreId = (id) => {
   });
 };
 
+// filter books by author_id
 const getBooksByAuthorId = (id) => {
   if (DEBUG) console.log("pg.books.dal.getBooksByAuthorId()");
   return new Promise((resolve, reject) => {
@@ -59,6 +62,7 @@ const getBooksByAuthorId = (id) => {
   });
 };
 
+// search titles for text input
 const getBooksByTitle = (text) => {
   if (DEBUG) console.log("pg.books.dal.getBookByTitle()");
   return new Promise((resolve, reject) => {
@@ -74,6 +78,7 @@ const getBooksByTitle = (text) => {
   });
 };
 
+// search descriptions for text input
 const getBooksByDescription = (text) => {
   if (DEBUG) console.log("pg.books.dal.getBookByDescription()");
   return new Promise((resolve, reject) => {

@@ -1,6 +1,6 @@
 const dal = require("./pg.db");
 
-//get all books
+//get all genre_id, genre_name (for select)
 const getGenres = () => {
   console.log("pg.books.dal.getAllCategory()");
   return new Promise((resolve, reject) => {
@@ -15,6 +15,7 @@ const getGenres = () => {
   });
 };
 
+// full genre info output (for api)
 const getGenresFull = () => {
   console.log("pg.books.dal.getAllGenresFull()");
   return new Promise((resolve, reject) => {
@@ -29,6 +30,7 @@ const getGenresFull = () => {
   });
 };
 
+// full genre info by genre_id (for display)
 const getGenreById = (id) => {
   console.log("pg.author.dal.getGenreById()");
   return new Promise((resolve, reject) => {

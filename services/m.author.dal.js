@@ -1,5 +1,6 @@
 const dal = require("./m.db");
 
+// returns array of authors with author_id, author_name (for select)
 async function mongoGetAuthors() {
   try {
     await dal.connect();
@@ -24,6 +25,8 @@ async function mongoGetAuthors() {
     console.log(error);
   }
 }
+
+// gets all author info by author_id for display
 async function mongoGetAuthorById(id) {
   try {
     await dal.connect();
