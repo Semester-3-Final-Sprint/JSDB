@@ -26,8 +26,13 @@ const { mongoGetAuthorById } = require("../services/m.author.dal");
 const { getGenreById } = require("../services/pg.genres.dal");
 const { mongoGetGenreById } = require("../services/m.genres.dal");
 
+function isLoggedIn(req, res, next) {
+  if (req.app.locals.loggedInUser) return next();
+  res.redirect("/login");
+}
+
 // default books. loads all books
-router.get("/", async (req, res) => {
+router.get("/", isLoggedIn, async (req, res) => {
   //   const books = [
   //     {
   //       book_id: "1",
@@ -124,7 +129,7 @@ router.get("/", async (req, res) => {
 // });
 
 // filters books by genre_id.
-router.get("/:id", async (req, res) => {
+router.get("/:id", isLoggedIn, async (req, res) => {
   //   const books = [
   //     {
   //       book_id: "1",
@@ -203,7 +208,7 @@ router.get("/:id", async (req, res) => {
 });
 
 // filters books by author_id
-router.get("/author/:id", async (req, res) => {
+router.get("/author/:id", isLoggedIn, async (req, res) => {
   //   const books = [
   //     {
   //       book_id: "1",
@@ -281,7 +286,7 @@ router.get("/author/:id", async (req, res) => {
 });
 
 // text search by title
-router.get("/searchTitle/:text", async (req, res) => {
+router.get("/searchTitle/:text", isLoggedIn, async (req, res) => {
   try {
     let books = [];
     if (req.app.locals.activeDB === "postgres") {
@@ -322,7 +327,7 @@ router.get("/searchTitle/:text", async (req, res) => {
 });
 
 // text search by description
-router.get("/searchDescription/:text", async (req, res) => {
+router.get("/searchDescription/:text", isLoggedIn, async (req, res) => {
   try {
     let books = [];
     if (req.app.locals.activeDB === "postgres") {

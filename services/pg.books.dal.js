@@ -67,7 +67,7 @@ const getBooksByTitle = (text) => {
   if (DEBUG) console.log("pg.books.dal.getBookByTitle()");
   return new Promise((resolve, reject) => {
     const sql = `SELECT * FROM all_books \
-    WHERE title LIKE '%'||$1||'%'`;
+    WHERE title ILIKE '%'||$1||'%';`;
     dal.query(sql, [text], (err, result) => {
       if (err) {
         reject(err);
@@ -83,7 +83,7 @@ const getBooksByDescription = (text) => {
   if (DEBUG) console.log("pg.books.dal.getBookByDescription()");
   return new Promise((resolve, reject) => {
     const sql = `SELECT * FROM all_books \
-    WHERE description LIKE '%'||$1||'%'`;
+    WHERE description ILIKE '%'||$1||'%'`;
     dal.query(sql, [text], (err, result) => {
       if (err) {
         reject(err);
